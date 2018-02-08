@@ -1,0 +1,29 @@
+{
+    "cse":{
+        "1":{
+            "code":"CSE01",
+            "name":"Rapid Miner",
+            "descr":"CSE All-rounder"
+        },
+        "2":{
+            "code":"CSE02",
+            "name":"Treasure Hunt",
+            "descr":"Find that thing"
+        },
+        "3":{
+            "code":"CSE03",
+            "name":"Codewars",
+            "descr":"code,code,code"
+        },
+        "4":{
+            "code":"CSE02",
+            "name":"404:Not Found",
+            "descr":"Add something here"
+        },
+        "5":{
+            "code":"CSE02",
+            "name":"Googlr",
+            "descr":"There is nothing Google can't find"
+        }
+    }
+}
