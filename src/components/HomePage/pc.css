@@ -29,13 +29,8 @@
         transition: .25s ease-in;
     }
     .menu-text {
-        /* min-width: 15vw;
-        text-align: right;
-        margin-right: 22vw;
-        top: 30%; */
         font-size: 3vw;
         color:#ffffff00;
-        /* transition: 0.5s ease-in; */
         top:22%;
     }
     .menu-btn:hover {
@@ -46,7 +41,6 @@
     .menu-btn:hover .menu-text {
         display: block;
         color: #ffffffff;
-        /* transition: 0.1s ease-in; */
         animation-name: animate;
         animation-duration: 1s;
 
