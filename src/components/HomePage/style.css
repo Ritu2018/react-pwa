@@ -86,7 +86,7 @@
     align-content:center;
     font-family: 'Josefin Sans', sans-serif;
 }
-.menu-btn span {
+.menu-text {
     color:#ffffff;
     text-align: center;
     position: relative;
@@ -140,4 +140,7 @@
     padding-top: 3px;
     font-size: 0.3em;
     color: black;
+}
+.fa-2x {
+    font-size: 1.6em;
 }

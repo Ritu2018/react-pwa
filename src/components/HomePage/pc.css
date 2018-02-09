@@ -13,7 +13,8 @@
         display: block;
         position: absolute;
         top:10%;
-        left:90%;
+        /* left:90%; */
+        right: 5%;
         width: auto;
         height: auto;
     }
@@ -23,12 +24,39 @@
         height: 5vw;
         min-height: 5vw;
         border-radius: 50%;
-        margin: 25% 0;
+        margin: 2.5vh 0;
+        margin-left: 20vw;
+        transition: .25s ease-in;
     }
     .menu-text {
-        display: none;
+        /* min-width: 15vw;
+        text-align: right;
+        margin-right: 22vw;
+        top: 30%; */
+        font-size: 3vw;
+        color:#ffffff00;
+        /* transition: 0.5s ease-in; */
+        top:22%;
+    }
+    .menu-btn:hover {
+        width:25vw;
+        margin-left: 0;
+        border-radius: 10px;
     }
     .menu-btn:hover .menu-text {
         display: block;
+        color: #ffffffff;
+        /* transition: 0.1s ease-in; */
+        animation-name: animate;
+        animation-duration: 1s;
+
+    }
+    @keyframes animate {
+        from{
+            color: #ffffff00;
+        }
+        to{
+            color: #ffffffff;
+        }
     }
 }
