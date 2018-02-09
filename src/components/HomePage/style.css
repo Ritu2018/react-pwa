@@ -104,3 +104,40 @@
 .green {
     background-color: var(--green);
 }
+
+
+.clockdiv{
+    font-family: sans-serif;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.clockdiv > div{
+    padding: 0 1% 0.3% 1%;
+    margin: 1px;
+    background: white;
+    display: inline-block;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.clockdiv div > span{
+    padding: 4%;
+    background: #321322;
+    display: inline-block;
+    font-size: 1em;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:white;
+}
+
+.smalltext{
+    padding-top: 3px;
+    font-size: 0.3em;
+    color: black;
+}

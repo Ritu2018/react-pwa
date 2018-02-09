@@ -28,4 +28,7 @@
     .menu-text {
         display: none;
     }
+    .menu-btn:hover .menu-text {
+        display: block;
+    }
 }

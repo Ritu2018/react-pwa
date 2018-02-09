@@ -12,7 +12,8 @@ class HomePage extends Component {
         super();
         this.state = ({
             showMenu:false,
-            redirect:false
+            redirect:false,
+            date: new Date()
         });
         this.nextPage = null;
     }
@@ -20,9 +21,61 @@ class HomePage extends Component {
         this.nextPage = page;
         this.setState({redirect:true});
     }
+    componentDidMount() {
+        this.timerID = setInterval(
+            () => this.tick(),
+            1000
+          );
+    }
+    componentWillUnmount() {
+        clearInterval(this.timerID);
+    }
+    tick() {
+        this.setState({
+          date: new Date()
+        });
+    }
+    getTimeRemaining() {
+        let endtime = new Date(Date.parse("Tue Feb 27 2018 11:59:00 GMT+0530 (India Standard Time)"));
+        var t = Date.parse(endtime) - Date.parse(this.state.date);
+        var seconds = Math.floor((t / 1000) % 60);
+        var minutes = Math.floor((t / 1000 / 60) % 60);
+        var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+        var days = Math.floor(t / (1000 * 60 * 60 * 24));
+        return {
+            'days': days,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds
+        };
+    }
     render() {
         if(this.state.redirect && this.nextPage!=null)
             return <Redirect push to={this.nextPage}/>;
+        /* Set Timer */
+        let t = this.getTimeRemaining();
+        let clock = 
+            <div className="clockdiv">
+                <div>
+                    <span className="days">{('0' + t.days).slice(-2)}</span>
+                    <div className="smalltext">Days</div>
+                </div>
+                <div>
+                    <span className="hours">{('0' + t.hours).slice(-2)}</span>
+                    <div className="smalltext">Hours</div>
+                </div>
+                <div>
+                    <span className="minutes">{('0' + t.minutes).slice(-2)}</span>
+                    <div className="smalltext">Minutes</div>
+                </div>
+                <div>
+                    <span className="seconds">{('0' + t.seconds).slice(-2)}</span>
+                    <div className="smalltext">Seconds</div>
+                </div>
+            </div>;
+        if(t.days<1)
+            clock = null;
+        /* End Timer code */
         let menu_style = this.state.showMenu?"menu show":"menu";
         let ham_style = this.state.showMenu?"fas fa-times fa-stack-1x fa-inverse":"fas fa-bars fa-stack-1x fa-inverse";
         let menu_overlay_style = this.state.showMenu?"menu-overlay blurred":"menu-overlay";
@@ -40,8 +93,10 @@ class HomePage extends Component {
                 <div className="extra_icons">
                 </div>
             </div>;
+        
         return(
         <div className="container">
+            {clock}
             <img className="bg" src={bg} alt=""/>
             <div className="bg-overlay"/>
             <div className={menu_overlay_style}/>
@@ -49,9 +104,9 @@ class HomePage extends Component {
                 <img className="logo" src={Logo} alt=""/>
             </div>
             <div className="ham-btn" onClick={()=>this.setState({showMenu:!this.state.showMenu})}>
-                <span class="fa-stack fa-2x">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class={ham_style}></i>
+                <span className="fa-stack fa-2x">
+                    <i className="fas fa-circle fa-stack-2x"></i>
+                    <i className={ham_style}></i>
                 </span>
             </div>
             {menu}
