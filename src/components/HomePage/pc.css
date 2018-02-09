@@ -1,0 +1,31 @@
+@media screen and (min-width:768px) {
+    .ham-btn {
+        display: none;
+    }
+    .menu-overlay {
+        display: none;
+    }
+    .logo {
+        padding-left: 0;
+        max-width: 100%;
+    }
+    .menu {
+        display: block;
+        position: absolute;
+        top:10%;
+        left:90%;
+        width: auto;
+        height: auto;
+    }
+    .menu-btn {
+        width: 5vw;
+        min-width: 5vw;
+        height: 5vw;
+        min-height: 5vw;
+        border-radius: 50%;
+        margin: 25% 0;
+    }
+    .menu-text {
+        display: none;
+    }
+}
