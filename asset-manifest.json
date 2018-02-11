@@ -1,10 +1,11 @@
 {
-  "main.css": "static/css/main.64743b44.css",
-  "main.css.map": "static/css/main.64743b44.css.map",
-  "main.js": "static/js/main.86d320a0.js",
-  "main.js.map": "static/js/main.86d320a0.js.map",
+  "main.css": "static/css/main.dab56cc1.css",
+  "main.css.map": "static/css/main.dab56cc1.css.map",
+  "main.js": "static/js/main.53d327c9.js",
+  "main.js.map": "static/js/main.53d327c9.js.map",
   "static/media/back.jpg": "static/media/back.7638d778.jpg",
+  "static/media/dummy.jpg": "static/media/dummy.6d4f0112.jpg",
   "static/media/dummy.png": "static/media/dummy.5e7dadcb.png",
-  "static/media/hadeeb.png": "static/media/hadeeb.753f7254.png",
-  "static/media/ritlogo.png": "static/media/ritlogo.d2e3b008.png"
+  "static/media/ritlogo.png": "static/media/ritlogo.d2e3b008.png",
+  "static/media/ritu.png": "static/media/ritu.d2b203e4.png"
 }
