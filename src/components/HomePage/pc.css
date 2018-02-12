@@ -6,13 +6,18 @@
         display: none;
     }
     .logo {
+        width: auto;
         padding-left: 0;
-        max-width: 100%;
+        max-width: 20%;
+        top: 8%;
+        bottom: 0;
+        margin:auto;
     }
     .menu {
         display: block;
         position: absolute;
         top:10%;
+        padding-bottom: 0px;
         /* left:90%; */
         right: 5%;
         width: auto;
@@ -26,31 +31,35 @@
         border-radius: 50%;
         margin: 2.5vh 0;
         margin-left: 20vw;
-        transition: .25s ease-in;
+        transition: .25s cubic-bezier(1, 0, 1, 1);
     }
     .menu-text {
         font-size: 3vw;
-        color:#ffffff00;
+        color:rgba(255,255,255,0);
         top:22%;
     }
     .menu-btn:hover {
         width:25vw;
         margin-left: 0;
-        border-radius: 10px;
+        border-radius: 36px;
+        cursor: pointer;
     }
     .menu-btn:hover .menu-text {
         display: block;
-        color: #ffffffff;
+        color: rgba(255,255,255,1);
         animation-name: animate;
         animation-duration: 1s;
 
     }
     @keyframes animate {
-        from{
-            color: #ffffff00;
+        0%{
+            color:rgba(255,255,255,0);
         }
-        to{
-            color: #ffffffff;
+        25%{
+            color:rgba(255,255,255,0);            
+        }
+        100%{
+            color:rgba(255,255,255,1);
         }
     }
 }

@@ -1,0 +1,113 @@
+.deptlist-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #222222; */
+}
+.bgimg{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    z-index: -99;
+    object-fit: cover;
+}
+.icon-container {
+    flex: 8;
+    padding-top:30vh; 
+    margin:0 20vw;;
+    display: flex;
+    justify-content: center;
+}
+.main-icon {
+    flex: 1;
+    height:50vw;
+    width: 50vw;
+    max-height:50vw;
+    max-width: 50vw;
+    cursor: pointer;
+}
+.side-icon {
+    flex: 1;
+    display: none;
+}
+.circle {
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    border-radius: 50%;
+}
+.dep_name-container {
+    flex: 5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dep_name {
+    margin: auto;
+    padding: 0 10%;
+    font-size: 2em;
+    font-family: 'Cuprum', sans-serif;
+    cursor: pointer;
+    color: white;
+}
+.pagination {
+    flex: 1;
+    display: flex;
+    vertical-align: bottom;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+.pagination-icon .dep_name {
+    display: none;
+}
+.pagination-icon {
+    margin: 0 auto;
+    margin-top: auto;
+}
+.pagination-icon .circle {
+    margin-top: 0;
+    flex: 1;
+    height:7vw;
+    width: 7vw;
+    max-height:7vw;
+    max-width: 7vw;
+}
+.active .circle {
+    height:9vw;
+    width: 9vw;
+    max-height:9vw;
+    max-width: 9vw;
+}
+.bot-icon {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 50%;
+}
+.right-arrow,.left-arrow {
+    position: fixed;
+    top:40%;
+    padding: 7%;
+    color: white;
+    font-size:3em;
+    cursor: pointer;
+    animation: blink 2s infinite;
+}
+.right-arrow {
+    right: 0;
+}
+@keyframes blink {
+    0%{
+        color:rgba(255,255,255,1);
+    }
+    50%{
+        color:rgba(255,255,255,0);        
+    }
+    100%{
+        color:rgba(255,255,255,1);        
+    }
+}

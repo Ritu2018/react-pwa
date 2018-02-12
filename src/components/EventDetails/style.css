@@ -1,0 +1,84 @@
+.eventdetails-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: black;
+    background-color: transparent;
+}
+.poster img{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+}
+@media screen and (min-width:768px) {
+    .poster img{
+        transform: scale(1.5);
+        object-fit: contain;
+    }
+}
+.title{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 700;
+}
+.desc{
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    font-family: 'Arvo', serif;
+    /*background: lightgray;*/
+}
+
+.description{
+    padding-top: 3em;
+}
+.detail{
+    padding: 2em 2em 2em 2em;
+    background: white;
+}
+.contact , .prize{
+    padding: 1em;
+    text-align: center;
+    margin-top: 1em;
+    display: block;
+}
+.people span , .prize span{
+    display: block;
+    white-space: pre;
+}
+.phone , .info{
+    flex:1;
+}
+.people , .prize span{
+    flex:5;
+}
+@media (min-width:768px) {
+    .detail{
+        padding: 5% 10%;
+        margin: 5% 15% 5% 15%;
+        box-shadow: 0 0 3px #0000005e;
+        background-color: white;
+        border-radius: 5px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .desc {
+        top:80%;
+    }
+    .top_bar {
+        display: flex;
+    }
+    .contact , .prize{
+        padding: 1em;
+        text-align: center;
+        margin: 2%;
+        flex: 1;
+        display: flex;
+    }
+    .prize span {
+        text-align: start;
+    }
+}

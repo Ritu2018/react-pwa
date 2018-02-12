@@ -3,7 +3,7 @@ import {Redirect} from "react-router-dom";
 
 import './style.css';
 import './pc.css';
-import Logo from '../../assets/hadeeb.png';
+import Logo from '../../assets/ritu.png';
 import RITLogo from '../../assets/ritlogo.png';
 import bg from '../../assets/back.jpg';
 
@@ -82,20 +82,20 @@ class HomePage extends Component {
         const menu =
             <div className={menu_style}>
                 <div className="menu-btn yellow" onClick={()=>this.navigateTo("events")}><span className="menu-text">Events</span></div>
-                <div className="menu-btn red"><span className="menu-text">Workshops</span></div>
+                <div className="menu-btn red" onClick={()=>this.navigateTo("workshops")}><span className="menu-text">Workshops</span></div>
                 <div className="menu-btn blue"><span className="menu-text">Highlights</span></div>
                 <div className="menu-btn green"><span className="menu-text">Contact</span></div>
             </div>;
-        const sidemenu = 
-            <div className="second_menu">
-                <div className="social_icons">
-                </div>
-                <div className="extra_icons">
-                </div>
-            </div>;
+        // const sidemenu = 
+        //     <div className="second_menu">
+        //         <div className="social_icons">
+        //         </div>
+        //         <div className="extra_icons">
+        //         </div>
+        //     </div>;
         
         return(
-        <div className="container">
+        <div className="homepage-container">
             {clock}
             <img className="bg" src={bg} alt=""/>
             <div className="bg-overlay"/>

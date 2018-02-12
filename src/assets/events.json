@@ -1,29 +1,256 @@
 {
     "cse":{
-        "1":{
-            "code":"CSE01",
-            "name":"Rapid Miner",
-            "descr":"CSE All-rounder"
-        },
-        "2":{
-            "code":"CSE02",
-            "name":"Treasure Hunt",
-            "descr":"Find that thing"
-        },
-        "3":{
-            "code":"CSE03",
-            "name":"Codewars",
-            "descr":"code,code,code"
-        },
-        "4":{
-            "code":"CSE02",
-            "name":"404:Not Found",
-            "descr":"Add something here"
-        },
-        "5":{
-            "code":"CSE02",
-            "name":"Googlr",
-            "descr":"There is nothing Google can't find"
+        "name":"Computer Science and Engineering",
+        "events":{
+            "1":{
+                "code":"CSE01",
+                "name":"Rapid Miner",
+                "poster":"http://www.gstatic.com/webp/gallery/2.jpg",
+                "descr":"All you guys and girls out there..!! RITU presents \" SELFIE WITH YOUR RIDE \" ..Just click a selfie with a ride you think suits you the most, upload it and generate the most likes and shares to win prizes worth 1k..\n            Submit your entry by 8th April 2016 to ritu official page inbox  RituOfficial along with your name and mobile number.",
+                "rules":[
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page."
+                ],
+                "organizers":[
+                    {
+                        "name":"Sidhin S Thomas",
+                        "phone":9999999999
+                    },
+                    {
+                        "name":"Sidhin S Thomas",
+                        "phone":9999999999
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 1,000"
+            },
+            "2":{
+                "code":"CSE02",
+                "name":"Treasure Hunt",
+                "descr":"Find that thing"
+            },
+            "3":{
+                "code":"CSE03",
+                "name":"Codewars",
+                "descr":"code,code,code"
+            },
+            "4":{
+                "code":"CSE02",
+                "name":"404:Not Found",
+                "descr":"Add something here"
+            },
+            "5":{
+                "code":"CSE02",
+                "name":"Googlr",
+                "descr":"There is nothing Google can't find"
+            }
         }
+    },
+    "ece":{
+        "name":"Electronics and Communications Engineering",
+        "events":{
+            "1":{
+                "code":"CSE01",
+                "name":"EC 1",
+                "descr":"All you guys and girls out there..!! RITU presents \" SELFIE WITH YOUR RIDE \" ..Just click a selfie with a ride you think suits you the most, upload it and generate the most likes and shares to win prizes worth 1k..\n            Submit your entry by 8th April 2016 to ritu official page inbox  RituOfficial along with your name and mobile number.",
+                "rules":[
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page."
+                ],
+                "organizers":[
+                    {
+                        "name":"Sidhin S Thomas",
+                        "phone":9999999999
+                    },
+                    {
+                        "name":"Sidhin S Thomas",
+                        "phone":9999999999
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 1,000"
+            },
+            "2":{
+                "code":"CSE02",
+                "name":"Treasure Hunt",
+                "descr":"Find that thing"
+            },
+            "3":{
+                "code":"CSE03",
+                "name":"Codewars",
+                "descr":"code,code,code"
+            },
+            "4":{
+                "code":"CSE02",
+                "name":"404:Not Found",
+                "descr":"Add something here"
+            },
+            "5":{
+                "code":"CSE02",
+                "name":"Googlr",
+                "descr":"There is nothing Google can't find"
+            }
+        }
+    },
+    "eee":{
+        "name":"Electrical and Electronics Engineering",
+        "events":{
+            "1":{
+                "code":"CSE01",
+                "name":"EC 1",
+                "descr":"All you guys and girls out there..!! RITU presents \" SELFIE WITH YOUR RIDE \" ..Just click a selfie with a ride you think suits you the most, upload it and generate the most likes and shares to win prizes worth 1k..\n            Submit your entry by 8th April 2016 to ritu official page inbox  RituOfficial along with your name and mobile number.",
+                "rules":[
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page."
+                ],
+                "organizers":[
+                    {
+                        "name":"Sidhin S Thomas",
+                        "phone":9999999999
+                    },
+                    {
+                        "name":"Sidhin S Thomas",
+                        "phone":9999999999
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 1,000"
+            },
+            "2":{
+                "code":"CSE02",
+                "name":"Treasure Hunt",
+                "descr":"Find that thing"
+            },
+            "3":{
+                "code":"CSE03",
+                "name":"Codewars",
+                "descr":"code,code,code"
+            },
+            "4":{
+                "code":"CSE02",
+                "name":"404:Not Found",
+                "descr":"Add something here"
+            },
+            "5":{
+                "code":"CSE02",
+                "name":"Googlr",
+                "descr":"There is nothing Google can't find"
+            }
+        }
+    },
+    "me":{
+        "name":"Mechanical Engineering",
+        "events":{
+            "1":{
+                "code":"CSE01",
+                "name":"EC 1",
+                "descr":"All you guys and girls out there..!! RITU presents \" SELFIE WITH YOUR RIDE \" ..Just click a selfie with a ride you think suits you the most, upload it and generate the most likes and shares to win prizes worth 1k..\n            Submit your entry by 8th April 2016 to ritu official page inbox  RituOfficial along with your name and mobile number.",
+                "rules":[
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page."
+                ],
+                "organizers":[
+                    {
+                        "name":"Sidhin S Thomas",
+                        "phone":9999999999
+                    },
+                    {
+                        "name":"Sidhin S Thomas",
+                        "phone":9999999999
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 1,000"
+            },
+            "2":{
+                "code":"CSE02",
+                "name":"Treasure Hunt",
+                "descr":"Find that thing"
+            },
+            "3":{
+                "code":"CSE03",
+                "name":"Codewars",
+                "descr":"code,code,code"
+            },
+            "4":{
+                "code":"CSE02",
+                "name":"404:Not Found",
+                "descr":"Add something here"
+            },
+            "5":{
+                "code":"CSE02",
+                "name":"Googlr",
+                "descr":"There is nothing Google can't find"
+            }
+        }
+    },
+    "ce":{
+        "name":"Civil Engineering",
+        "events":{
+            "1":{
+                "code":"CSE01",
+                "name":"EC 1",
+                "descr":"All you guys and girls out there..!! RITU presents \" SELFIE WITH YOUR RIDE \" ..Just click a selfie with a ride you think suits you the most, upload it and generate the most likes and shares to win prizes worth 1k..\n            Submit your entry by 8th April 2016 to ritu official page inbox  RituOfficial along with your name and mobile number.",
+                "rules":[
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
+                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page."
+                ],
+                "organizers":[
+                    {
+                        "name":"Sidhin S Thomas",
+                        "phone":9999999999
+                    },
+                    {
+                        "name":"Sidhin S Thomas",
+                        "phone":9999999999
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 1,000"
+            },
+            "2":{
+                "code":"CSE02",
+                "name":"Treasure Hunt",
+                "descr":"Find that thing"
+            },
+            "3":{
+                "code":"CSE03",
+                "name":"Codewars",
+                "descr":"code,code,code"
+            },
+            "4":{
+                "code":"CSE02",
+                "name":"404:Not Found",
+                "descr":"Add something here"
+            },
+            "5":{
+                "code":"CSE02",
+                "name":"Googlr",
+                "descr":"There is nothing Google can't find"
+            }
+        }
+    },
+    "arch":{
+        "name":"Architecture",
+        "events":[]
+    },
+    "mca":{
+        "name":"Master of Computer Applications",
+        "events":[]
     }
 }

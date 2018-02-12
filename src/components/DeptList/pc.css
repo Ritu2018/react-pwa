@@ -1,0 +1,62 @@
+@media screen and (min-width:480px) {
+    .icon-container {
+        margin: auto;
+        padding-top: 20vh;
+    }
+    .main-icon {
+        height:20vw;
+        width: 20vw;
+        min-width: 20vw;
+        max-height:20vw;
+        max-width: 20vw;
+        padding: 0 10%;
+        margin:auto;
+        margin-bottom: 0;
+    }
+    .side-icon {
+        margin:auto;
+        margin-bottom: 0;
+        display: block;
+        height: 10vw;
+        width: 10vw;
+        min-width: 10vw;
+        max-height: 20vw;
+        max-width: 20vw;
+    }
+    .dep_name-container .dep_name {
+
+    }
+}
+@media screen and (min-width:768px) {
+    .pagination {
+        flex: 2;
+    }
+    .pagination-icon {
+        border-radius: 5px;
+        background-color: #222222;
+        text-align: center;
+        flex: 1;
+        height:100%;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+        display: flex;
+        margin: 0 1%;
+    }
+    .pagination-icon .circle {
+        display: none;
+    }
+    .pagination-icon .dep_name {
+        display: block;
+        flex: 1;
+        font-size: 0.7em;
+        margin: auto;        
+    }
+    .pagination-icon:hover {
+        /* font-size: 1em; */
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        color: var(--yellow);
+        cursor:pointer;
+    }
+    .active .dep_name {
+        color:var(--red);        
+    }
+}

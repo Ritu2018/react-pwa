@@ -1,7 +1,9 @@
 import React ,{ Component } from "react";
 import {Redirect} from 'react-router-dom';
 
-import dummyImage from '../../assets/dummy.png';
+import TopBar from '../TopBar/index';
+
+import bgImg from '../../assets/back.jpg';
 import List from '../../assets/events.json';
 import './style.css';
 
@@ -20,15 +22,21 @@ class EventList extends Component {
     }
     render() {
         if(this.state.showList){
-            return <Redirect push to={"/events/"+this.dept+"/"+this.curr_event}/>
+            return <Redirect push to={"/events/"+this.dept+"/"+this.curr_event}/>;
         }
+        const DeptName =
+            <div className="eventlist_depname">
+                {List[this.dept]['name']}
+            </div>
         let list = [];
-        let dept_events = List[this.dept];
+        let dept_events = List[this.dept]?List[this.dept]['events']:[];
+        if(dept_events.length<=0)
+            return <Redirect to="/events/"/>
         for(let event in dept_events) {
             list.push(
                 <div key={event} className="event" onClick={() => this.showDetails(event)}>
                     <div className="event_logo">
-                        <img src={dummyImage} alt="event logo"/>
+                        <img src={bgImg} alt="event logo"/>
                     </div>
                     <div className="event_name">
                         {dept_events[event]["name"]}
@@ -38,7 +46,10 @@ class EventList extends Component {
         }
 
         return (
-            <div>
+            <div className="eventlist-container">
+                <TopBar/>
+                {DeptName}
+                <img src={bgImg} className="bgimg" alt=""/>
                 <div className="event_list">
                     {list}
                 </div>
