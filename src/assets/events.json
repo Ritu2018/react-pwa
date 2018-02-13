@@ -1,118 +1,4 @@
 {
-    "me":{
-        "name":"Mechanical Engineering",
-        "events":{
-            "1":{
-                "code":"ME01",
-                "name":"Engine Assembly",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Engine_Assembly.jpg",
-                "descr":"Good at revving up engines, <br/>Ever tried to assemble one ?<br/>Because You never know your vehicle if you don't know it's soul.<br/>Turbo power your skills and assemble  from bolt to throttle...",
-                "rules":[
-                    "Registration Fee : ₹150",
-                    "Individual Participation",
-                    "Decision of event heads will be final"
-                ],
-                "organizers":[
-                    {
-                        "name":"Subin James",
-                        "phone":9947360012
-                    },
-                    {
-                        "name":"Aju raju",
-                        "phone":8281337724
-                    }
-                ],
-                "date":"02 March, 2018",
-                "prize":"Prizes worth Rs 7,000"
-            },
-            "2":{
-                "code":"ME02",
-                "name":"Junk Master",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Junk_Master.jpg",
-                "descr":"Ever imagined waste as a resource...?<br/>Are you a person with insane ideas..!<br/>Then we are giving you the space & time to transform your ideas to creative models...<br/> It is simple, very simple.<br/>You do not need to be perfect.<br/>Imperfection is beauty.<br/>You just need to be better....<br/>Do whatever your heart tells...!!",
-                "rules":[
-                    "Registration Fee : ₹100",
-                    "Participation in either a group of two or one",
-                    "Junk Master is a time bound programme which gives you 90 minutes to show your talents.",
-                    "You could use all the scraps available to you . ",
-                    "Winners will be selected on the basis of neatness of work and workplace, aesthetics and closeness with the theme.",
-                    "Fastners , welding opportunities & scrap will be provided.",
-                    "Final decisions will be taken by the event coordinators"
-                ],
-                "organizers":[
-                    {
-                        "name":"Sanu K.S",
-                        "phone":8089102836
-                    },
-                    {
-                        "name":"Nandagopan",
-                        "phone":9633943512
-                    },
-                    {
-                        "name":"Sachu",
-                        "phone":8547806755
-                    }
-                ],
-                "date":"28 Feb, 2018",
-                "prize":"Prizes worth Rs 6,000"
-            },
-            "3":{
-                "code":"ME03",
-                "name":"Machinist",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/Machinist.jpg",
-                "descr":"Recognition awaits for your precision. <br/><br/>So turn on the <b>machinist</b> inside you and face the chance to be the best in the business.",
-                "rules":[
-                    "Registration Fee : ₹100",
-                    "Individual Participation",
-                    "Final decisions will be taken by the event coordinators"
-                ],
-                "organizers":[
-                    {
-                        "name":"Vishnu Prasad",
-                        "phone":8129595977
-                    }
-                ],
-                "date":"2 March, 2018",
-                "prize":"Prizes worth Rs 7,000"
-            },
-            "4":{
-                "code":"ME04",
-                "name":" Numera Uno",
-                "descr":"Technical Paper presentation",
-                "rules":[
-                ],
-                "organizers":[
-                    {
-                        "name":"Ajay Nair",
-                        "phone":9999999999
-                    }
-                ],
-                "date":"28 Feb, 2018",
-                "prize":"Prizes worth Rs 6,000"
-            },
-            "5":{
-                "code":"ME05",
-                "name":"Guns N' Roses",
-                "descr":"A game with different levels including aptitude",
-                "rules":[
-                    "Decision of event heads will be final"
-                ],
-                "organizers":[
-                    {
-                        "name":"Balagopal Santhosh",
-                        "phone":9999999999
-                    },
-                    {
-                        "name":"Sidhin S Thomas",
-                        "phone":9999999999
-                    }
-                ],
-                "date":"28 Feb, 2018",
-                "prize":"Prizes worth Rs 1,000"
-            }
-        }
-    },
-
     "cse":
     {
         "name":"Computer Science and Engineering",
@@ -235,6 +121,7 @@
             }
         }
     },
+
     "ece":{
         "name":"Electronics and Communications Engineering",
         "events":{
@@ -632,6 +519,117 @@
             }
         }
     },
+    
+    "me":{
+        "name":"Mechanical Engineering",
+        "events":{
+            "1":{
+                "code":"ME01",
+                "name":"Engine Assembly",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Engine_Assembly.jpg",
+                "descr":"Good at revving up engines, <br/>Ever tried to assemble one ?<br/>Because You never know your vehicle if you don't know it's soul.<br/>Turbo power your skills and assemble  from bolt to throttle...",
+                "rules":[
+                    "Registration Fee : ₹150",
+                    "Individual Participation",
+                    "Decision of event heads will be final"
+                ],
+                "organizers":[
+                    {
+                        "name":"Subin James",
+                        "phone":9947360012
+                    },
+                    {
+                        "name":"Aju raju",
+                        "phone":8281337724
+                    }
+                ],
+                "date":"02 March, 2018",
+                "prize":"Prizes worth Rs 7,000"
+            },
+            "2":{
+                "code":"ME02",
+                "name":"Junk Master",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Junk_Master.jpg",
+                "descr":"Ever imagined waste as a resource...?<br/>Are you a person with insane ideas..!<br/>Then we are giving you the space & time to transform your ideas to creative models...<br/> It is simple, very simple.<br/>You do not need to be perfect.<br/>Imperfection is beauty.<br/>You just need to be better....<br/>Do whatever your heart tells...!!",
+                "rules":[
+                    "Registration Fee : ₹100",
+                    "Participation in either a group of two or one",
+                    "Junk Master is a time bound programme which gives you 90 minutes to show your talents.",
+                    "You could use all the scraps available to you . ",
+                    "Winners will be selected on the basis of neatness of work and workplace, aesthetics and closeness with the theme.",
+                    "Fastners , welding opportunities & scrap will be provided.",
+                    "Final decisions will be taken by the event coordinators"
+                ],
+                "organizers":[
+                    {
+                        "name":"Sanu K.S",
+                        "phone":8089102836
+                    },
+                    {
+                        "name":"Nandagopan",
+                        "phone":9633943512
+                    },
+                    {
+                        "name":"Sachu",
+                        "phone":8547806755
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 6,000"
+            },
+            "3":{
+                "code":"ME03",
+                "name":"Machinist",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/Machinist.jpg",
+                "descr":"Recognition awaits for your precision. <br/><br/>So turn on the <b>machinist</b> inside you and face the chance to be the best in the business.",
+                "rules":[
+                    "Registration Fee : ₹100",
+                    "Individual Participation",
+                    "Final decisions will be taken by the event coordinators"
+                ],
+                "organizers":[
+                    {
+                        "name":"Vishnu Prasad",
+                        "phone":8129595977
+                    }
+                ],
+                "date":"2 March, 2018",
+                "prize":"Prizes worth Rs 7,000"
+            },
+            "4":{
+                "code":"ME04",
+                "name":" Numera Uno",
+                "descr":"Technical Paper presentation",
+                "rules":[
+                ],
+                "organizers":[
+                    {
+                        "name":"Ajay Nair",
+                        "phone":9999999999
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 6,000"
+            },
+            "5":{
+                "code":"ME05",
+                "name":"Guns N' Roses",
+                "descr":"A game with different levels including aptitude",
+                "rules":[
+                    "Decision of event heads will be final"
+                ],
+                "organizers":[
+                    {
+                        "name":"Balagopal Santhosh",
+                        "phone":9999999999
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 1,000"
+            }
+        }
+    },
+
     "arch":{
         "name":"Architecture",
         "events":{
