@@ -3,6 +3,8 @@ import { Redirect } from 'react-router-dom';
 
 import TopBar from '../TopBar/index';
 
+import animate from '../../functions/de_dust2';
+
 import List from '../../assets/events.json';
 import bgImg from '../../assets/back.jpg';
 import './style.css';
@@ -34,6 +36,7 @@ class DeptList extends Component {
             else if(event.key === 'ArrowRight'||event.key === 'ArrowDown')
                 that.slide(1);
         });
+        animate();
     }
 
     slide(count) {
@@ -169,6 +172,7 @@ class DeptList extends Component {
                 onMouseUp={() => this.handleMouseUp()}
                 onMouseLeave={() => this.handleMouseLeave()}
             >
+                <canvas id="canvas" className="canvas"/>
                 <TopBar/>
                 {leftbutton}
                 {rightbutton}

@@ -82,7 +82,7 @@ class WSDetails extends Component {
                     </div>
                     <div className="description">
                         {details.descr}
-                        {instructions.length>0?<span>instructions:</span>:""}
+                        {/* {instructions.length>0?<span>instructions:</span>:""} */}
                         {instructions.length>0?<ul>{instructions}</ul>:""}
                     </div>
                 </div>

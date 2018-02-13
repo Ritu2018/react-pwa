@@ -24,17 +24,17 @@
         height: auto;
     }
     .menu-btn {
-        width: 5vw;
-        min-width: 5vw;
-        height: 5vw;
-        min-height: 5vw;
+        width: 4vw;
+        min-width: 4vw;
+        height: 4vw;
+        min-height: 4vw;
         border-radius: 50%;
         margin: 2.5vh 0;
         margin-left: 20vw;
         transition: .25s cubic-bezier(1, 0, 1, 1);
     }
     .menu-text {
-        font-size: 3vw;
+        font-size: 2.5vw;
         color:rgba(255,255,255,0);
         top:22%;
     }

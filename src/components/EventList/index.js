@@ -3,6 +3,8 @@ import {Redirect} from 'react-router-dom';
 
 import TopBar from '../TopBar/index';
 
+import animate from '../../functions/de_dust2';
+
 import bgImg from '../../assets/back.jpg';
 import List from '../../assets/events.json';
 import './style.css';
@@ -19,6 +21,9 @@ class EventList extends Component {
     showDetails(e) {
         this.curr_event = e;
         this.setState({showList:true});
+    }
+    componentDidMount() {
+        animate();
     }
     render() {
         if(!List[this.dept])
@@ -49,6 +54,7 @@ class EventList extends Component {
 
         return (
             <div className="eventlist-container">
+                <canvas id="canvas" className="canvas"/>
                 <TopBar/>
                 {DeptName}
                 <img src={bgImg} className="bgimg" alt=""/>

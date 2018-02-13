@@ -1,6 +1,7 @@
 .eventlist-container {
+    padding-top: 18%;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: relative;
     color: black;
 }
@@ -13,7 +14,6 @@
     top:0;
 }
 .eventlist_depname {
-    margin-top: 18%;
     text-align: center;
     font-size: 2em;
     padding: 5vw;
@@ -50,8 +50,10 @@
     font-family: 'Cuprum', sans-serif;
 }
 @media screen and (min-width:768px) {
+    .eventlist-container {
+        padding-top: 10%;
+    }
     .eventlist_depname {
-        margin-top: 10%;
         font-size: 3em;
         padding-bottom: 0;
         padding-top: 0;

@@ -89,7 +89,7 @@ class EventDetails extends Component {
                     </div>
                     <div className="description">
                         {details.descr}
-                        {rules.length>0?<span>Rules:</span>:""}
+                        {/* {rules.length>0?<span>Rules:</span>:""} */}
                         {rules.length>0?<ul>{rules}</ul>:""}
                     </div>
                 </div>

@@ -3,6 +3,8 @@ import {Redirect} from 'react-router-dom';
 
 import TopBar from '../TopBar/index';
 
+import animate from '../../functions/de_dust2';
+
 import bgImg from '../../assets/back.jpg';
 import List from '../../assets/workshops.json';
 import './style.css';
@@ -18,6 +20,9 @@ class WSList extends Component {
     showDetails(e) {
         this.curr_workshop = e;
         this.setState({showList:true});
+    }
+    componentDidMount() {
+        animate();
     }
     render() {
         if(this.state.showList){
@@ -42,6 +47,7 @@ class WSList extends Component {
         }
         return (
             <div className="workshoplist-container">
+                <canvas id="canvas" className="canvas"/>
                 <TopBar/>
                 <div className="eventlist_depname">
                     Workshops

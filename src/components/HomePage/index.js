@@ -1,6 +1,8 @@
 import React ,{ Component } from "react";
 import {Redirect} from "react-router-dom";
 
+import animate from '../../functions/de_dust2';
+
 import './style.css';
 import './pc.css';
 import Logo from '../../assets/ritu.png';
@@ -26,6 +28,8 @@ class HomePage extends Component {
             () => this.tick(),
             1000
           );
+        animate();
+        
     }
     componentWillUnmount() {
         clearInterval(this.timerID);
@@ -97,6 +101,7 @@ class HomePage extends Component {
         return(
         <div className="homepage-container">
             {clock}
+            <canvas className="canvas" id="canvas"></canvas>
             <img className="bg" src={bg} alt=""/>
             <div className="bg-overlay"/>
             <div className={menu_overlay_style}/>
