@@ -78,7 +78,6 @@
             "4":{
                 "code":"ME04",
                 "name":" Numera Uno",
-                "poster":"http://www.gstatic.com/webp/gallery/2.jpg",
                 "descr":"Technical Paper presentation",
                 "rules":[
                 ],
@@ -94,7 +93,6 @@
             "5":{
                 "code":"ME05",
                 "name":"Guns N' Roses",
-                "poster":"http://www.gstatic.com/webp/gallery/2.jpg",
                 "descr":"A game with different levels including aptitude",
                 "rules":[
                     "Decision of event heads will be final"
