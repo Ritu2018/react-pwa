@@ -36,7 +36,7 @@ class DeptList extends Component {
             else if(event.key === 'ArrowRight'||event.key === 'ArrowDown')
                 that.slide(1);
         });
-        animate();
+        // animate();
     }
 
     slide(count) {

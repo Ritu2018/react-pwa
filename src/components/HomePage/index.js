@@ -28,7 +28,7 @@ class HomePage extends Component {
             () => this.tick(),
             1000
           );
-        animate();
+        // animate();
         
     }
     componentWillUnmount() {

@@ -23,7 +23,7 @@ class EventList extends Component {
         this.setState({showList:true});
     }
     componentDidMount() {
-        animate();
+        // animate();
     }
     render() {
         if(!List[this.dept])
