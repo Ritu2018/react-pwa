@@ -130,19 +130,19 @@ class DeptList extends Component {
                 <div className="side-icon" onClick={()=>this.slide(-1)}>
                     <div className="circle">
                         <img className="bot-icon" alt=""
-                         src={process.env.PUBLIC_URL + '/depicons/'+this.depts[(this.state.curr_dept-1+l)%l][0]+'.png'}/>
+                         src={process.env.PUBLIC_URL + '/static/depicons/'+this.depts[(this.state.curr_dept-1+l)%l][0]+'.png'}/>
                     </div>
                 </div>
                 <div className="main-icon" onClick={()=>this.setState({redirect:true})}>
                     <div className="circle">
                         <img className="bot-icon" alt=""
-                         src={process.env.PUBLIC_URL + '/depicons/'+this.depts[this.state.curr_dept][0]+'.png'}/>
+                         src={process.env.PUBLIC_URL + '/static/depicons/'+this.depts[this.state.curr_dept][0]+'.png'}/>
                     </div>
                 </div>
                 <div className="side-icon" onClick={()=>this.slide(1)}>
                     <div className="circle">
                         <img className="bot-icon" alt=""
-                         src={process.env.PUBLIC_URL + '/depicons/'+this.depts[(this.state.curr_dept+1+l)%l][0]+'.png'}/>
+                         src={process.env.PUBLIC_URL + '/static/depicons/'+this.depts[(this.state.curr_dept+1+l)%l][0]+'.png'}/>
                     </div>
                 </div>
             </div>;
@@ -153,7 +153,7 @@ class DeptList extends Component {
             pagination.push(
                 <div className={style} key={dept} onClick={()=>this.slide(dept-this.state.curr_dept)}>
                     <div className="circle">
-                        <img className="bot-icon" src={process.env.PUBLIC_URL + '/depicons/'+this.depts[dept][0]+'.png'} alt=""/>
+                        <img className="bot-icon" src={process.env.PUBLIC_URL + '/static/depicons/'+this.depts[dept][0]+'.png'} alt=""/>
                     </div>
                     <span className="dep_name">{this.depts[dept][1]}</span>
                 </div>

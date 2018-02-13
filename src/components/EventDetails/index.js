@@ -26,6 +26,8 @@ class EventDetails extends Component {
         // Request image and setstate on completion
         let that = this;
         const url = List[this.dept]['events'][this.eventid]['poster']?List[this.dept]['events'][this.eventid]['poster']:"";
+		if(url == "")
+			return;
         axios.get(url)
         //'/posters/'+this.dept+'/'+this.eventid
         .then(function(response){
