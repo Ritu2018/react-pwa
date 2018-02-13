@@ -22,7 +22,7 @@ class WSList extends Component {
     render() {
         if(this.state.showList){
             // eslint-disable-next-line
-            return <Redirect push to={"/workshops/"+'cse'+"/"+'1'}/>;
+            return <Redirect push to={"/workshops/"+this.curr_workshop}/>;
         }
         let list = [];
         let workshops = List?List:[];

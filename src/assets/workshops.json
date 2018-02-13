@@ -1,6 +1,25 @@
 {
     "1":{
-        "name":"OpenCV"
+        "code":"CSEW01",
+        "name":"OpenCV",
+        "poster":"",
+        "descr":"opencv workshop",
+        "regfee":"Rs 300 per head",
+        "organizers":[
+            {
+                "name":"Anandu",
+                "phone":"9999999999"
+            },
+            {
+                "name":"Sidhin",
+                "phone":"9999999999"
+            }
+        ],
+        "instructions":[
+            "req 1",
+            "req 2"
+        ],
+        "date":"17 Feb, 2018"
     },
     "2":{
         "name":"ML"

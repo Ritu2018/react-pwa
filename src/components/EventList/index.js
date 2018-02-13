@@ -21,6 +21,8 @@ class EventList extends Component {
         this.setState({showList:true});
     }
     render() {
+        if(!List[this.dept])
+            return <Redirect to={"/events"}/>;
         if(this.state.showList){
             return <Redirect push to={"/events/"+this.dept+"/"+this.curr_event}/>;
         }

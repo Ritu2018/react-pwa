@@ -6,6 +6,7 @@ import DeptList from './DeptList/index';
 import EventList from './EventList/index';
 import EventDetails from './EventDetails/index';
 import WSList from './WSList/index';
+import WSDetails from './WSDetails/index';
 
 
 class App extends Component {
@@ -13,10 +14,11 @@ class App extends Component {
         return(
             <Router history="">
                 <Switch>
-                    <Route path="/events/:dept/:eventid" exact component={EventDetails}/>
+                    <Route path="/events/:dept/:eventid" component={EventDetails}/>
                     <Route path="/events/:dept" exact component={EventList}/>
                     <Route path="/events" exact component={DeptList}/>
                     <Route path="/workshops" exact component={WSList}/>
+                    <Route path="/workshops/:id" component={WSDetails}/>
                     <Route path="/" exact component={HomePage}/>
                     <Route path="/" render={()=><Redirect to="/"/>}/>
                 </Switch>

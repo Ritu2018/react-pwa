@@ -1,35 +1,30 @@
 import React ,{ Component } from "react";
-import { Redirect } from 'react-router-dom';
+import {Redirect} from 'react-router-dom';
 import axios from 'axios';
 
 import TopBar from '../TopBar/index';
 
-import List from '../../assets/events.json';
+import List from '../../assets/workshops.json';
 import PosterImage from '../../assets/dummy.jpg';
 
 import './style.css';
 
-class EventDetails extends Component {
+class WSDetails extends Component {
     constructor(props) {
         super(props);
         this.state={
             posterTop:0,
             poster:PosterImage
         };
-        this.dept = props.match.params.dept;
-        this.eventid = props.match.params.eventid;
+        this.workshopid = props.match.params.id;
         this.onImgLoad = this.onImgLoad.bind(this);
     }
     componentDidMount() {
-        // TODO move events.json to public and retrieve here
-        // Override service worker to respond to /events with saved json
-        // Request image and setstate on completion
         let that = this;
-        const url = (List[this.dept]&&List[this.dept]['events'][this.eventid])?List[this.dept]['events'][this.eventid]['poster']:"";
+        const url = List[this.workshopid]?List[this.workshopid]['poster']:"";
 		if(url == "")
 			return;
         axios.get(url)
-        //'/posters/'+this.dept+'/'+this.eventid
         .then(function(response){
             // eslint-disable-next-line
             if(response.status == 200)
@@ -45,23 +40,21 @@ class EventDetails extends Component {
         this.scrollEvent(img.offsetHeight,this.divElement.clientHeight);
     }
     render() {
-        if(!List[this.dept])
-            return <Redirect to={"/events"}/>;
-        if(!List[this.dept]['events'][this.eventid])
-            return <Redirect to={"/events/"+this.dept}/>;
-        let details = List[this.dept]['events'][this.eventid];
+        if(!List[this.workshopid])
+            return <Redirect to="/workshops" />;
+        let details = List[this.workshopid];
         const poster = 
-            <img id="poster" onLoad={this.onImgLoad} style={{top:this.state.posterTop}} src={this.state.poster} alt=""/>;
+            <img onLoad={this.onImgLoad} style={{top:this.state.posterTop}} src={this.state.poster} alt=""/>;
         const people = [];
         for(let organizer in details.organizers) {
             people.push(
                 <span key={people}>{details.organizers[organizer]["name"]}:<a href={"tel:"+details.organizers[organizer]["phone"]}>{details.organizers[organizer]["phone"]}</a></span>
             );
         }
-        const rules = [];
-        for(let rule in details.rules){
-            rules.push(
-                <li key={rule}>{details.rules[rule]}</li>
+        const instructions = [];
+        for(let rule in details.instructions){
+            instructions.push(
+                <li key={rule}>{details.instructions[rule]}</li>
             );
         }
         const content =
@@ -82,20 +75,20 @@ class EventDetails extends Component {
                                 <i className="fas fa-info-circle fa-2x"></i>
                             </div>
                             <div className="info_desc">
-                                <span>{details.prize?details.prize:""}</span>
+                                <span>{details.regfee?details.regfee:""}</span>
                                 <span>{details.date?details.date:""}</span>
                             </div>
                         </div>
                     </div>
                     <div className="description">
                         {details.descr}
-                        {rules.length>0?<span>Rules:</span>:""}
-                        {rules.length>0?<ul>{rules}</ul>:""}
+                        {instructions.length>0?<span>instructions:</span>:""}
+                        {instructions.length>0?<ul>{instructions}</ul>:""}
                     </div>
                 </div>
             </div>
         return(
-            <div className="eventdetails-container">
+            <div className="wsdetails-container">
                 <TopBar/>
                 <div className="poster">
                     {poster}
@@ -137,4 +130,4 @@ class EventDetails extends Component {
         }, false);
     }
 }
-export default EventDetails;
+export default WSDetails;
