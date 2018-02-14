@@ -36,6 +36,7 @@
     margin: 1%;
     margin-bottom: 2vw;
     border-radius: 5px;
+    cursor: pointer;
 }
 .workshop_logo {
     display: none;
