@@ -35,6 +35,8 @@
     }
     .menu-text {
         font-size: 2.5vw;
+         padding-bottom: 0;
+        padding-top: 0;
         color:rgba(255,255,255,0);
         top:22%;
     }

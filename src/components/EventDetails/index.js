@@ -18,31 +18,24 @@ class EventDetails extends Component {
         };
         this.dept = props.match.params.dept;
         this.eventid = props.match.params.eventid;
-        this.onImgLoad = this.onImgLoad.bind(this);
     }
     componentDidMount() {
-        // TODO move events.json to public and retrieve here
-        // Override service worker to respond to /events with saved json
-        // Request image and setstate on completion
         let that = this;
         const url = (List[this.dept]&&List[this.dept]['events'][this.eventid])?List[this.dept]['events'][this.eventid]['poster']:"";
 		if(url == "")
 			return;
         axios.get(url, { responseType: 'arraybuffer' })
-        //'/posters/'+this.dept+'/'+this.eventid
         .then(function(response){
-            // eslint-disable-next-line
             if(response.status == 200)
-                that.setState({poster:"data:image/jpeg;base64,"+Buffer.from(response.data, 'binary').toString('base64')});
+                that.setState(
+                    {poster:"data:image/jpeg;base64,"+Buffer.from(response.data, 'binary').toString('base64')}
+                );
             else
                 console.log("Error",response.status);
         })
         .catch(function(error){
             console.log(error);
         })
-    }
-    onImgLoad({target:img}) {
-        this.scrollEvent(img.offsetHeight,this.divElement.clientHeight);
     }
     render() {
         if(!List[this.dept])
@@ -51,12 +44,16 @@ class EventDetails extends Component {
             return <Redirect to={"/events/"+this.dept}/>;
         let details = List[this.dept]['events'][this.eventid];
         const poster = 
-            <img id="poster" onLoad={this.onImgLoad} style={{top:this.state.posterTop}} src={this.state.poster} alt=""/>;
+            <img id="poster" src={this.state.poster} alt=""/>;
         const people = [];
         for(let organizer in details.organizers) {
             people.push(
-                <span key={people}>{details.organizers[organizer]["name"]}:<a href={"tel:"+details.organizers[organizer]["phone"]}>{details.organizers[organizer]["phone"]}</a></span>
+                <div  key={people} className="organizer">
+                    <span>{details.organizers[organizer]["name"]}:</span>
+                    <span ><a href={"tel:"+details.organizers[organizer]["phone"]}>+91-{details.organizers[organizer]["phone"]}</a></span>
+                </div>
             );
+            
         }
         const rules = [];
         for(let rule in details.rules){
@@ -89,7 +86,6 @@ class EventDetails extends Component {
                     </div>
                     <div className="description">
                     <div dangerouslySetInnerHTML={{__html:details.descr}}/>
-                        {/* {rules.length>0?<span>Rules:</span>:""} */}
                         {rules.length>0?<ul>{rules}</ul>:""}
                     </div>
                 </div>
@@ -104,38 +100,6 @@ class EventDetails extends Component {
                 {content}                
             </div>
         );
-    }
-
-
-    scrollEvent(img_height,content_height) {
-        window.requestAnimationFrame = window.requestAnimationFrame
-        || window.mozRequestAnimationFrame
-        || window.webkitRequestAnimationFrame
-        || window.msRequestAnimationFrame
-        || function(f){setTimeout(f, 1000/60)};
-
-        img_height = img_height * 1;
-        // var img_height = document.getElementById('poster').height;
-
-
-        var that = this;
-
-        function parallaxbubbles(){
-            var scrolltop = window.pageYOffset;
-            var scrollable_height = img_height - document.body.clientHeight;
-            if(scrollable_height < 0)
-                scrollable_height = -scrollable_height;
-            var slice = scrollable_height/content_height;
-        
-            // console.log(img_height + "  " + scrollable_height+ "  " + slice);
-            let newTop = -scrolltop * slice;
-            that.setState({posterTop:newTop});
-            // console.log(newTop);
-        }
-        
-        window.addEventListener('scroll', function(){ // on page scroll
-            requestAnimationFrame(parallaxbubbles) // call parallaxbubbles() on next available screen paint
-        }, false);
     }
 }
 export default EventDetails;
