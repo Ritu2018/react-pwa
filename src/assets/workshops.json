@@ -1,7 +1,7 @@
 {
     "1":{
         "code":"CSE01",
-        "name":"Gesture Recognition using Open CV",
+        "name":"OpenCV",
         "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wcse/OpenCV.jpg",
         "descr":"Fed up with typing and clicking? <br/>It's time to say goodbye to your traditional mouse and keyboard.<br/><br/>Yes, you heard that right?<br/><br/>Here is the platform you're searching for.<br/><br/>A one-day workshop, on “Gesture Recognition using OpenCV-Python”. Come and be the master of the idea. <br/><br/>Free yourself from keyboard and mouse!",
         "regfee":"Rs 300 per head",
@@ -74,7 +74,7 @@
         "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wme/la_conception.jpg",
         "descr":"The  Training program on All Terrain Vehicle design and analysis and CFD analysis <br/>Sharp your ideas before go ahead<br/><b>SAEINDIA RIT</b> organizes training program where our experts conduct workshop in an interactive manner with the participants. So that our future engineers comfortably work with new world .Also in light of this workshop we offer specially design course for students to design and fabricate thire car for <br/>BAJA - SAE <br/>SUPRA - SAE<br/>F - SAE<br/>GO kart<br/><br/>SAE PRESENTS an opportunity to race your vehicle.. ",
         "regfee":"Rs 200 per head",
-        "reglink":"#",
+        "reglink":"",
         "organizers":[
             {
                 "name":"Chandni",
@@ -84,7 +84,7 @@
         "instructions":[
             "Includes food and refreshments"
         ],
-        "date":"28 Feb, 2018"
+        "date":"24 Feb, 2018"
     },
     "5":{
         "code":"ME02",
@@ -92,7 +92,7 @@
         "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wme/FlyHigh.jpg",
         "descr":"Aerotrix, an industrial partner of <b>Boeing</b>, which was started by IIT Kanpur graduates and who have won the Limca Book of Records for conducting biggest aeromodelling training in the country, is back again in Kerala!<br/>And this time, its a Two-day workshop about Remote Control Aircraft!<br/><b>Course Highlights</b><br/><br/>Design, Build & Test your first RC Aircraft from scratch!<br/>Learn all the introductory concepts of aeronautical engineering through aeromodelling<br/>Introduction to Design Algorithm of an aircraft<br/>Hands-on experience on the electronic and electrical instrumentation of an RC aircraft<br/><b>Topics Covered</b><br/>Basics of Flight & Aeronautics<br/>Different Systems in an Aircraft<br/>Stability & Control of an Aircraft<br/>Instrumentation in an RC Aircraft<br/>As we have industrial partnership with Boeing, we will help you to get trained for the Boeing IIT National Aeromodelling Challenge! If you are good enough, you could make it up to the competition, which is sponsored by Boeing and is conducted in association with 5 IITs at Bombay, Delhi, Kanpur, Kharagpur and Madras. The partnership is more than 2 years now.",
         "regfee":"Rs 1200 per head",
-        "reglink":"#",
+        "reglink":"",
         "organizers":[
             {
                 "name":"Adhil Aboobacker",
@@ -110,7 +110,7 @@
         "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/weee/CAD.jpg",
         "descr":"A chance to be the perfect professional<br/>Picture yourself walking down the street. How about getting informative graphics in your field of view?<br/>Stunned!!!<br/>Then this is gonna be your future AUGMENTED REALITY<br/>'Creativity comes from unlikely juxtaposition' Then what's engineer's design tool?<br/><b>CAD</b><br/>Master the art of Computer Aided Design and talk like an Engineer..<br/>APTITUDE is basically an innate, learned or acquired ability of an individual. Indeed Aptitude is the first step to professionalism. <br/>So let's get nurtured and trained to be the professionals..<br/>",
         "regfee":"Rs 300 per head",
-        "reglink":"#",
+        "reglink":"",
         "organizers":[
             {
                 "name":"Sajith John",
@@ -159,7 +159,7 @@
         "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wece/AndroidStudio.jpg",
         "descr":"Do you know what is common between an artist and an Android developer? Both work at a studio and creates wonders!<br/>Yes, we are talking about  Android Studio - the cradle of Android applications. Considering the omnipresence of smart devices running on Android, making Android apps is a useful skill for engineers. <br/> Come over and learn the tricks behind your favorite Android apps and make some on your own!",
         "regfee":"Rs 300 per head",
-        "reglink":"#",
+        "reglink":"",
         "organizers":[
             {
                 "name":"Neil Lary",
@@ -178,7 +178,7 @@
         "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wece/NetworkEngineering.jpg",
         "descr":"Want to play between computer networks and make it your career? <br/>In today's ever-growing global age of internet and rise of dominions like the Internet of Things (IoT), it has been indicated once again that automation and the growing presence of Internet will soon encompass everything in our lives.<br/>These services, however, will require 'Network Engineers,  engineers who are sound in the field of networks and possess a quality skill set required to deploy this Internet-based Digital future",
         "regfee":"Rs 300 per head",
-        "reglink":"#",
+        "reglink":"",
         "organizers":[
             {
                 "name":"Prince Thomas",
@@ -192,7 +192,7 @@
         "instructions":[
             "Please carry a laptop."
         ],
-        "date":"28 Feb, 2018"
+        "date":"24 Feb, 2018"
     },
     "13":{
         "code":"ME01",
@@ -200,7 +200,7 @@
         "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wme/Plethora.jpg",
         "descr":"Ever wished to see a 3D Printer<br/>Ever wished to operate it<br/>Presenting before you<br/><b>PLETHORA</b><br/>CAD LAB,FAB LAB,COMBINED MANUFACTURING AND 3D MODELLING<br/>We welcomes you to the world of design.<br/>Fabricate yourself <br/>Explore it<br/>We don't provide  the kit......But will teach you to make it......We teach you to design it in CAD...Then your design is turned into robotic arm parts in FAB lab.Assemble it....Your arm is now ready to move.....!!",
         "regfee":"Rs 5k per team (team of 5 members)",
-        "reglink":"#",
+        "reglink":"",
         "organizers":[
             {
                 "name":"Alex",
