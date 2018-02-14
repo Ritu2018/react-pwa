@@ -55,8 +55,12 @@ class EventDetails extends Component {
         const people = [];
         for(let organizer in details.organizers) {
             people.push(
-                <span key={people}>{details.organizers[organizer]["name"]}:<a href={"tel:"+details.organizers[organizer]["phone"]}>{details.organizers[organizer]["phone"]}</a></span>
+                <div  key={people} className="organizer">
+                    <span>{details.organizers[organizer]["name"]}:</span>
+                    <span ><a href={"tel:"+details.organizers[organizer]["phone"]}>+91-{details.organizers[organizer]["phone"]}</a></span>
+                </div>
             );
+            
         }
         const rules = [];
         for(let rule in details.rules){

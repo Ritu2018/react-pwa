@@ -14,7 +14,6 @@
 }
 @media screen and (min-width:768px) {
     .poster img{
-        transform: scale(1);
         object-fit: contain;
     }
 }
@@ -40,20 +39,34 @@
     background: #eeeeee;
     line-height: 1.5em;
 }
+.people{
+    display: table;
+    margin-left: 1em;
+}
+.organizer{
+    display: table-row
+}
+.organizer span{
+    display: table-cell;
+    padding-right: 1em;
+}
 .contact , .prize{
     padding: 1em;
     text-align: center;
     margin-top: 1em;
     display: block;
 }
-.people span , .prize span{
+.prize span{
     display: block;
     white-space: pre;
 }
 .phone , .info{
     flex:1;
 }
-.people , .prize span{
+.prize .info{
+    margin: auto 1em;
+}
+ .prize span{
     flex:5;
 }
 .back-button {
@@ -78,6 +91,7 @@
         font-size: 1.5em;
         padding: 3%;
     }
+    
 }
 @media screen and (min-width:1024px) {
     .desc {

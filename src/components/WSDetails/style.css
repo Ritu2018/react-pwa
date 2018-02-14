@@ -14,7 +14,6 @@
 }
 @media screen and (min-width:768px) {
     .poster img{
-        transform: scale(1.5);
         object-fit: contain;
     }
 }
@@ -47,7 +46,7 @@
     display: block;
 }
 .people span , .prize span{
-    display: block;
+    /* display: block; */
     white-space: pre;
 }
 .phone , .info{
@@ -55,7 +54,7 @@
     margin: auto;
 }
 .people , .prize span{
-    flex:5;
+    /* flex:5; */
 }
 .back-button {
     position: fixed;
