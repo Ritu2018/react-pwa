@@ -1,100 +1,247 @@
 {
-    "cse":{
+    "cse":
+    {
         "name":"Computer Science and Engineering",
-        "events":{
+        "events":
+        {
             "1":{
                 "code":"CSE01",
                 "name":"Rapid Miner",
-                "poster":"http://www.gstatic.com/webp/gallery/2.jpg",
-                "descr":"All you guys and girls out there..!! RITU presents \" SELFIE WITH YOUR RIDE \" ..Just click a selfie with a ride you think suits you the most, upload it and generate the most likes and shares to win prizes worth 1k..\n            Submit your entry by 8th April 2016 to ritu official page inbox  RituOfficial along with your name and mobile number.",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Rapid_Miner.jpg",
+                "descr":"Do you have the flair to make a computer dance to your tunes?  Do you want to prove to the world that you're worth your salt ? We offer you the ultimate challenge. <br/> Fight your way up the four different rounds and be crowned as the conqueror of the world of zeroes and ones.",
                 "rules":[
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page."
+                    "Registration Fee : ₹200",
+                    "Individual Participation",
+                    "Decision of event heads will be final"
                 ],
                 "organizers":[
                     {
                         "name":"Sidhin S Thomas",
-                        "phone":9999999999
+                        "phone":9447480852
                     },
                     {
-                        "name":"Sidhin S Thomas",
-                        "phone":9999999999
+                        "name":"Cheril Mariam John",
+                        "phone":9961502905
                     }
                 ],
                 "date":"28 Feb, 2018",
-                "prize":"Prizes worth Rs 1,000"
+                "prize":"Prizes worth Rs 12,000"
             },
             "2":{
                 "code":"CSE02",
-                "name":"Treasure Hunt",
-                "descr":"Find that thing"
+                "name":"The Vinci Code",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/TheVinciCode.jpg",
+                "descr":"Crack the code and the Ultimate Treasure is all yours!!! If you have the master brain to break the glass, to crack the cryptos, to mine and uncover the jewels on your way... <br/>If you are quick enough to seize the clues and sharp enough to unveil the concealed hints... <br/>Then here is your chance....",
+                "rules":[
+                    "Registration Fee : ₹100 per team",
+                    "Each team can have upto 2 persons",
+                    "Decision of event heads will be final"
+                ],
+                "organizers":[
+                    {
+                        "name":"Bineeth",
+                        "phone":9656855214
+                    },
+                    {
+                        "name":"Tom Mathew Thomas",
+                        "phone":7560996726
+                    }
+                ],
+                "date":"02 March, 2018",
+                "prize":"Prizes worth Rs 10,000"
             },
             "3":{
                 "code":"CSE03",
-                "name":"Codewars",
-                "descr":"code,code,code"
+                "name":"Code Wars",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/CodeWars.jpg",
+                "descr":"Eons have passed since the Death Star succeeded in spreading fear in the universe.<br/> To curb the rising tensions, the jedi have risen once again. With the mouse sabre in your hand, do you think you've got what it takes to beat the Dark Side of the code? Join us at Code Wars 18'  and get a chance to code your way to glory! <br/>Rs.7000 worth of prizes up for grabs..........but that's nothing compared to what you can do once you've mastered the code!<br/> Face off against the Darth Vader of bugs and code to restore peace to the Universe. and most importantly,..........Destroy the Emperor of errors! ",
+                "rules":[
+                    "Registration Fee : ₹100",
+                    "Individual participation",
+                    "Decision of event heads will be final"
+                ],
+                "organizers":[
+                    {
+                        "name":"Midhun",
+                        "phone":9947751749
+                    },
+                    {
+                        "name":"Sherin",
+                        "phone":9497245970
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 7,000"
             },
             "4":{
-                "code":"CSE02",
-                "name":"404:Not Found",
-                "descr":"Add something here"
+                "code":"CSE04",
+                "name":"404",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/404.png",
+                "descr":"Does the world of 'dot-coms' fascinate you enough to weave your own webbie sphere?<br/>If yes, here's your chance..The ultimate web design and development competition. <br/>Come up the hill and prove your mettle!!",
+                "rules":[
+                    "Registration Fee : ₹100",
+                    "Individual participation",
+                    "Decision of event heads will be final"
+                ],
+                "organizers":[
+                    {
+                        "name":"Azin Makaranth",
+                        "phone":8281860141
+                    },
+                    {
+                        "name":"Riya Joseph",
+                        "phone":8547325389
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 7,000"
             },
             "5":{
-                "code":"CSE02",
+                "code":"CSE05",
                 "name":"Googlr",
-                "descr":"There is nothing Google can't find"
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Googlr.jpg",
+                "descr":"Of all the species that walk on Earth, curiosity was always man's forte. Whenever  there's something hidden, you always feel the urge to find it. And this time, you are equipped with the ultimate weapon ever forged at your disposal. That moment when you realize that an omniscient entity will lead you to the ultimate prize.<br/>Yes, Google is your haystack !<br/>But the big question is.... Can you find the needle??",
+                "rules":[
+                    "Registration Fee : ₹50",
+                    "Individual participation",
+                    "Decision of event heads will be final"
+                ],
+                "organizers":[
+                    {
+                        "name":"Aivin Thomas",
+                        "phone":9496637344
+                    },
+                    {
+                        "name":"Avanthika VH",
+                        "phone":9400692895
+                    }
+                ],
+                "date":"01 March, 2018",
+                "prize":"Prizes worth Rs 3,000"
             }
         }
     },
+
     "ece":{
         "name":"Electronics and Communications Engineering",
         "events":{
             "1":{
-                "code":"CSE01",
-                "name":"EC 1",
-                "descr":"All you guys and girls out there..!! RITU presents \" SELFIE WITH YOUR RIDE \" ..Just click a selfie with a ride you think suits you the most, upload it and generate the most likes and shares to win prizes worth 1k..\n            Submit your entry by 8th April 2016 to ritu official page inbox  RituOfficial along with your name and mobile number.",
+                "code":"ECE01",
+                "name":"Electrocution",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/Electrocution.jpg",
+                "descr":"Age is never a matter in gaming. We become aged when we stop playing. Nothing becomes complete with a touch of fun, and that too with the electronics.<br/>Enter to the world of games. ",
                 "rules":[
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page."
+                    "Electrocution is a series of games built with electronic circuits which win the participant points. ",
+                    "The  points are accumulated and the one with the maximum point wins.",
+                    "Winners are declared for each day.",
+                    "Individual participations",
+                    "Decision of event heads will be final"
                 ],
                 "organizers":[
                     {
-                        "name":"Sidhin S Thomas",
-                        "phone":9999999999
+                        "name":"Jonie",
+                        "phone":7558965687
                     },
                     {
-                        "name":"Sidhin S Thomas",
-                        "phone":9999999999
+                        "name":"Arathy",
+                        "phone":8281406803
+                    }
+                ],
+                "date":"28 Feb,01 March, 02 March 2018",
+                "prize":"Prizes worth Rs 3,000"
+            },
+            "2":{
+                "code":"ECE02",
+                "name":"IC WAR",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/ICWar.jpg",
+                "descr":"Connect the possibilities and be the IC King..<br/> lf you have the spark of innovation in you..<br/>If you got in yourself the confidence to handle those miniature arachnids..,<br/>This is the call for you..<br/> Come join the battle and win the war with the talent you got and fight with the skill you have..<br/>Move those arms and connect the circuits...<br/>Manifest your knowledge of basic IC's , your skill to assemble them, and the logic to debug them..<br/>Explore the wonderous world of the 8 legged IC's..Lead them to the battle field and win the crown..",
+                "rules":[
+                    "Registration Fee : ₹100 per page",
+                    "A team can have upto 2 members",
+                    "Decision of event heads will be final"
+                ],
+                "organizers":[
+                    {
+                        "name":"Shalini",
+                        "phone":8943331515
+                    },
+                    {
+                        "name":"Niranjana",
+                        "phone":9744173918
+                    }
+                ],
+                "date":"01 March, 2018",
+                "prize":"Prizes worth Rs 5,000"
+            },
+            "3":{
+                "code":"ECE03",
+                "name":"SELL ME THE CIRCUIT",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/SellMeTheCircuit.jpg",
+                "descr":"BUY..SELL...BORROW<br/>Buy low and sell high..its simple <br/>Are you skilled at digital circuits? Are you a good trader ?Then grab your seat  and get ready to show your skill in building digital circuits and trading.<br/>Crack the prilims and certain your seats ..Build the circuits..borrow or buy  at cost of points..sell to gain more...",
+                "rules":[
+                    "Registration Fee : ₹100 per team",
+                    "A team can have upto 2 members",
+                    "The team with greater points  wins",
+                    "Decision of event heads will be final"                    
+                ],
+                "organizers":[
+                    {
+                        "name":"Jinu",
+                        "phone":9562325052
+                    },
+                    {
+                        "name":"Neenu",
+                        "phone":9446583969
                     }
                 ],
                 "date":"28 Feb, 2018",
-                "prize":"Prizes worth Rs 1,000"
-            },
-            "2":{
-                "code":"CSE02",
-                "name":"Treasure Hunt",
-                "descr":"Find that thing"
-            },
-            "3":{
-                "code":"CSE03",
-                "name":"Codewars",
-                "descr":"code,code,code"
+                "prize":"Prizes worth Rs 5,000"
             },
             "4":{
-                "code":"CSE02",
-                "name":"404:Not Found",
-                "descr":"Add something here"
+                "code":"ECE04",
+                "name":"LAB HUNT",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/LabHunt.jpg",
+                "descr":"So you think you mastered the art of deduction..?<br/><br/>Do you have the wit beyond textbooks, the brains to see through facades, and the stamina to go on a restless quest..?<br/><br/>Tease your brain, set those feet on motion and prove your scavenging skills here at <b>LAB HUNT</b><br/><br/> The dept of ECE is back again with yet another crazy adventure marathon where you get to push your technical, thinking, puzzle solving skills off the limits and experience the adrenaline rush..!!<br/><br/>Look for the clues on places no one ever expects...unlock and explore the labs, solve the puzzles, have fun and complete the challenges that would ultimately lead to the treasure you're seeking. <br/><br/>Let us see who could put forward the best team work and patience..",
+                "rules":[
+                    "Registration Fee : ₹200 per team",
+                    "A team can have upto 4 members",
+                    "Decision of event heads will be final"                    
+                ],
+                "organizers":[
+                    {
+                        "name":"Priyanka",
+                        "phone":9400902009
+                    },
+                    {
+                        "name":"Mounika",
+                        "phone":9605598531
+                    }
+                ],
+                "date":"01 March, 2018",
+                "prize":"Prizes worth Rs 8,000"
             },
             "5":{
-                "code":"CSE02",
-                "name":"Googlr",
-                "descr":"There is nothing Google can't find"
+                "code":"ECE05",
+                "name":"Line Follower",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/LineFollower.jpg",
+                "descr":"So you think you’ve mastered the technical knowledge?<br/><br/>Know to choose your destiny wisely, use your skills to unlock the mysteries, unlock each stage using your debugging techniques. Only a racing mind and laser beam focus can open the tight doors of each task.<br/><br/>Tease your brain, set those feet on motion and prove your scavenging skills here at QUARANTINE<br/><br/>The dept of ECE is back again with yet another crazy adventure marathon where you get to push your technical skills off the limits and experience the adrenaline rush..!!<br/><br/>An event that tests the skills of an electronics engineer to show off your coding skills and electronic designing. The event is set up as a virtual treasure hunt in which the participants go through different tasks including MATLAB, Verilog and C coding , Circuit design and debugging as well as your PCB skills and complete the challenges that ultimately claim your title!<br/><br/>Let us see who could put forward the best team work and patience..<br/><br/><b>Are you up for the challenge?</b>",
+                "rules":[
+                    "Registration Fee : ₹100 per team",
+                    "A team can have upto 2 members",
+                    "Decision of event heads will be final"                    
+                ],
+                "organizers":[
+                    {
+                        "name":"Neil Lary",
+                        "phone":7561021691
+                    },
+                    {
+                        "name":"Athul",
+                        "phone":9961866108
+                    }
+                ],
+                "date":"02 March, 2018",
+                "prize":"Prizes worth Rs 7,000"
             }
         }
     },
@@ -102,97 +249,123 @@
         "name":"Electrical and Electronics Engineering",
         "events":{
             "1":{
-                "code":"CSE01",
-                "name":"EC 1",
-                "descr":"All you guys and girls out there..!! RITU presents \" SELFIE WITH YOUR RIDE \" ..Just click a selfie with a ride you think suits you the most, upload it and generate the most likes and shares to win prizes worth 1k..\n            Submit your entry by 8th April 2016 to ritu official page inbox  RituOfficial along with your name and mobile number.",
+   
+                "code":"EEE01",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/MaD.jpg",
+                "name":"Machine Debugging",
+                "descr":"Progress is made by the improvement of people and not machines...<br/>Have you ever envied your error debugging skills, then defenitely this is the platform for you. The department of Electrical and Electronics engineering in association with RITU 18 provides you an excellent arena to compete with the best minds out there.",
                 "rules":[
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page."
+                    "Reg fee 300/-",
+                    "Groups of 2 or 3 can participate.",
+                    "There will be two rounds of evaluation",
+                    "Evaluation will be strictly based on reasoning, analysis and neatness"
                 ],
                 "organizers":[
                     {
-                        "name":"Sidhin S Thomas",
-                        "phone":9999999999
+                        "name":"Shaheen V I",
+                        "phone":8086885572
                     },
                     {
-                        "name":"Sidhin S Thomas",
-                        "phone":9999999999
+                        "name":"Vivek Rajan",
+                        "phone":8547537308
+                    }
+                    ,
+                    {
+                        "name":"Ajai James",
+                        "phone":9447066289
                     }
                 ],
-                "date":"28 Feb, 2018",
-                "prize":"Prizes worth Rs 1,000"
+                "date":"01 Mar, 2018",
+                "prize":"Prizes worth Rs 6,000"
             },
             "2":{
-                "code":"CSE02",
-                "name":"Treasure Hunt",
-                "descr":"Find that thing"
-            },
-            "3":{
-                "code":"CSE03",
-                "name":"Codewars",
-                "descr":"code,code,code"
-            },
-            "4":{
-                "code":"CSE02",
-                "name":"404:Not Found",
-                "descr":"Add something here"
-            },
-            "5":{
-                "code":"CSE02",
-                "name":"Googlr",
-                "descr":"There is nothing Google can't find"
-            }
-        }
-    },
-    "me":{
-        "name":"Mechanical Engineering",
-        "events":{
-            "1":{
-                "code":"CSE01",
-                "name":"EC 1",
-                "descr":"All you guys and girls out there..!! RITU presents \" SELFIE WITH YOUR RIDE \" ..Just click a selfie with a ride you think suits you the most, upload it and generate the most likes and shares to win prizes worth 1k..\n            Submit your entry by 8th April 2016 to ritu official page inbox  RituOfficial along with your name and mobile number.",
+                "code":"EEE02",
+                "name":"MAZE RUNNER",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/MazeRunner.jpg",
+                "descr":"If u can run,then u are a runner. It doesn't matter how far or how fast<br/>An electrical department treasure hunt.   ",
                 "rules":[
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page."
+                    "A team of 2 with their google guru is all we want."
                 ],
                 "organizers":[
                     {
-                        "name":"Sidhin S Thomas",
-                        "phone":9999999999
-                    },
-                    {
-                        "name":"Sidhin S Thomas",
-                        "phone":9999999999
+                        "name":"Akhil S Nair",
+                        "phone":9567842299
                     }
                 ],
-                "date":"28 Feb, 2018",
-                "prize":"Prizes worth Rs 1,000"
-            },
-            "2":{
-                "code":"CSE02",
-                "name":"Treasure Hunt",
-                "descr":"Find that thing"
+                "date":"01 Mar, 2018",
+                "prize":"Prizes worth Rs 6,000"
             },
             "3":{
-                "code":"CSE03",
-                "name":"Codewars",
-                "descr":"code,code,code"
+                "code":"EEE03",
+                "name":"MAESTRO",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/Maestro.jpg",
+                "descr":"Have you ever thought about the true purpose of an engineer? Engineers are creators, people who believe they can change the world. <br/>Bring out The Best Electrical Engineer in you!!!Compete with the sharpest minds and you will be the one to bag the prize",
+                "rules":[
+                    "Decision of the event head will be final"
+                ],
+                "organizers":[
+                    {
+                        "name":"KAVYA KRISHNAN",
+                        "phone":9605128597
+                    },
+                    {
+                        "name":"ARYA VIJAY",
+                        "phone":9847834516
+                    }
+                ],
+                "date":"02 Mar, 2018",
+                "prize":"Prizes worth Rs 9,000"
             },
             "4":{
-                "code":"CSE02",
-                "name":"404:Not Found",
-                "descr":"Add something here"
+                "code":"EEE04",
+                "name":"IDEATOR",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/Ideator.jpg",
+                "descr":"Paper presentation <br/> Lighten up your master minds!!! Creativity is thinking up new things. Innovation is doing new things. The Dept. Of EEE Rajiv Gandhi Institute of Technology,Kottayam in association with Ritu 18 provides you with the perfect opportunity to showcase your skills through Paper Presentation" 
+                ,"rules":[
+                    "The team should have not more than 2 members.",
+                    "Maximum time for presentation- 10 minutes and 5 minutes for questions and answers",
+                    "Students who want to participate are requested to contact the coordinators.",
+                    "The abstract(in pdf or Microsoft word document format) should be sent to ideatorritu18@gmail.com on or before 24-feb-18.",
+                    "Registration fee Rs 150/- per head",
+                    "The presentation should be in Microsoft PowerPoint"
+                ],
+                "organizers":[
+                    {
+                        "name":"RonyThomas",
+                        "phone":8086132395
+                    },
+                    {
+                        "name":"Haritha S Chandran",
+                        "phone":7034387040
+                    }
+                ],
+                "date":"01 Mar, 2018",
+                "prize":"Prizes worth Rs 8,000"
             },
             "5":{
-                "code":"CSE02",
-                "name":"Googlr",
-                "descr":"There is nothing Google can't find"
+                "code":"EEE05",
+                "name":" CAD MASTER",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/CADMaster.jpg",
+                "descr":"Drawing is Thinking Made Visual.<br/>The Dept of EEE, Govt. RIT Kottayam in association with RITU 18 provides an excellent opportunity to showcase your technical drawing skills. CAD MASTER test you for engineering design abilities, imagination and technical drawing skills"
+                ,"rules":[
+                    "The drawing should be completed only using AutoCAD.",
+                    "Time for drawing - 2.30 hrs",
+                    "Evaluation will be based on precision, neatness, and logical usage of given data.",
+                    "Venue: Software Lab, Dept of EEE <br/>Time: 9.30 am ",
+                    "Creative inclusions to the drawing will be considered for evaluation"
+                ],
+                "organizers":[
+                    {
+                        "name":"Jomin James",
+                        "phone":7034250558
+                    },
+                    {
+                        "name":"Jebin K John",
+                        "phone":8281473716
+                    }
+                ],
+                "date":"01 Mar, 2018",
+                "prize":"Prizes worth Rs 5,000"
             }
         }
     },
@@ -200,57 +373,515 @@
         "name":"Civil Engineering",
         "events":{
             "1":{
-                "code":"CSE01",
-                "name":"EC 1",
-                "descr":"All you guys and girls out there..!! RITU presents \" SELFIE WITH YOUR RIDE \" ..Just click a selfie with a ride you think suits you the most, upload it and generate the most likes and shares to win prizes worth 1k..\n            Submit your entry by 8th April 2016 to ritu official page inbox  RituOfficial along with your name and mobile number.",
+                "code":"CVL01",
+                "name":"THE CONCRETE QUEST",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ce/Decafio-Concreto.jpg",
+                "descr":"This year's Ritu brings you an interesting challenge with concrete. Design a concrete mix  for a characteristic compressive strength of 30 N /mm2 and 100 mm slump.",
                 "rules":[
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page.",
-                    "To participate, message your entries, with the picture and brief introduction(name and school or college) to ritu page."
+                    "4 Members per team",
+                    "Participants should use IS method for designing the mix",
+                    "Cube will be tested for 7 day compressive strength",
+                    "Registration fee: 100 per team"
                 ],
                 "organizers":[
                     {
-                        "name":"Sidhin S Thomas",
-                        "phone":9999999999
+                        "name":"Akshay Rudhan",
+                        "phone":8281854224
                     },
                     {
-                        "name":"Sidhin S Thomas",
+                        "name":"Vivek K",
+                        "phone":9447892876
+                    },
+                    {
+                        "name":"Sonamol John",
+                        "phone":9744772974
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 5,000"
+            },
+            "2":{
+                "code":"CVL02",
+                "name":"PERUNTHACHAN",
+                "descr":"Are you the one who can outshine with your exceptional talents in diverse areas of civil engineering? Ritu brings the perfect platform for all those aspiring civil engineers, PERUNTHACHAN. Be that team which can excel in technical, managerial and logical skills through wide spectra of contests."
+                ,"rules":[
+                    "Each team should consist of 3 to 4 members.",
+                    "Prelims will be held for shortlisting the participant teams.",
+                    "No switching of team members will be permitted.",
+                    "Event will be carried out in different levels to test technical, managerial and logical skills.",
+                    "Final decision will be taken by the event co-ordinators."
+                ],
+                "organizers":[
+                    {
+                        "name":"Alan Verghese Ittyeipe",
+                        "phone":9446693697
+                    },
+                    {
+                        "name":"Gautham Jit S",
+                        "phone":9061113888
+                    },
+                    {
+                        "name":"Aisswaria K Davis",
+                        "phone":9061963055
+                        
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 12,500"
+            },
+            "3":{
+                "code":"CVL03",
+                "name":"ENCUEASTA",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ce/Encueasta.jpg",
+                "descr":"May your angle be right and compass be true. The perfect chance to showcase your surveying skills. Its all about being the fastest and the sharpest. Survey your way through the rounds and unlock the treasure! The better you think, the better you find."
+                ,"rules":[
+                    "Each team should consist of 3 to 4 members.",
+                    "Registration fees will be Rs.150 for each team.",
+                    "Prelims will be held for shortlisting the participant teams.",
+                    "No switching of team members will be permitted after the hunt begins.",
+                    "Completion of surveying task is compulsory for the progress.",
+                    "Final decision will be taken by the event co-ordinators."
+                ],
+                "organizers":[
+                    {
+                        "name":"Hazeeb Ismail",
+                        "phone":9544364730
+                    },
+                    {
+                        "name":"Gishnu G Kurup",
+                        "phone":7356909062
+                    },
+                    {
+                        "name":"Ajith Boban",
+                        "phone":7034261781
+                    }
+                ],
+                "date":"01 Mar, 2018",
+                "prize":"Prizes worth Rs 7,000"
+            },
+            "4":{
+                "code":"CVL04",
+                "name":"Anthropometrist",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ce/Anthropometrist.jpg",
+                "descr":"should we engineers ourselves depend on machines and electronic gadgets when we have this enormous power of observation.Govt. RIT Kottayam presents Anthropometrist  as part of *RITU18* .show Us your talent to measure by visual inspection and observation.Let this be the stage to unleash your skills."
+                ,"rules":[
+                    "2 members per team",
+                    "All participants should be engineering students",
+                    "Marks will be given based on accuracy of measurements" 
+                ],
+                "organizers":[
+                    {
+                        "name":"Vishnu A Nair",
+                        "phone":9495305193
+                    },
+                    {
+                        "name":"Sangeeth siji",
+                        "phone":8848380119
+                    },
+                    {
+                        "name":"Sangeetha Jayamohan",
+                        "phone":9072323261
+                    },
+                    {
+                        "name":"Ashily John",
+                        "phone":9072004711
+                    }
+                ],
+                "date":"01 Mar, 2018",
+                "prize":"Prizes worth Rs 5,500"
+            },
+            "5":{
+                "code":"CVL05",
+                "name":"Paper Presentation",
+                "descr":"Do you have a spark, something that is hidden deep inside your creative mind, that has the power to reform innovate and revolutionize the techno world? Come On…hurry up…jot them down make it a paper and present…For Govt. RIT pampady tech fest RITU is offering you a platform as an event TANTRADNYA ,to be a phoenix…Rise from your ashes, make the spark in to a fire: A fire that will guide the future technical world."
+                ,"rules":[
+                    "Both individual and team work can be presented.",
+                    "If a team, only one among the team can present the paper.",
+                    "All paper should have sound technical basis.",
+                    "For team paper Rs: 150, for individual paper Rs: 100 "
+                ],
+                "organizers":[
+                    {
+                        "name":"Sethulakshmi G",
+                        "phone":8289955210
+                    },
+                    {
+                        "name":"Revathy Mohanan",
+                        "phone":9207242927
+                    },
+                    {
+                        "name":"Ananthakrishnan. S",
+                        "phone":9846126934     
+                    }
+                ],
+                "date":"28 Feb 2018",
+                "prize":"Prizes worth Rs 5,000"
+            }
+        }
+    },
+    
+    "me":{
+        "name":"Mechanical Engineering",
+        "events":{
+            "1":{
+                "code":"ME01",
+                "name":"Engine Assembly",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Engine_Assembly.jpg",
+                "descr":"Good at revving up engines, <br/>Ever tried to assemble one ?<br/>Because You never know your vehicle if you don't know it's soul.<br/>Turbo power your skills and assemble  from bolt to throttle...",
+                "rules":[
+                    "Registration Fee : ₹150",
+                    "Individual Participation",
+                    "Decision of event heads will be final"
+                ],
+                "organizers":[
+                    {
+                        "name":"Subin James",
+                        "phone":9947360012
+                    },
+                    {
+                        "name":"Aju raju",
+                        "phone":8281337724
+                    }
+                ],
+                "date":"02 March, 2018",
+                "prize":"Prizes worth Rs 7,000"
+            },
+            "2":{
+                "code":"ME02",
+                "name":"Junk Master",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Junk_Master.jpg",
+                "descr":"Ever imagined waste as a resource...?<br/>Are you a person with insane ideas..!<br/>Then we are giving you the space & time to transform your ideas to creative models...<br/> It is simple, very simple.<br/>You do not need to be perfect.<br/>Imperfection is beauty.<br/>You just need to be better....<br/>Do whatever your heart tells...!!",
+                "rules":[
+                    "Registration Fee : ₹100",
+                    "Participation in either a group of two or one",
+                    "Junk Master is a time bound programme which gives you 90 minutes to show your talents.",
+                    "You could use all the scraps available to you . ",
+                    "Winners will be selected on the basis of neatness of work and workplace, aesthetics and closeness with the theme.",
+                    "Fastners , welding opportunities & scrap will be provided.",
+                    "Final decisions will be taken by the event coordinators"
+                ],
+                "organizers":[
+                    {
+                        "name":"Sanu K.S",
+                        "phone":8089102836
+                    },
+                    {
+                        "name":"Nandagopan",
+                        "phone":9633943512
+                    },
+                    {
+                        "name":"Sachu",
+                        "phone":8547806755
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 6,000"
+            },
+            "3":{
+                "code":"ME03",
+                "name":"Machinist",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/Machinist.jpg",
+                "descr":"Recognition awaits for your precision. <br/><br/>So turn on the <b>machinist</b> inside you and face the chance to be the best in the business.",
+                "rules":[
+                    "Registration Fee : ₹100",
+                    "Individual Participation",
+                    "Final decisions will be taken by the event coordinators"
+                ],
+                "organizers":[
+                    {
+                        "name":"Vishnu Prasad",
+                        "phone":8129595977
+                    }
+                ],
+                "date":"2 March, 2018",
+                "prize":"Prizes worth Rs 7,000"
+            },
+            "4":{
+                "code":"ME04",
+                "name":" Numera Uno",
+                "descr":"Technical Paper presentation",
+                "rules":[
+                ],
+                "organizers":[
+                    {
+                        "name":"Ajay Nair",
+                        "phone":9999999999
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 6,000"
+            },
+            "5":{
+                "code":"ME05",
+                "name":"Guns N' Roses",
+                "descr":"A game with different levels including aptitude",
+                "rules":[
+                    "Decision of event heads will be final"
+                ],
+                "organizers":[
+                    {
+                        "name":"Balagopal Santhosh",
                         "phone":9999999999
                     }
                 ],
                 "date":"28 Feb, 2018",
                 "prize":"Prizes worth Rs 1,000"
-            },
-            "2":{
-                "code":"CSE02",
-                "name":"Treasure Hunt",
-                "descr":"Find that thing"
-            },
-            "3":{
-                "code":"CSE03",
-                "name":"Codewars",
-                "descr":"code,code,code"
-            },
-            "4":{
-                "code":"CSE02",
-                "name":"404:Not Found",
-                "descr":"Add something here"
-            },
-            "5":{
-                "code":"CSE02",
-                "name":"Googlr",
-                "descr":"There is nothing Google can't find"
             }
         }
     },
+
     "arch":{
         "name":"Architecture",
-        "events":[]
+        "events":{
+            "1":{
+                "code":"BAR01",
+                "name":"TRANSFORM",
+                "descr":"Fashion is a statement, an art of personal self expression. The style you bring speaks of who you are. So inhold the magic and execute a masterpiece. ",
+                "rules":[
+                    "3 members in a team ( 1 model and 2 for designing ) .",
+                    "Materials will be provided .",
+                    "Tools ( like scissors, cutterblades , fevicol etc ) can be brought by the participants.",
+                    "Rampwalk section will be judged by the judges .",
+                    "Judges decision will be final .",
+                    "Registration Fee- Rs 100"
+                ],
+                "organizers":[
+                    {
+                        "name":"Benjamin",
+                        "phone":8281053714
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 3,000"
+            },
+            "2":{
+                "code":"BAR02",
+                "name":"PUTHIYAMUKHAM",
+                "descr":"Its time to bring the drama on the face . Hold the power in your hand and execute the theatrically. Bring out the expression .... ! Let them exude through the face ."
+                ,"rules":[
+                    "2 persons per team.", 
+                    "Topic will be given at the time of event.", 
+                    "Paint will be provided. No other paints should be used other than the given .",
+                    "Brushes should be brought by the participants.",
+                    "Judges decision will be final .",
+                    "Registration Fee- Rs 10"
+                ],
+                "organizers":[
+                    {
+                        "name":"Vipin Sebastian",
+                        "phone":9496155699
+                    }
+                ], 
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 1,000"
+            },
+            "3":{
+                "code":"BAR03",
+                "name":"SRISHTI ",
+                "descr":"All those who long for their vision to come true, prepare to create. Design a product with ideal function and good aesthetic. Prove your metal with your timeless product."
+                ,"rules":[
+                    "2 members in a team .",
+                    "Sheets will be provided.",
+                    "Registration Fee- Rs 20"
+                    
+                ],
+                "organizers":[
+                    {
+                        "name":"Jerry",
+                        "phone":9061805495
+                    }
+                ],
+                "date":"01 Mar, 2018",
+                "prize":"Prizes worth Rs 2,000"
+            },
+            "4":{
+                "code":"BAR04",
+                "name":"FRUIT CARVING",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/LineFollower.jpg",
+                "descr":"The sight of a fruit always refresh us. Carving a design out of it would enhance the effect. So cut the fruit and take the prize. "
+                ,"rules":[
+                    "2 members in a team.",
+                    "Tools should be brought by the participants.",
+                    "Watermelon will be provided and the participants should make use of it fully.",
+                    "Registration Fee- Rs 30"
+                    
+                ],
+                "organizers":[
+                    {
+                        "name":"Abhinav",
+                        "phone":9846858564
+                    }
+                ],
+                "date":"01 Mar, 2018",
+                "prize":"Prizes worth Rs 2,000"
+            },
+            "5":{
+                "code":"BAR05",
+                "name":"PAPER TOWER",
+                "descr":"Crafting with paper has always been a exciting and learning art. Towers are always majestic and gives everything around it beauty. So get high and reach the sky with your paper tower. "
+                ,"rules":[
+                    "2 members in a team.",
+                    "Team should bring tools for cutting.",
+                    "Material will be provided.",
+                    "The final structure should be stable and self standing.",
+                    "Registration Fee- Rs 10"
+                ],
+                "organizers":[
+                    {
+                        "name":"Arjun Ashok ",
+                        "phone":9539420314
+                    }
+                ],
+                "date":"28 Feb 2018",
+                "prize":"Prizes worth Rs 1,000"
+            },
+            "6":{
+                "code":"BAR06",
+                "name":"WALL PAYATTU ",
+                "descr":"Why creeping through grey scales when your hand is full of colors ??? Scratch the walls, colour it bright, And grab your seat, among the creators of the best season. "
+                ,"rules":[
+                    "4 members maximum in a team.",
+                    "Topic will be given at the time of event.",
+                    "Paint will be provided. No other paints should be used other than the given .",
+                    "Brushes will be provided.",
+                    "Judges decision will be final .",
+                    "Registration Fee- Rs 300"
+
+                ],
+                "organizers":[
+                    {
+                        "name":"Jobin ",
+                        "phone":9526895572
+                    }
+                ],
+                "date":"28 Feb 2018",
+                "prize":"Prizes worth Rs 5,000"
+            }
+        }
     },
     "mca":{
         "name":"Master of Computer Applications",
-        "events":[]
+        "events":{
+            "1":{
+                "code":"MCA01",
+                "name":"Boot Me",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/BootMe.jpg",                
+                "descr":"Innovate-Ignite-Inspire <br/> Are you a tech wizard? <br/> Do you think you can smash it out!<br/>Join us......!!!<br/>Be ready to hunt your knowledge on OS Installation. Exuberance,Spontenity and Passion,the key to crack it. Invites you to explore your implicit ideas and ignite your concrete core.<br/>#Act_now  #Ack_fast #Reboot_your_potential. ",
+                "rules":[
+                    "Use of any electronic devices  are not allowed",
+                    "Winner is the one who satisfies the maximum requirements at minimum time",
+                    "The decision of the judges will be final in the events",
+                    "There will be two rounds PRELIMS and FINALS",
+                    "Registration Fee- Rs 100",
+                    "Venue: Software Lab, MCA dept"
+                    
+                ],
+                "organizers":[
+                    {
+                        "name":"Jasim K.P ",
+                        "phone":8907006462
+                    }
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 6,000"
+            },
+            "2":{
+                "code":"MCA02",
+                "name":"DBASE",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/Dbase.jpg",                
+                "descr":"This event deals with database aspects. This event analyses your knowledge in the database and also summarize how much you are comfort with database connectivity."
+                ,"rules":[
+                    "The event will be for Individuals.",
+                    "The event will have held in 3 rounds.",
+                    "All Round are carried out in machines.",
+                    "Round 1: General Test- A test is conducted for measures the knowledge in the database concepts.",
+                    "Round 2: Query Test- A query test for writing the SQL queries for desired outputs.",
+                    "Round 3: Connectivity Test- A participant has to do database connectivity using a latest programming language.",
+                    "Venue: MCA LAB",
+                    "Regsitration Fee- Rs 200"                
+                ],
+                "organizers":[
+                    {
+                        "name":"Manu Mohan",
+                        "phone":9995047086
+                    }
+                  
+                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 12,000"
+            },
+            "3":{
+                "code":"MCA03",
+                "name":"Design Pro",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/DesignPro.jpg",
+                "descr":"Nail out the software design from the requirements. <br/>Construct the software flow and data flow diagrams, build the database efficiently within the time limit and present your design. Let your brain work twice, bcz here’s the dept of MCA, as part of RITU ’18, presenting before you."
+                ,"rules":[
+                    "Team of two is allowed",
+                    "Maximum Duration :  6 hrs",
+                    "No external devices or mobile phones are allowed.",
+                    "Most efficient and simple design logic will be selected as the best",
+                    "The event comprises of four levels :Aptitude Test , Requirement Analysis , Design ,Presentation",
+                    "Registration Fee- Rs 200",
+                    "Venue- Software Lab, MCA dept"
+                ],
+                "organizers":[
+                    {
+                        "name":"Arun Joji ",
+                        "phone":9746818654
+                    }
+                ],
+                "date":"02 Mar, 2018",
+                "prize":"Prizes worth Rs 10,000"
+            },
+            "4":{
+                "code":"MCA04",
+                "name":"Fix me buddy",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/FixMeBuddy.jpg",
+                "descr":"Are u a master in hardware?<br/>Do u think u can meet the hazards in hardware and emerge as a winner.if u have the faith in u as a hardware master.let u skill be awakend at the venue of Fix me buddy conducted by the mca department."
+                ,"rules":[
+                    "The event will be for Solo Ones.",
+                    "Maximum Duration 2hrs.",
+                    "No external devices or mobile phones are allowed.",
+                    "The event would be a rapov of 3 levels.",
+                    "Registration Fee- Rs 300",
+                    "Venue : Software Lab, MCA dept"
+                  
+                    
+                ],
+                "organizers":[
+                    {
+                        "name":"Anoop Thilak S S ",
+                        "phone":7403414465
+                    }
+             
+                ],
+                "date":"01 Mar, 2018",
+                "prize":"Prizes worth Rs 6,000"
+            },
+            "5":{
+                "code":"MCA05",
+                "name":"Rush hour",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/RushHour.jpg",
+                "descr":"Have you got the talent?<br/>Do you have a spirit of a performer?<br/>  Be ready to find you.Its the time to explore your skills.<br/>Here is for you RUSH HOUR with variety of tasks.Show your  talents in an hour."
+                ,"rules":[
+                    "Preliminary Level  will be conducted.",
+                    "Individual participation.",
+                    "There is no any time consideration will be given after the time limit. ",
+                    "No external device or mobile phones are allowed.",
+                    "Venue: Project Lab, MCA Dept",
+                    "Registration fee Rs 100/-"
+                    
+                ],
+                "organizers":[
+                    {
+                        "name":"Anju Antony",
+                        "phone":7034643394
+                    }
+                ],
+                "date":"01 Mar 2018",
+                "prize":"Prizes worth Rs 6,000"
+            }
+        }
     }
+
 }
