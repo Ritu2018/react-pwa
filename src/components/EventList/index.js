@@ -32,7 +32,7 @@ class EventList extends Component {
         this.setState({loaded:true});
     }
     componentDidMount() {
-        animate();
+        // animate();
         let that = this;
         for(let url in this.urls){
             console.log(this.urls[url]);

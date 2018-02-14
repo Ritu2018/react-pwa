@@ -60,8 +60,8 @@ RITU has been conceived to unveil the true grit and shine of our institute, a pl
                             </a>
                         </div>
                         <div className="card">
-                            <a href="https://github.com/jelit" target="_blank">
-                            <img src={"https://avatars0.githubusercontent.com/u/20624742"}/>
+                            <a href="https://github.com/jelitkr" target="_blank">
+                            <img src={"https://avatars0.githubusercontent.com/u/36465496"}/>
                             <div className="team-profile" >
                                 <h4><b>Jelit</b></h4> 
                                 <p></p>

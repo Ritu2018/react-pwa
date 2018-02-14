@@ -56,6 +56,16 @@
 .people , .prize span{
     flex:5;
 }
+.back-button {
+    position: fixed;
+    top:0;
+    left: 0;
+    padding: 7%;
+    color: white;
+    font-size:1.5em;
+    z-index: 99;
+    cursor: pointer;
+}
 @media (min-width:768px) {
     .detail{
         padding: 5% 10%;
@@ -63,6 +73,10 @@
         box-shadow: 0 0 3px #0000005e;
         background-color: white;
         border-radius: 5px;
+    }
+    .back-button{
+        font-size: 1.5em;
+        padding: 3%;
     }
 }
 @media screen and (min-width:1024px) {

@@ -2,8 +2,6 @@ import React ,{ Component } from "react";
 import { Redirect, Link } from 'react-router-dom';
 import axios from 'axios';
 
-import TopBar from '../TopBar/index';
-
 import List from '../../assets/workshops.json';
 import PosterImage from '../../assets/dummy.jpg';
 
@@ -24,11 +22,11 @@ class WSDetails extends Component {
         const url = List[this.workshopid]?List[this.workshopid]['poster']:"";
 		if(url == "")
 			return;
-        axios.get(url)
+        axios.get(url, { responseType: 'arraybuffer' })
         .then(function(response){
             // eslint-disable-next-line
             if(response.status == 200)
-                that.setState({poster:response.data});
+                that.setState({poster:"data:image/jpeg;base64,"+Buffer.from(response.data, 'binary').toString('base64')});
             else
                 console.log("Error",response.status);
         })
@@ -94,7 +92,8 @@ class WSDetails extends Component {
             </div>
         return(
             <div className="wsdetails-container">
-                <TopBar/>
+                <i className="fas fa-arrow-left back-button"
+                  onClick={()=>window.history.back()}></i>
                 <div className="poster">
                     {poster}
                 </div>
