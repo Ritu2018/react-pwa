@@ -1,68 +1,72 @@
 {
     "1":{
-        "code":"ECE01",
-        "name":"Android Studio",
-        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wece/AndroidStudio.jpg",
-        "descr":"Do you know what is common between an artist and an Android developer? Both work at a studio and creates wonders!<br/>Yes, we are talking about  Android Studio - the cradle of Android applications. Considering the omnipresence of smart devices running on Android, making Android apps is a useful skill for engineers. <br/> Come over and learn the tricks behind your favorite Android apps and make some on your own!",
+        "code":"CSE01",
+        "name":"Gesture Recognition using Open CV",
+        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wcse/OpenCV.jpg",
+        "descr":"Fed up with typing and clicking? <br/>It's time to say goodbye to your traditional mouse and keyboard.<br/><br/>Yes, you heard that right?<br/><br/>Here is the platform you're searching for.<br/><br/>A one-day workshop, on “Gesture Recognition using OpenCV-Python”. Come and be the master of the idea. <br/><br/>Free yourself from keyboard and mouse!",
         "regfee":"Rs 300 per head",
-        "reglink":"#",
+        "reglink":"https://www.yepdesk.com/open-register/5a8344a6e4b0de217dcba718",
         "organizers":[
             {
-                "name":"Neil Lary",
-                "phone":"7561021691"
-            }
-        ],
-        "instructions":[
-            "Basic Knowledge in Java"
-        ],
-        "date":"25 Feb, 2018"
-    },
-
-    "2":{
-        "code":"ECE02",
-        "name":"Network Engineering",
-        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wece/NetworkEngineering.jpg",
-        "descr":"Want to play between computer networks and make it your career? <br/>In today's ever-growing global age of internet and rise of dominions like the Internet of Things (IoT), it has been indicated once again that automation and the growing presence of Internet will soon encompass everything in our lives.<br/>These services, however, will require 'Network Engineers,  engineers who are sound in the field of networks and possess a quality skill set required to deploy this Internet-based Digital future",
-        "regfee":"Rs 300 per head",
-        "reglink":"#",
-        "organizers":[
-            {
-                "name":"Prince Thomas",
-                "phone":"9497565807"
+                "name":"Sidhin Thomas",
+                "phone":"9447480852"
             },
             {
-                "name":"Athira Anil",
-                "phone":"9567380599"
+                "name":"Anandu S",
+                "phone":"9497888065"
             }
         ],
         "instructions":[
-            "Please carry a laptop."
+            "Bring your laptops",
+            "Registration fee includes food and refreshments"
         ],
-        "date":"28 Feb, 2018"
+        "date":"17 Feb, 2018"
+    },
+    "2":{
+        "code":"CSE02",
+        "name":"Machine Learning",
+        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wcse/MachineLearning.jpg",
+        "descr":"Feeling left out of the cutting edge? <br/><br/>Ready to embrace the trending technology which is changing our world?<br/><br/>If so, come make your machine learn better.<br/><br/>Pack your bags. Be a game-changer and make your world smarter. Come, let us imbibe the new buzzword!",
+        "regfee":"Rs 300 per head",
+        "reglink":"https://www.yepdesk.com/open-register/5a834355e4b0de217dcba64b",
+        "organizers":[
+            {
+                "name":"Sidhin Thomas",
+                "phone":"9447480852"
+            },
+            {
+                "name":"Anandu S",
+                "phone":"9497888065"
+            }
+        ],
+        "instructions":[
+            "Bring your laptops",
+            "Registration fee includes food and refreshments"
+        ],
+        "date":"17 Feb, 2018"
     },
     "3":{
-        "code":"ME01",
-        "name":"PLETHORA",
-        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wme/Plethora.jpg",
-        "descr":"Ever wished to see a 3D Printer<br/>Ever wished to operate it<br/>Presenting before you<br/><b>PLETHORA</b><br/>CAD LAB,FAB LAB,COMBINED MANUFACTURING AND 3D MODELLING<br/>We welcomes you to the world of design.<br/>Fabricate yourself <br/>Explore it<br/>We don't provide  the kit......But will teach you to make it......We teach you to design it in CAD...Then your design is turned into robotic arm parts in FAB lab.Assemble it....Your arm is now ready to move.....!!",
-        "regfee":"Rs 5k per team (team of 5 members)",
-        "reglink":"#",
+        "code":"CSE03",
+        "name":"Web Development using Django ",
+        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wcse/Web_Dev.jpg",
+        "descr":"Hey, are you a web developer?<br/>Or, <br/>Are you someone who aspires to learn web development?<br/>Are you in search to get rid of conventional methods of development and get to know about the recent trends in web development?<br/>Do you want to know the best language and best tools that fits for you?<br/>Then don't waste time...Come and grab your chance at Rajiv gandhi institute of technology kottayam as part of RITU'18 on February 17th, a one day workshop on 'Web Development Using Django' . <br/>Learn and Sharpen your skills.<br/>Focus on your work...<br/>Save your time and build attractive sites effortlessly.<br/>",
+        "regfee":"Rs 300 per head",
+        "reglink":"https://www.yepdesk.com/open-register/5a832b36e4b0de217dcb4802",
         "organizers":[
             {
-                "name":"Alex",
-                "phone":"9061961651"
+                "name":"Sidhin Thomas",
+                "phone":"9447480852"
             },
             {
-                "name":"Amarnath",
-                "phone":"9539288296"
+                "name":"Anandu S",
+                "phone":"9497888065"
             }
         ],
         "instructions":[
-            "Take Away Kit : Servo Motor(4), Arduino Board(1), Acrylic Sheet(1), Jumper Cables, Wires",
-            "Bring your laptops, at least one per team.",
-            "Lunch will be provided"
+            "Bring your laptops",
+            "Registration fee includes food and refreshments"
         ],
-        "date":"28 Feb, 2018"
+        "date":"17 Feb, 2018"
     },
     "4":{
         "code":"ME03",
@@ -99,75 +103,6 @@
             "Accommodation for the participants can be provided in the college campus."
         ],
         "date":"28 Feb, 2018"
-    },
-    "6":{
-        "code":"CSE01",
-        "name":"Gesture Recognition using Open CV",
-        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wcse/OpenCV.jpg",
-        "descr":"Fed up with typing and clicking? <br/>It's time to say goodbye to your traditional mouse and keyboard.<br/><br/>Yes, you heard that right?<br/><br/>Here is the platform you're searching for.<br/><br/>A one-day workshop, on “Gesture Recognition using OpenCV-Python”. Come and be the master of the idea. <br/><br/>Free yourself from keyboard and mouse!",
-        "regfee":"Rs 300 per head",
-        "reglink":"https://www.yepdesk.com/open-register/5a8344a6e4b0de217dcba718",
-        "organizers":[
-            {
-                "name":"Sidhin Thomas",
-                "phone":"9447480852"
-            },
-            {
-                "name":"Anandu S",
-                "phone":"9497888065"
-            }
-        ],
-        "instructions":[
-            "Bring your laptops",
-            "Registration fee includes food and refreshments"
-        ],
-        "date":"17 Feb, 2018"
-    },
-    "7":{
-        "code":"CSE02",
-        "name":"Machine Learning",
-        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wcse/MachineLearning.jpg",
-        "descr":"Feeling left out of the cutting edge? <br/><br/>Ready to embrace the trending technology which is changing our world?<br/><br/>If so, come make your machine learn better.<br/><br/>Pack your bags. Be a game-changer and make your world smarter. Come, let us imbibe the new buzzword!",
-        "regfee":"Rs 300 per head",
-        "reglink":"https://www.yepdesk.com/open-register/5a834355e4b0de217dcba64b",
-        "organizers":[
-            {
-                "name":"Sidhin Thomas",
-                "phone":"9447480852"
-            },
-            {
-                "name":"Anandu S",
-                "phone":"9497888065"
-            }
-        ],
-        "instructions":[
-            "Bring your laptops",
-            "Registration fee includes food and refreshments"
-        ],
-        "date":"17 Feb, 2018"
-    },
-    "8":{
-        "code":"CSE03",
-        "name":"Web Development using Django ",
-        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wcse/Web_Dev.jpg",
-        "descr":"Hey, are you a web developer?<br/>Or, <br/>Are you someone who aspires to learn web development?<br/>Are you in search to get rid of conventional methods of development and get to know about the recent trends in web development?<br/>Do you want to know the best language and best tools that fits for you?<br/>Then don't waste time...Come and grab your chance at Rajiv gandhi institute of technology kottayam as part of RITU'18 on February 17th, a one day workshop on 'Web Development Using Django' . <br/>Learn and Sharpen your skills.<br/>Focus on your work...<br/>Save your time and build attractive sites effortlessly.<br/>",
-        "regfee":"Rs 300 per head",
-        "reglink":"https://www.yepdesk.com/open-register/5a832b36e4b0de217dcb4802",
-        "organizers":[
-            {
-                "name":"Sidhin Thomas",
-                "phone":"9447480852"
-            },
-            {
-                "name":"Anandu S",
-                "phone":"9497888065"
-            }
-        ],
-        "instructions":[
-            "Bring your laptops",
-            "Registration fee includes food and refreshments"
-        ],
-        "date":"17 Feb, 2018"
     },
     "9":{
         "code":"EEE01",
@@ -217,5 +152,70 @@
             "Last date for registration is 27 February 2018"
         ],
         "date":"01,02 March, 2018"
+    },
+    "11":{
+        "code":"ECE01",
+        "name":"Android Studio",
+        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wece/AndroidStudio.jpg",
+        "descr":"Do you know what is common between an artist and an Android developer? Both work at a studio and creates wonders!<br/>Yes, we are talking about  Android Studio - the cradle of Android applications. Considering the omnipresence of smart devices running on Android, making Android apps is a useful skill for engineers. <br/> Come over and learn the tricks behind your favorite Android apps and make some on your own!",
+        "regfee":"Rs 300 per head",
+        "reglink":"#",
+        "organizers":[
+            {
+                "name":"Neil Lary",
+                "phone":"7561021691"
+            }
+        ],
+        "instructions":[
+            "Basic Knowledge in Java"
+        ],
+        "date":"25 Feb, 2018"
+    },
+
+    "12":{
+        "code":"ECE02",
+        "name":"Network Engineering",
+        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wece/NetworkEngineering.jpg",
+        "descr":"Want to play between computer networks and make it your career? <br/>In today's ever-growing global age of internet and rise of dominions like the Internet of Things (IoT), it has been indicated once again that automation and the growing presence of Internet will soon encompass everything in our lives.<br/>These services, however, will require 'Network Engineers,  engineers who are sound in the field of networks and possess a quality skill set required to deploy this Internet-based Digital future",
+        "regfee":"Rs 300 per head",
+        "reglink":"#",
+        "organizers":[
+            {
+                "name":"Prince Thomas",
+                "phone":"9497565807"
+            },
+            {
+                "name":"Athira Anil",
+                "phone":"9567380599"
+            }
+        ],
+        "instructions":[
+            "Please carry a laptop."
+        ],
+        "date":"28 Feb, 2018"
+    },
+    "13":{
+        "code":"ME01",
+        "name":"PLETHORA",
+        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wme/Plethora.jpg",
+        "descr":"Ever wished to see a 3D Printer<br/>Ever wished to operate it<br/>Presenting before you<br/><b>PLETHORA</b><br/>CAD LAB,FAB LAB,COMBINED MANUFACTURING AND 3D MODELLING<br/>We welcomes you to the world of design.<br/>Fabricate yourself <br/>Explore it<br/>We don't provide  the kit......But will teach you to make it......We teach you to design it in CAD...Then your design is turned into robotic arm parts in FAB lab.Assemble it....Your arm is now ready to move.....!!",
+        "regfee":"Rs 5k per team (team of 5 members)",
+        "reglink":"#",
+        "organizers":[
+            {
+                "name":"Alex",
+                "phone":"9061961651"
+            },
+            {
+                "name":"Amarnath",
+                "phone":"9539288296"
+            }
+        ],
+        "instructions":[
+            "Take Away Kit : Servo Motor(4), Arduino Board(1), Acrylic Sheet(1), Jumper Cables, Wires",
+            "Bring your laptops, at least one per team.",
+            "Lunch will be provided"
+        ],
+        "date":"28 Feb, 2018"
     }
 }
