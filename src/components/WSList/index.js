@@ -77,7 +77,7 @@ class WSList extends Component {
             <div className="workshoplist-container">
                 <canvas id="canvas" className="canvas"/>
                 <TopBar/>
-                <div className="eventlist_depname">
+                <div className="workshoplist_heading">
                     Workshops
                 </div>
                 <img src={bgImg} className="bgimg" alt=""/>
