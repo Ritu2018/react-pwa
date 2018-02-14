@@ -92,34 +92,67 @@ img.bg {
     margin: 5%;
     min-width: 10vw;
     width: 90%;
-    height: 20vw;
     min-height: 80px;
     border-radius: 36px;
     display: flex;
     justify-content:center;
     align-content:center;
     font-family: 'Josefin Sans', sans-serif;
+    transform: scale(0);
+     
 }
 .menu-text {
-    color:#ffffff;
+    color: #ffffff;
     text-align: center;
     position: relative;
-    top: 50%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 1.5em;
 }
 .yellow {
     background-color: var(--yellow);
+    animation: animate-menu ease-out 0.15s;
+    animation-fill-mode: forwards;
+    
+    
 }
 .red {
     background-color: var(--red);
+    animation: animate-menu ease-out 0.15s;
+    animation-delay: 0.05s;
+    animation-fill-mode: forwards;
+    
+    
 }
 .blue {
     background-color: var(--blue);
+    animation: animate-menu ease-out 0.15s;
+    animation-delay: 0.15s;
+    animation-fill-mode: forwards;
+    
 }
 .green {
     background-color: var(--green);
+    animation: animate-menu ease-out 0.15s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+    
 }
 
-
+@keyframes animate-menu{
+    0%{
+        transform: scale(0)
+    }
+    90%{
+        transform: scale(1.1)
+    }
+    95%{
+        transform: scale(0.9)
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 .clockdiv{
     font-family: sans-serif;
     display: inline-block;
