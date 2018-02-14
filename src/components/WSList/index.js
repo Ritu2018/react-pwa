@@ -17,7 +17,8 @@ class WSList extends Component {
         this.curr_workshop = null;
         this.state = ({
             showList:false,
-            loaded:false
+            loaded:false,
+            started:false
         });
         this.imgs = [];
         this.urls = [];
@@ -47,6 +48,10 @@ class WSList extends Component {
                 console.log(err);                
             });
         }
+        if(this.state.started)
+            return; 
+        animate();
+        this.setState({started:true});
     }
     render() {
         if(this.state.showList){

@@ -18,7 +18,8 @@ class EventList extends Component {
         this.curr_event = null;
         this.state = ({
             showList:false,
-            loaded:false
+            loaded:false,
+            started:false
         });
         this.imgs = [];
         this.urls = [];
@@ -47,6 +48,10 @@ class EventList extends Component {
                 console.log(err);                
             });
         }
+        if(this.state.started)
+            return; 
+        animate();
+        this.setState({started:true});
     }
     render() {
         if(!List[this.dept])

@@ -16,7 +16,8 @@ class HomePage extends Component {
         this.state = ({
             showMenu:false,
             redirect:false,
-            date: new Date()
+            date: new Date(),
+            started:false
         });
         this.nextPage = null;
     }
@@ -29,7 +30,10 @@ class HomePage extends Component {
             () => this.tick(),
             1000
           );
-        // animate();
+          if(this.state.started)
+            return; 
+        animate();
+        this.setState({started:true});
         
     }
     componentWillUnmount() {

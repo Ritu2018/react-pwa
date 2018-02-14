@@ -23,6 +23,7 @@ class DeptList extends Component {
             {
                 left:0,
                 redirect:false,
+                started:false,
                 curr_dept:0
             }
         );
@@ -36,7 +37,10 @@ class DeptList extends Component {
             else if(event.key === 'ArrowRight'||event.key === 'ArrowDown')
                 that.slide(1);
         });
-        // animate();
+        if(this.state.started)
+            return; 
+        animate();
+        this.setState({started:true});
     }
 
     slide(count) {

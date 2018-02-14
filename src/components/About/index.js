@@ -3,11 +3,25 @@ import axios from 'axios';
 import './style.css';
 import TopBar from "../TopBar/index";
 import bgImg from '../../assets/back.jpg';
+import animate from '../../functions/de_dust2';
 
 class About extends Component {
+    constructor(){
+        super();
+        this.state = ({
+            started:false
+        });
+    }
+    componentDidMount(){
+        if(this.state.started)
+            return;
+        animate();
+        this.setState({started:true});
+    }
     render() {
         return(
             <div className="about-container">
+                <canvas id="canvas" className="canvas"/>
                 <img src={bgImg} className="bgimg" alt=""/>
                 <TopBar/>
                 <img/>

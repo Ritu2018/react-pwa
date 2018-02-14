@@ -157,6 +157,7 @@ function animate() {
     function initParticleSystem() {
         createParticles();
         drawParticles();
+        // animateParticles();
     }
 
     function animateParticles() {
@@ -192,6 +193,7 @@ function animate() {
   
 };  
     
+
 
 
 
