@@ -15,8 +15,8 @@ function precache() {
       return cache.addAll([
         '../index.html',
         './css',
-		'./js',
-		'./media',
+		    './js',
+		    './media',
         './depicons'
       ]);
     });
