@@ -524,7 +524,7 @@
             "1":{
                 "code":"ME01",
                 "name":"ENGINE ASSEMBLY",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Engine_Assembly.jpg",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/Engine_Assembly.jpg",
                 "descr":"Good at revving up engines, <br/>Ever tried to assemble one ?<br/>Because You never know your vehicle if you don't know it's soul.<br/>Turbo power your skills and assemble  from bolt to throttle...",
                 "rules":[
                     "Registration Fee : ₹150",
@@ -547,7 +547,7 @@
             "2":{
                 "code":"ME02",
                 "name":"JUNK MASTER",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Junk_Master.jpg",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/Junk_Master.jpg",
                 "descr":"Ever imagined waste as a resource...?<br/>Are you a person with insane ideas..!<br/>Then we are giving you the space & time to transform your ideas to creative models...<br/> It is simple, very simple.<br/>You do not need to be perfect.<br/>Imperfection is beauty.<br/>You just need to be better....<br/>Do whatever your heart tells...!!",
                 "rules":[
                     "Registration Fee : ₹100",
@@ -719,7 +719,7 @@
             "4":{
                 "code":"BAR04",
                 "name":"FRUIT CARVING",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/LineFollower.jpg",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ar/FruitCarving.png",
                 "descr":"The sight of a fruit always refresh us. Carving a design out of it would enhance the effect. So cut the fruit and take the prize. "
                 ,"rules":[
                     "2 members in a team.",
