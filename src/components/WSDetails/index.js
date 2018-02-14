@@ -15,7 +15,6 @@ class WSDetails extends Component {
             poster:PosterImage
         };
         this.workshopid = props.match.params.id;
-        this.onImgLoad = this.onImgLoad.bind(this);
     }
     componentDidMount() {
         let that = this;
@@ -44,7 +43,7 @@ class WSDetails extends Component {
         const people = [];
         for(let organizer in details.organizers) {
             people.push(
-                <div>
+                <div className="organizer">
                 <span key={people}>{details.organizers[organizer]["name"]}:</span>
                 <span ><a href={"tel:"+details.organizers[organizer]["phone"]}>+91-{details.organizers[organizer]["phone"]}</a></span>
                 </div>
