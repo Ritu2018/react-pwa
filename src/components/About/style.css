@@ -14,7 +14,7 @@
 }
 .ritu-desc {
     padding: 2% 0%;
-    text-align: justify;
+    text-align: center;
     line-height: 30px;
     font-size: 1.5em;
 }
@@ -23,7 +23,11 @@
     flex-wrap: wrap;
 }
 .dev-title {
-    font-size: 1.5em;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+.team{
+    padding-top: 3em;
 }
 .card {
     margin: 2%;
@@ -53,6 +57,9 @@
     margin: 0;
 }
 @media screen and (min-width:768px){
+    .ritu-desc{
+        text-align: justify;
+    }
     .about-container {
         padding: 0 15%;
     }

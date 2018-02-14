@@ -78,6 +78,15 @@ RITU has been conceived to unveil the true grit and shine of our institute, a pl
                             </a>
                         </div>
                         <div className="card">
+                            <a href="https://github.com/gintu" target="_blank">
+                            <img src={"https://avatars2.githubusercontent.com/u/13748550"}/>
+                            <div className="team-profile" >
+                                <h4><b>Gintu Tom</b></h4> 
+                                <p></p>
+                            </div>
+                            </a>
+                        </div>
+                        <div className="card">
                             <a href="https://github.com/akhilmhdh" target="_blank">
                             <img src={"https://avatars1.githubusercontent.com/u/31166322"}/>
                             <div className="team-profile" >
