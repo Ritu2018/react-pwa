@@ -51,6 +51,7 @@
 }
 .phone , .info{
     flex:1;
+    margin: auto;
 }
 .people , .prize span{
     flex:5;
@@ -78,7 +79,18 @@
         flex: 1;
         display: flex;
     }
-    .prize span {
+    .prize span,.contact span {
         text-align: start;
     }
+}
+.reg-button {
+    text-align: center;
+}
+.reg-button button{
+    background-color: var(--blue);
+    padding: 1em;
+    border-radius: 10px;
+    color: white;
+    min-width: 40%;
+    font-size: 1.3em;
 }

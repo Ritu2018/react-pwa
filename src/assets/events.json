@@ -99,7 +99,7 @@
             "5":{
                 "code":"CSE05",
                 "name":"Googlr",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Googlr.jpg",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Googlr.jpeg",
                 "descr":"Of all the species that walk on Earth, curiosity was always man's forte. Whenever  there's something hidden, you always feel the urge to find it. And this time, you are equipped with the ultimate weapon ever forged at your disposal. That moment when you realize that an omniscient entity will lead you to the ultimate prize.<br/>Yes, Google is your haystack !<br/>But the big question is.... Can you find the needle??",
                 "rules":[
                     "Registration Fee : ₹50",
@@ -697,7 +697,6 @@
             "4":{
                 "code":"BAR04",
                 "name":"FRUIT CARVING",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/LineFollower.jpg",
                 "descr":"The sight of a fruit always refresh us. Carving a design out of it would enhance the effect. So cut the fruit and take the prize. "
                 ,"rules":[
                     "2 members in a team.",

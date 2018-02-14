@@ -33,7 +33,7 @@
     }
     .pagination-icon {
         border-radius: 5px;
-        background-color: #222222;
+        background-color: rgba(33, 11, 24, 0.19019607843137253);
         text-align: center;
         flex: 1;
         height:100%;
@@ -52,11 +52,12 @@
     }
     .pagination-icon:hover {
         /* font-size: 1em; */
+        background-color: rgba(33, 11, 24, 1);
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
         color: var(--yellow);
         cursor:pointer;
     }
     .active .dep_name {
-        color:var(--red);        
+        color:var(--yellow);        
     }
 }

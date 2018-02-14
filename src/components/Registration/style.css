@@ -1,0 +1,172 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.registration {
+    padding: 1em 2em;
+    margin: 25% auto 0 auto;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 4px #98949482;
+    border-radius: 10px;
+    width: 90vw;
+    display: grid;
+}
+
+.form-registration {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.form-registration  input {
+    background: none;
+    padding: 0.2em 1em 0.2em 0.5em;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid #8080804d;
+    margin: 1em 0;
+}
+
+.form-registration input:active,
+.form-registration input:focus,
+.form-registration textarea:active,
+.form-registration textarea:focus {
+    outline: none;
+    border-bottom: 2px solid var(--blue);
+}
+
+.form-registration select {
+    padding: 0.5em 0.5em 0.5em 1em;
+    margin-left: 0.7em;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form-registration textarea {
+    margin-left: 3%;
+    background: no-repeat;
+    border: none;
+    border-bottom: 2px solid #8080804d;
+
+}
+
+.form-registration input[type=submit] {
+    background-color: var(--blue);
+    padding: 1em;
+    border-radius: 10px;
+    color: white;
+    width: 50%;
+    font-size: 1.3em;
+}
+
+.registration h1 {
+    text-align: center;
+}
+
+.reg-detail {
+    font-size: 1.3em;
+    margin-left: 0.5em;
+}
+
+.reg-detail p {
+    margin: 0;
+}
+
+.reg-detail p span {
+    font-weight: bold;
+}
+
+.form-registration input[type="text"], .form-registration input[type=tel], .form-registration input[type=email] {
+    font-size: 1.2em;
+}
+@media only screen and (min-width:756px) {
+    .container{
+        width:95vw;
+        margin: 1em;
+    }
+    .registration {
+        padding: 1em 2em;
+        margin: 10% auto 0 auto;
+        background-color: #f3f3f3;
+        box-shadow: 0 0 4px #98949482;
+        border-radius: 10px;
+        width: 50vw;
+        display: block;
+        height: auto;
+    }
+
+    .form-registration {
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    .form-registration input {
+        background: none;
+        padding: 0.2em 1em 0.2em 0.5em;
+        width: 90%;
+        border: none;
+        border-bottom: 2px solid #8080804d;
+        margin:1em;
+    }
+
+    .form-registration input:active,
+    .form-registration input:focus,
+    .form-registration textarea:active,
+    .form-registration textarea:focus {
+        outline: none;
+        border-bottom: 2px solid var(--blue);
+    }
+
+    .form-registration select {
+        padding: 0.5em 0.5em 0.5em 1em;
+        margin-left: 0.7em;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .form-registration textarea {
+        margin-left: 3%;
+        background: no-repeat;
+        border: none;
+        border-bottom: 2px solid #8080804d;
+
+    }
+
+    .form-registration input[type=submit] {
+        background-color: var(--blue);
+        padding: 1em;
+        border-radius: 10px;
+        color: white;
+        width: 50%;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .reg-detail {
+        font-size: 1.3em;
+        margin-left: 2.5em;
+    }
+
+    .reg-detail p {
+        margin: 0;
+    }
+
+    .reg-detail p span {
+        font-weight: bold;
+    }
+
+    .form-registration input[type="text"],
+    .form-registration input[type=tel],
+    .form-registration input[type=email] {
+        font-size: 1.2em;
+    }
+}
+.bgimg {
+    object-fit: cover;
+}

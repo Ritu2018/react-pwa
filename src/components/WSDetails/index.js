@@ -1,5 +1,5 @@
 import React ,{ Component } from "react";
-import {Redirect} from 'react-router-dom';
+import { Redirect, Link } from 'react-router-dom';
 import axios from 'axios';
 
 import TopBar from '../TopBar/index';
@@ -80,8 +80,13 @@ class WSDetails extends Component {
                             </div>
                         </div>
                     </div>
+                    <div className="reg-button">
+                        <a href={details.reglink} target="_blank">
+                            <button>Register</button>
+                        </a>
+                    </div>
                     <div className="description">
-                        {details.descr}
+                        <div dangerouslySetInnerHTML={{__html:details.descr}}/>
                         {/* {instructions.length>0?<span>instructions:</span>:""} */}
                         {instructions.length>0?<ul>{instructions}</ul>:""}
                     </div>

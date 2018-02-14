@@ -65,6 +65,7 @@
         height: auto;
     }
     .event {
+        padding: 0;
         flex: 1;
         width: 30vw;
         min-width: 30vw;
@@ -73,6 +74,7 @@
     .event_logo,.event_logo img {
         display: inline-block;
         max-width: 100%;
+        border-radius: 5px 5px 0 0;
     }
     .event_name {
         font-size: 2em;

@@ -9,8 +9,8 @@ function animate() {
     
     var canvas = document.getElementById("canvas");
 
-    W = window.innerWidth ;
-    H = window.innerHeight ;
+    W = canvas.clientWidth ;
+    H = canvas.clientHeight ;
     var then = (new Date()).getTime();
     
     canvas.width = W;
@@ -165,11 +165,11 @@ function animate() {
         update()
         drawParticles();
         updateParticles();
-        requestAnimationFrame(animateParticles);
+        // requestAnimationFrame(animateParticles);
     }
   
     initParticleSystem();
-    requestAnimationFrame(animateParticles);
+    setInterval(function(){requestAnimationFrame(animateParticles)},50) ;
   
     function setDelta() {  
        let now    =   (new Date()).getTime();  

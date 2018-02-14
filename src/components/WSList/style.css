@@ -56,6 +56,7 @@
     .workshop {
         flex: 1;
         width: 30vw;
+        padding: 0;
         min-width: 30vw;
         max-width: 30vw;
     }

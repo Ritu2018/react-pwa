@@ -28,12 +28,12 @@ class EventDetails extends Component {
         const url = (List[this.dept]&&List[this.dept]['events'][this.eventid])?List[this.dept]['events'][this.eventid]['poster']:"";
 		if(url == "")
 			return;
-        axios.get(url)
+        axios.get(url, { responseType: 'arraybuffer' })
         //'/posters/'+this.dept+'/'+this.eventid
         .then(function(response){
             // eslint-disable-next-line
             if(response.status == 200)
-                that.setState({poster:response.data});
+                that.setState({poster:"data:image/jpeg;base64,"+Buffer.from(response.data, 'binary').toString('base64')});
             else
                 console.log("Error",response.status);
         })
@@ -88,7 +88,7 @@ class EventDetails extends Component {
                         </div>
                     </div>
                     <div className="description">
-                        {details.descr}
+                    <div dangerouslySetInnerHTML={{__html:details.descr}}/>
                         {/* {rules.length>0?<span>Rules:</span>:""} */}
                         {rules.length>0?<ul>{rules}</ul>:""}
                     </div>
@@ -96,7 +96,8 @@ class EventDetails extends Component {
             </div>
         return(
             <div className="eventdetails-container">
-                <TopBar/>
+                <i className="fas fa-arrow-left back-button"
+                  onClick={()=>window.history.back()}></i>
                 <div className="poster">
                     {poster}
                 </div>
@@ -113,7 +114,7 @@ class EventDetails extends Component {
         || window.msRequestAnimationFrame
         || function(f){setTimeout(f, 1000/60)};
 
-        img_height = img_height * 1.25;
+        img_height = img_height * 1;
         // var img_height = document.getElementById('poster').height;
 
 

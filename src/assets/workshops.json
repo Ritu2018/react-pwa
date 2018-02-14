@@ -3,8 +3,9 @@
         "code":"CSEW01",
         "name":"OpenCV",
         "poster":"",
-        "descr":"opencv workshop",
+        "descr":"OpenCV workshop <br/>test",
         "regfee":"Rs 300 per head",
+        "reglink":"https://www.yepdesk.com/open-register/5a8344a6e4b0de217dcba718",
         "organizers":[
             {
                 "name":"Anandu",
@@ -22,9 +23,11 @@
         "date":"17 Feb, 2018"
     },
     "2":{
-        "name":"ML"
+        "name":"Machine Learning",
+        "reglink":"https://www.yepdesk.com/open-register/5a834355e4b0de217dcba64b"
     },
     "3":{
-        "name":"Django"
+        "name":"Django",
+        "reglink":"https://www.yepdesk.com/open-register/5a832b36e4b0de217dcb4802"
     }
 }

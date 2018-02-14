@@ -22,7 +22,7 @@ class WSList extends Component {
         this.setState({showList:true});
     }
     componentDidMount() {
-        // animate();
+        animate();
     }
     render() {
         if(this.state.showList){

@@ -86,7 +86,7 @@
 .bot-icon {
     width: 100%;
     /* background-color: white; */
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .right-arrow,.left-arrow {
     position: fixed;
