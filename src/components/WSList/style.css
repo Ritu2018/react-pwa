@@ -1,7 +1,6 @@
 .workshoplist-container {
     padding-top: 18%;
     width: 100%;
-    /* height: 100%; */
     position: relative;
     color: black;
 }
@@ -11,30 +10,32 @@
     overflow: hidden;
     position: fixed;
     z-index: -99;
+    top:0;
+}
+.workshoplist_heading {
+    text-align: center;
+    font-size: 2em;
+    padding: 5vw;
+    color: white;
+    font-family: 'Cuprum', sans-serif;
 }
 .workshop_list {
     overflow-x: hidden;
     overflow-y: auto;
     padding: 1em 0.3em;
     padding-top: 10%;
-    font-family: "Gtek Technology" , sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
 }
 .workshop {
     text-align: center;
     background-color: #e5e5e5;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     padding: 5% 0;
     margin: 1%;
     margin-bottom: 2vw;
     border-radius: 5px;
-}
-.workshop:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .workshop_logo {
     display: none;
@@ -47,6 +48,11 @@
     .workshoplist-container {
         padding-top: 10%;
     }
+    .workshoplist_heading {
+        font-size: 3em;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
     .workshop_list {
         display: flex;
         flex-direction: row;
@@ -54,17 +60,35 @@
         height: auto;
     }
     .workshop {
+        background-color: #00000052;
+        padding: 0;
         flex: 1;
         width: 30vw;
-        padding: 0;
         min-width: 30vw;
         max-width: 30vw;
+        max-height: 30vw;
+        box-shadow: 0px 4px 8px 0px rgba(0,0,0,1);
     }
-    .workshop_logo,.workshop_logo img {
+    .workshop:hover {
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    }
+    .workshop_logo{
         display: inline-block;
         max-width: 100%;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        height: 80%;
+    }
+    .workshop_logo img {
+        border-radius: 5px 5px 0 0;
+        object-fit: cover;
+        height: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .workshop_name {
+        color: white;
         font-size: 2em;
     }
 }
