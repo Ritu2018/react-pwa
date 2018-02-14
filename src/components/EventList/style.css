@@ -32,7 +32,7 @@
 .event {
     text-align: center;
     background-color: #e5e5e5;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 8px 0px rgba(255, 255, 255,1);
     transition: 0.3s;
     padding: 5% 0;
     margin: 1%;
@@ -40,7 +40,7 @@
     border-radius: 5px;
 }
 .event:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255,1);
 }
 .event_logo {
     display: none;
@@ -65,18 +65,36 @@
         height: auto;
     }
     .event {
+        background-color: #00000052;
         padding: 0;
         flex: 1;
         width: 30vw;
         min-width: 30vw;
         max-width: 30vw;
+        max-height: 30vw;
+        box-shadow: 0px 4px 8px 0px rgba(0,0,0,1);
     }
-    .event_logo,.event_logo img {
+    .event:hover {
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    }
+    .event_logo {
         display: inline-block;
         max-width: 100%;
         border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        height: 80%;
+
+    }
+    .event_logo img {
+        border-radius: 5px 5px 0 0;
+        object-fit: cover;
+        height: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .event_name {
+        color: white;
         font-size: 2em;
     }
 }

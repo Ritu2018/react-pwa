@@ -34,15 +34,13 @@ class WSDetails extends Component {
             console.log(error);
         })
     }
-    onImgLoad({target:img}) {
-        this.scrollEvent(img.offsetHeight,this.divElement.clientHeight);
-    }
+    
     render() {
         if(!List[this.workshopid])
             return <Redirect to="/workshops" />;
         let details = List[this.workshopid];
         const poster = 
-            <img onLoad={this.onImgLoad} style={{top:this.state.posterTop}} src={this.state.poster} alt=""/>;
+            <img style={{top:this.state.posterTop}} src={this.state.poster} alt=""/>;
         const people = [];
         for(let organizer in details.organizers) {
             people.push(
@@ -106,35 +104,6 @@ class WSDetails extends Component {
     }
 
 
-    scrollEvent(img_height,content_height) {
-        window.requestAnimationFrame = window.requestAnimationFrame
-        || window.mozRequestAnimationFrame
-        || window.webkitRequestAnimationFrame
-        || window.msRequestAnimationFrame
-        || function(f){setTimeout(f, 1000/60)};
-
-        img_height = img_height * 1.25;
-        // var img_height = document.getElementById('poster').height;
-
-
-        var that = this;
-
-        function parallaxbubbles(){
-            var scrolltop = window.pageYOffset;
-            var scrollable_height = img_height - document.body.clientHeight;
-            if(scrollable_height < 0)
-                scrollable_height = -scrollable_height;
-            var slice = scrollable_height/content_height;
-        
-            // console.log(img_height + "  " + scrollable_height+ "  " + slice);
-            let newTop = -scrolltop * slice;
-            that.setState({posterTop:newTop});
-            // console.log(newTop);
-        }
-        
-        window.addEventListener('scroll', function(){ // on page scroll
-            requestAnimationFrame(parallaxbubbles) // call parallaxbubbles() on next available screen paint
-        }, false);
-    }
+   
 }
 export default WSDetails;
