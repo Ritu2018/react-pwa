@@ -50,7 +50,7 @@ img.bg {
     right: 0;
     max-width: 94%;
     object-fit: contain;
-    z-index:-3;
+    z-index:-2;
 }
 @media screen and (min-width:400px) {
     .logo {

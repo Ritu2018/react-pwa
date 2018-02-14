@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     position: relative;
-    color: black;
+    color: #212121;
     background-color: transparent;
 }
 .poster img{
@@ -37,7 +37,7 @@
 }
 .detail{
     padding: 2em 2em 2em 2em;
-    background: white;
+    background: #eeeeee;
 }
 .contact , .prize{
     padding: 1em;
@@ -70,7 +70,7 @@
         padding: 5% 10%;
         margin: 5% 15% 5% 15%;
         box-shadow: 0 0 3px #0000005e;
-        background-color: white;
+        background-color: #eeeeee;
         border-radius: 5px;
     }
     .back-button{
