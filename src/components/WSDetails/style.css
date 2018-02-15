@@ -46,15 +46,18 @@
     display: block;
 }
 .people span , .prize span{
-    /* display: block; */
     white-space: pre;
 }
 .phone , .info{
     flex:1;
     margin: auto;
 }
-.people , .prize span{
-    /* flex:5; */
+.prize .info, .contact .phone {
+    margin: auto 1em;
+}
+.organizer a {
+    text-decoration: none;
+    color: #222;
 }
 .back-button {
     position: fixed;
@@ -69,7 +72,7 @@
 @media (min-width:768px) {
     .detail{
         padding: 5% 10%;
-        margin: 5% 20% 5% 20%;
+        margin: 5% 15%;
         box-shadow: 0 0 3px #0000005e;
         background-color: #eeeeee;
         border-radius: 5px;

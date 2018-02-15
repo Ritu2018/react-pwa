@@ -2,8 +2,6 @@ import React ,{ Component } from "react";
 import { Redirect } from 'react-router-dom';
 import axios from 'axios';
 
-import TopBar from '../TopBar/index';
-
 import List from '../../assets/events.json';
 import PosterImage from '../../assets/dummy.jpg';
 

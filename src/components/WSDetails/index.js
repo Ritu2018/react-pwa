@@ -1,5 +1,5 @@
 import React ,{ Component } from "react";
-import { Redirect, Link } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import axios from 'axios';
 
 import List from '../../assets/workshops.json';
@@ -43,9 +43,9 @@ class WSDetails extends Component {
         const people = [];
         for(let organizer in details.organizers) {
             people.push(
-                <div className="organizer">
-                <span key={people}>{details.organizers[organizer]["name"]}:</span>
-                <span ><a href={"tel:"+details.organizers[organizer]["phone"]}>+91-{details.organizers[organizer]["phone"]}</a></span>
+                <div key={people} className="organizer">
+                    <span>{details.organizers[organizer]["name"]}:</span>
+                    <span ><a href={"tel:"+details.organizers[organizer]["phone"]}>+91-{details.organizers[organizer]["phone"]}</a></span>
                 </div>
             );
         }
@@ -85,7 +85,6 @@ class WSDetails extends Component {
                     </div>
                     <div className="description">
                         <div dangerouslySetInnerHTML={{__html:details.descr}}/>
-                        {/* {instructions.length>0?<span>instructions:</span>:""} */}
                         {instructions.length>0?<ul>{instructions}</ul>:""}
                     </div>
                 </div>

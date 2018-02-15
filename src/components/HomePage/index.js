@@ -32,12 +32,12 @@ class HomePage extends Component {
           );
           if(this.state.started)
             return; 
-        animate();
-        this.setState({started:true});
-        
+        this.animation = animate();
+        this.setState({started:true});        
     }
     componentWillUnmount() {
         clearInterval(this.timerID);
+        clearInterval(this.animation);
     }
     tick() {
         this.setState({
