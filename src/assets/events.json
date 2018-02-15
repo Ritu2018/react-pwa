@@ -32,7 +32,7 @@
                 "code":"GEN02",
                 "name":"STAR OF RITU",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/StarOfRitu.jpg",                
-                "descr":"When you shine as bright as a star, when you remove darkness from your path,you becomes a real star<br/>Presenting before you, the hunt to find the ultimate master of charm, grace and charisma, <br/><b>STAR OF RITU</b><br/>If you are a crowd puller, if you believe you are special, we give you a chance to showcase your skills and become the real Star<br/>Come,explore and showcase the best in you by being a part of STAR OF RITU because we will make you do your best!<br/>",
+                "descr":"When you shine as bright as a star, when you remove darkness from your path,you becomes a real star.<br/>Presenting before you, the hunt to find the ultimate master of charm, grace and charisma, <br/><b>STAR OF RITU</b><br/>If you are a crowd puller, if you believe you are special, we give you a chance to showcase your skills and become the real star.<br/>Come,explore and showcase the best in you by being a part of STAR OF RITU because we will make you do your best!<br/>",
                 "rules":[
                     "Registration Fee: Rs 200",
                     "There will be a preliminary round and onstage round.",
@@ -70,7 +70,7 @@
                 "code":"GEN04",
                 "name":"TALAASH",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Talaash.jpg",
-                "descr":"Wit beyond measure is man's greatest treasure.<br/> Hidden amidst these lands are treasure for the ones who search with not just their eyes and ears but with the most essential wit.<br/> Put your wits to use and dig out RITs hidden treasure, start out on a Talaash of glory.<br/>Tighten your shoes to grab all what you need to be the winner.",
+                "descr":"Wit beyond measure is man's greatest treasure.<br/> Hidden amidst these lands are treasure for the ones who search with not just their eyes and ears but with the most essential wit.<br/> Put your wits to use and dig out RIT's hidden treasure, start out on a Talaash of glory.<br/>Tighten your shoes to grab all what you need to be the winner.",
                 "rules":[
                     "Registration Fee: Rs 400 per team",
                     "Each team should consist of four members.",
@@ -95,14 +95,15 @@
                 "code":"GEN05",
                 "name":"VOICE OF RITU",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/VoiceOfRitu.jpg",
-                "descr":"Music speaks what cannot be expressed. <br/>It soothes the mind and gives it rest, heals heart and makes it whole, flows from heaven to the soul<br/>A great singing voice is not something that can be taught, it is a gift very few people are born with. <br/><b>Are you among the lucky few? </b><br/>Here, Rajiv Gandhi Institute of Technology, Kottayam gives you a platform to showcase your skills in Ritu'18<br/><br/>Hit the right note to win the battle.",
+                "descr":"Music speaks what cannot be expressed. <br/>It soothes the mind and gives it rest, heals heart and makes it whole, flows from heaven to the soul.<br/>A great singing voice is not something that can be taught, it is a gift very few people are born with. <br/><b>Are you among the lucky few? </b><br/>Here, Rajiv Gandhi Institute of Technology, Kottayam gives you a platform to showcase your skills in Ritu'18<br/><br/>Hit the right note to win the battle.",
                 "rules":[
                     "Registration Fee: Rs 100 per head",
                     "There will be 4 rounds:",
-                    "<br/><b>First Round : Audition </b><br/>There will be an audition based on the number of participants. Participants can perform any song of thier choice with karaoke. Song can be Malayalam,Hindi or Tamil (Max time allotted:4min). Only 5 participants will progress to next round.",
-                    "<br/><b>Second Round : Evergreen Malayalam Melody</b><br/>participants should perform any song in Malayalam with karaoke.The karaoke must be clean and voice suppressed tracks are not allowed. (Time allotted:6 minutes)",
-                    "<br/><b>Third Round : Performance Round</b><br/>Participants must perform a fast song in Malayalam/Tamil/Hindi. Karaoke needed. (Max time allotted: 7min). 2 participants will be eliminated after 3rd round.",
-                    "<br/><b>Final Round </b><br/>The final Participants must save thier best performance for the last round<br/>They can perform any song of thier choice in Malayalam/Tamil/Hindi<br/>(Max time:6min)<br/>Final judgement will be purely based on the overall singing and performance .<br/>",
+                    "First Round : Audition | There will be an audition based on the number of participants. Participants can perform any song of thier choice with karaoke. Song can be Malayalam,Hindi or Tamil (Max time allotted:4min). Only 5 participants will progress to next round.",
+                    "Second Round : Evergreen Malayalam Melody | participants should perform any song in Malayalam with karaoke.The karaoke must be clean and voice suppressed tracks are not allowed. (Time allotted:6 minutes).",
+                    "Third Round : Performance Round | Participants must perform a fast song in Malayalam/Tamil/Hindi. Karaoke needed. (Max time allotted: 7min). 2 participants will be eliminated after 3rd round.",
+                    "Final Round : The final Participants must save thier best performance for the last round. They can perform any song of thier choice in Malayalam/Tamil/Hindi(Max time:6min). ",
+                    "Final judgement will be purely based on the overall singing and performance .",
                     "Final decisions will be taken by the event co-ordinators."
                 ],
                 "organizers":[
@@ -117,8 +118,7 @@
                ],
                 "date":"01 March, 2018",
                 "prize":"Prizes worth Rs 7,000"
-            }
-        },
+            },
         "6":{
             "code":"GEN06",
             "name":"ROTODRAG",
@@ -202,7 +202,8 @@
                 {
                     "name":"Anil P",
                     "phone":8547195394
-                }               ],
+                }
+               ],
             "date":"02 March, 2018"
         },
         "10":{
@@ -216,7 +217,9 @@
                 "The rocket body should be made only with plastic bottles of maximum capacity 2.25L and must be single stage.",
                 "Bring 2 rockets which can withstand multiple crashes.",
                 "Launcher and pump will be provided.",
-                "There will be a two round matchup <br/>1. Max range <br/>2. Bullseye Bombing"
+                "There will be a two round matchup",
+                "1. Max range",
+                "2. Bullseye Bombing"
             ],
             "organizers":[
                 {
@@ -248,7 +251,7 @@
                         "phone":9447480852
                     },
                     {
-                        "name":"Cheril Mariam John",
+                        "name":"Cheril John",
                         "phone":9961502905
                     }
                 ],
@@ -271,7 +274,7 @@
                         "phone":9656855214
                     },
                     {
-                        "name":"Tom Mathew Thomas",
+                        "name":"Tom Thomas",
                         "phone":7560996726
                     }
                 ],
@@ -480,7 +483,7 @@
                 "name":"MACHINE DEBUGGING",
                 "code":"EEE03",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/MaD.jpg",
-                "descr":"Progress is made by the improvement of people and not machines...<br/>Have you ever envied your error debugging skills, then defenitely this is the platform for you. The department of Electrical and Electronics engineering in association with RITU 18 provides you an excellent arena to compete with the best minds out there.",
+                "descr":"Progress is made by the improvement of people and not machines...<br/>Have you ever envied your error debugging skills, then definitely this is the platform for you. The department of Electrical and Electronics Engineering in association with RITU'18 provides you an excellent arena to compete with the best minds out there.",
                 "rules":[
                     "Reg fee 300/-",
                     "Groups of 2 or 3 can participate.",
@@ -509,9 +512,9 @@
                 "code":"EEE04",
                 "name":"MAZE RUNNER",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/MazeRunner.jpg",
-                "descr":"If u can run,then u are a runner. It doesn't matter how far or how fast<br/>An electrical department treasure hunt. Brush up just ur basics and be there for RITU 2k18  on March 1 because Where's the fun if all events are for techies. ",
+                "descr":"If you can run,then you are a runner. It doesn't matter how far or how fast<br/>An Electrical department treasure hunt. Brush up just your basics and be there for RITU'18  on March 1 because Where's the fun if all events are for techies. ",
                 "rules":[
-                    "A team of 2 with their google guru is all we want."
+                    "A team of 2 with their Google guru is all we want."
                 ],
                 "organizers":[
                     {
@@ -526,7 +529,7 @@
                 "code":"EEE01",
                 "name":"MAESTRO",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/Maestro.jpg",
-                "descr":"Have you ever thought about the true purpose of an engineer? Engineers are creators, people who believe they can change the world. <br/>Bring out The Best Electrical Engineer in you!!!Compete with the sharpest minds and you will be the one to bag the prize",
+                "descr":"Have you ever thought about the true purpose of an engineer? Engineers are creators, people who believe they can change the world. <br/>Bring out The Best Electrical Engineer in you!!!<br/>Compete with the sharpest minds and you will be the one to bag the prize.",
                 "rules":[
                     "Decision of the event head will be final"
                 ],
@@ -549,11 +552,11 @@
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/Ideator.jpg",
                 "descr":"Paper presentation <br/> Lighten up your master minds!!! Creativity is thinking up new things. Innovation is doing new things. The Dept. Of EEE Rajiv Gandhi Institute of Technology,Kottayam in association with Ritu 18 provides you with the perfect opportunity to showcase your skills through Paper Presentation" 
                 ,"rules":[
+                    "Registration fee Rs 150/- per head",
                     "The team should have not more than 2 members.",
                     "Maximum time for presentation- 10 minutes and 5 minutes for questions and answers",
                     "Students who want to participate are requested to contact the coordinators.",
                     "The abstract(in pdf or Microsoft word document format) should be sent to ideatorritu18@gmail.com on or before 24-feb-18.",
-                    "Registration fee Rs 150/- per head",
                     "The presentation should be in Microsoft PowerPoint"
                 ],
                 "organizers":[
@@ -573,7 +576,7 @@
                 "code":"EEE05",
                 "name":" CAD MASTER",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/CADMaster.jpg",
-                "descr":"Drawing is Thinking Made Visual.<br/>The Dept of EEE, Govt. RIT Kottayam in association with RITU 18 provides an excellent opportunity to showcase your technical drawing skills. CAD MASTER test you for engineering design abilities, imagination and technical drawing skills"
+                "descr":"Drawing is Thinking Made Visual.<br/>The Dept of EEE, Govt. RIT Kottayam in association with RITU'18 provides an excellent opportunity to showcase your technical drawing skills. CAD MASTER test you for engineering design abilities, imagination and technical drawing skills."
                 ,"rules":[
                     "The drawing should be completed only using AutoCAD.",
                     "Time for drawing - 2.30 hrs",
@@ -605,10 +608,10 @@
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ce/Decafio-Concreto.jpg",
                 "descr":"This year's Ritu brings you an interesting challenge with concrete. Design a concrete mix  for a characteristic compressive strength of 30 N /mm2 and 100 mm slump.",
                 "rules":[
+                    "Registration fee: Rs. 100 per team",
                     "4 Members per team",
                     "Participants should use IS method for designing the mix",
-                    "Cube will be tested for 7 day compressive strength",
-                    "Registration fee: 100 per team"
+                    "Cube will be tested for 7 day compressive strength"
                 ],
                 "organizers":[
                     {
@@ -689,7 +692,7 @@
                 "code":"CVL03",
                 "name":"ANTHROPOMETRIST",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ce/Anthropometrist.jpg",
-                "descr":"should we engineers ourselves depend on machines and electronic gadgets when we have this enormous power of observation.Govt. RIT Kottayam presents Anthropometrist  as part of RITU18 .show Us your talent to measure by visual inspection and observation.Let this be the stage to unleash your skills."
+                "descr":"Should we engineers ourselves depend on machines and electronic gadgets when we have this enormous power of observation.Govt. RIT Kottayam presents Anthropometrist  as part of RITU'18 .Show us your talent to measure by visual inspection and observation. Let this be the stage to unleash your skills."
                 ,"rules":[
                     "2 members per team",
                     "All participants should be engineering students",
@@ -753,7 +756,7 @@
                 "code":"ME01",
                 "name":"ENGINE ASSEMBLY",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/Engine_Assembly.jpg",
-                "descr":"Good at revving up engines, <br/>Ever tried to assemble one ?<br/>Because You never know your vehicle if you don't know it's soul.<br/>Turbo power your skills and assemble  from bolt to throttle...",
+                "descr":"Good at revving up engines ?? <br/>Ever tried to assemble one ?<br/>Because you never know your vehicle if you don't know it's soul.<br/>Turbo power your skills and assemble  from bolt to throttle...",
                 "rules":[
                     "Registration Fee : ₹150",
                     "Individual Participation",
@@ -826,16 +829,16 @@
                 "code":"ME04",
                 "name":" NUMERA UNO",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/Numera_Uno.jpg",
-                "descr":"Ideas of today shape the reality of tomorrow.<br/>Let the world know of your brilliance as we provide you the ample platform to realize your ideas. <br/>No matter how lunatic it may seem, an idea works only when you believe. So bring out your crazy genius as they say <i>'Change doesn't come on its own , it is brought'</i><br/><u>Theme</u><br/><br/><b>Technologies that optimize</b>",
+                "descr":"Ideas of today shape the reality of tomorrow.<br/>Let the world know of your brilliance as we provide you the ample platform to realize your ideas. <br/>No matter how lunatic it may seem, an idea works only when you believe. So bring out your crazy genius as they say <i>'Change doesn't come on its own , it is brought'</i><br/>Theme : <i>Technologies that optimize</i>",
                 "rules":[
                     "Registration fee : ₹100",
                     "Time : 10:30am",
-                    "Venue : Department of mechanical engineering",
+                    "Venue : Department of Mechanical Engineering",
                     "Maximum members per team is restricted to 3",
-                    "Each team would be given *10 mins* for presentation and 5 mins for Q&A",
+                    "Each team would be given 10 mins for presentation and 5 mins for Q&A",
                     "Team must sent the abstract under 300 words in word format to the email numero_unoritu@yahoo.com before 24 FEB. Team must bring three copies of the abstract on the day of presentation.",
                     "Score will be based on credibility of the concept, communication skill, simplicity and scope , in given order.",
-                    "The decision of the judges shall be final."
+                    "The decision of the judges will be final."
                 ],
                 "organizers":[
                     {
@@ -881,7 +884,7 @@
     },
 
     "arch":{
-        "name":"ARCHITECTURE",
+        "name":"Architecture",
         "events":{
             "2":{
                 "code":"BAR02",
@@ -988,7 +991,7 @@
             "1":{
                 "code":"BAR01",
                 "name":"WALL PAYATTU ",
-                "descr":"Why creeping through grey scales when your hand is full of colors ??? Scratch the walls, colour it bright, And grab your seat, among the creators of the best season. "
+                "descr":"Why creeping through grey scales when your hand is full of colors ??? Scratch the walls, colour it bright, and grab your seat, among the creators of the best season. "
                 ,"rules":[
                     "4 members maximum in a team.",
                     "Topic will be given at the time of event.",
@@ -1041,14 +1044,14 @@
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/Dbase.jpg",                
                 "descr":"This event deals with database aspects. This event analyses your knowledge in the database and also summarize how much you are comfort with database connectivity."
                 ,"rules":[
-                    "The event will be for Individuals.",
+                    "Regsitration Fee- Rs 200",                
+                    "The event will be for individuals.",
                     "The event will have held in 3 rounds.",
-                    "All Round are carried out in machines.",
+                    "All round are carried out in machines.",
                     "Round 1: General Test- A test is conducted for measures the knowledge in the database concepts.",
                     "Round 2: Query Test- A query test for writing the SQL queries for desired outputs.",
                     "Round 3: Connectivity Test- A participant has to do database connectivity using a latest programming language.",
-                    "Venue: MCA LAB",
-                    "Regsitration Fee- Rs 200"                
+                    "Venue: MCA LAB"
                 ],
                 "organizers":[
                     {
@@ -1064,14 +1067,14 @@
                 "code":"MCA02",
                 "name":"DESIGN PRO",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/DesignPro.jpg",
-                "descr":"Nail out the software design from the requirements. <br/>Construct the software flow and data flow diagrams, build the database efficiently within the time limit and present your design. Let your brain work twice, bcz here’s the dept of MCA, as part of RITU ’18, presenting before you."
+                "descr":"Nail out the software design from the requirements. <br/>Construct the software flow and data flow diagrams, build the database efficiently within the time limit and present your design. Let your brain work twice, because here’s the dept of MCA, as part of RITU ’18, presenting before you."
                 ,"rules":[
+                    "Registration Fee- Rs 200",
                     "Team of two is allowed",
                     "Maximum Duration :  6 hrs",
                     "No external devices or mobile phones are allowed.",
                     "Most efficient and simple design logic will be selected as the best",
                     "The event comprises of four levels :Aptitude Test , Requirement Analysis , Design ,Presentation",
-                    "Registration Fee- Rs 200",
                     "Venue- Software Lab, MCA dept"
                 ],
                 "organizers":[
@@ -1114,12 +1117,12 @@
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/RushHour.jpg",
                 "descr":"Have you got the talent?<br/>Do you have a spirit of a performer?<br/>  Be ready to find you.Its the time to explore your skills.<br/>Here is for you RUSH HOUR with variety of tasks.Show your  talents in an hour."
                 ,"rules":[
+                    "Registration fee Rs 100/-",
                     "Preliminary Level  will be conducted.",
                     "Individual participation.",
                     "There is no any time consideration will be given after the time limit. ",
                     "No external device or mobile phones are allowed.",
-                    "Venue: Project Lab, MCA Dept",
-                    "Registration fee Rs 100/-"
+                    "Venue: Project Lab, MCA Dept"
                     
                 ],
                 "organizers":[
@@ -1143,7 +1146,7 @@
             "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/tin/Oppurtunity.jpg",
             "descr":"<i>The biggest reason why people don’t get into Y Combinator is because they don’t apply</i><br/>- Sam Altman<br/><br/>Missing out on scholarships and events like Jagriti yathra just because you are confused with the procedures for applying?<br/> Well fret not! We have got just the thing for you!<br/><br/><b>Ritu2k18</b> in association with <b>Tinkerhub-RIT</b>, proudly presents, <b>Opportunity Hackathon</b>, a one of a kind event, to fix all your scholarship woes.<br/>Join us, as mentors from various fields break down to you the hacks of creating an impressive application and completing the various procedures required. <br/><br/>Choose one of the below opportunities :<br/><ul><li><a href='https://www.ysiglobal.com/program'>YSI global challenge</a></li><li><a href='https://www.outreachy.org/'>Outreachy internships</a></li><li><a href='https://summerofcode.withgoogle.com/'>Google summer of code</a></li><li><a href='https://www.businesswire.com/news/home/20180104006109/en/Harvard-Advanced-Leadership-Initiative-Welcomes-Tenth-Cohort'>Harvard advanced leadership initiative (10th coherent)</a></li><li><a href='http://www.celestiniprojectindia.com/'>Celestini project India 2018</a></li><li><a href='http://socialalphachallenge.org/energy/'>Social alpha energy challenge</a></li></ul>",
             "rules":[
-                "<b>Registration Fee: Absolutely nothing</b>",
+                "Registration Fee: Absolutely nothing",
                 "Venue: Rit, Kottayam(CS Dept)",
                 "Participants must be students"
             ],
