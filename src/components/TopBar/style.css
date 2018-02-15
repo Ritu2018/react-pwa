@@ -8,7 +8,7 @@
     z-index: 99;
     cursor: pointer;
     border-radius: 50%;
-    background: radial-gradient(rgba(0,0,0,0.2) 30%,transparent);
+    background: radial-gradient(rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.05) 8%,transparent);
 }
 .topbar-logo {
     cursor: pointer;
@@ -19,7 +19,7 @@
     padding: 5%;
     height: 50px;
     border-radius: 50%;
-    background: radial-gradient(rgba(0,0,0,0.2) 30%,transparent);
+    background: radial-gradient(rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.05) 8%,transparent);
 }
 @media (min-width:768px) {
     .back-button{

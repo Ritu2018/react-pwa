@@ -29,10 +29,14 @@
 .team{
     padding-top: 3em;
 }
+.card-list {
+    display: flex;
+}
 .card {
     margin: 2%;
     background-color: white;
-    min-width: 10vw;
+    min-width: 25vw;
+    max-width: 25vw;
     flex: 1;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -63,10 +67,8 @@
     .about-container {
         padding: 0 15%;
     }
-    .card-list {
-        display: flex;
-    }
     .card {
+        min-width: 10vw;
         max-width: 10vw;
     }
 }
