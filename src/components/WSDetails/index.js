@@ -2,6 +2,8 @@ import React ,{ Component } from "react";
 import { Redirect } from 'react-router-dom';
 import axios from 'axios';
 
+import TopBar from '../TopBar/index';
+
 import List from '../../assets/workshops.json';
 import PosterImage from '../../assets/dummy.jpg';
 
@@ -15,6 +17,7 @@ class WSDetails extends Component {
             poster:PosterImage
         };
         this.workshopid = props.match.params.id;
+        this.register = this.register.bind(this);
     }
     componentDidMount() {
         let that = this;
@@ -33,7 +36,10 @@ class WSDetails extends Component {
             console.log(error);
         })
     }
-    
+    register(){
+        if(List[this.workshopid].reglink)
+            window.open(List[this.workshopid].reglink,'_blank')
+    }
     render() {
         if(!List[this.workshopid])
             return <Redirect to="/workshops" />;
@@ -56,7 +62,7 @@ class WSDetails extends Component {
             );
         }
         const content =
-            <div className="desc" ref={ (divElement) => this.divElement = divElement}>
+            <div className="desc">
                 <div className="detail">
                     <div className="title">{details.name}</div>
                     <div className="top_bar">
@@ -79,9 +85,7 @@ class WSDetails extends Component {
                         </div>
                     </div>
                     <div className="reg-button">
-                        <a href={details.reglink} target="_blank">
-                            <button>Register</button>
-                        </a>
+                        {details.reglink?<button onClick={this.register}>Register</button>:null}
                     </div>
                     <div className="description">
                         <div dangerouslySetInnerHTML={{__html:details.descr}}/>
@@ -91,8 +95,9 @@ class WSDetails extends Component {
             </div>
         return(
             <div className="wsdetails-container">
-                <i className="fas fa-arrow-left back-button"
-                  onClick={()=>window.history.back()}></i>
+                <TopBar/>
+                {/* <i className="fas fa-arrow-left back-button"
+                  onClick={()=>window.history.back()}></i> */}
                 <div className="poster">
                     {poster}
                 </div>
@@ -100,8 +105,5 @@ class WSDetails extends Component {
             </div>
         );
     }
-
-
-   
 }
 export default WSDetails;

@@ -2,6 +2,8 @@ import React ,{ Component } from "react";
 import { Redirect } from 'react-router-dom';
 import axios from 'axios';
 
+import TopBar from '../TopBar/index';
+
 import List from '../../assets/events.json';
 import PosterImage from '../../assets/dummy.jpg';
 
@@ -16,6 +18,11 @@ class EventDetails extends Component {
         };
         this.dept = props.match.params.dept;
         this.eventid = props.match.params.eventid;
+        this.register = this.register.bind(this);
+    }
+    register(){
+        if(List[this.dept]['events'][this.eventid].reglink)
+            window.open(List[this.dept]['events'][this.eventid].reglink,'_blank')
     }
     componentDidMount() {
         let that = this;
@@ -82,6 +89,9 @@ class EventDetails extends Component {
                             </div>
                         </div>
                     </div>
+                    <div className="reg-button">
+                        {details.reglink?<button onClick={this.register}>Register</button>:null}
+                    </div>
                     <div className="description">
                     <div dangerouslySetInnerHTML={{__html:details.descr}}/>
                         {rules.length>0?<ul>{rules}</ul>:""}
@@ -90,8 +100,9 @@ class EventDetails extends Component {
             </div>
         return(
             <div className="eventdetails-container">
-                <i className="fas fa-arrow-left back-button"
-                  onClick={()=>window.history.back()}></i>
+                <TopBar/>
+                {/* <i className="fas fa-arrow-left back-button"
+                  onClick={()=>window.history.back()}></i> */}
                 <div className="poster">
                     {poster}
                 </div>
