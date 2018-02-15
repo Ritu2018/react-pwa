@@ -1,4 +1,232 @@
 {
+    "gen":{
+        "name":"General Events",
+        "events":{
+             "1":{
+                "code":"GEN01",
+                "name":"NRITYA",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Nritya.jpg",                
+                "descr":"Let your life dance on the edges of time like dews on the tip of leaf...<br/>It's time to use your dancing skills to amaze people around you..<br/><br/>Think of the magic of that foot ,shout your ideas through your moves,express yourselves and dance like nobody's watching.<br/>Pump up your adrenaline and prepare yourselves for NRITYA, inter-college dance competition.#Never miss a chance to dance....<br/>",
+                "rules":[
+                    "Registration fee : Rs 1500 per team",
+                    "Each team should consist of minimum of 7 members",
+                    "Performance time should not exceed than 10 minutes",
+                    "Anything that can ruin stage is not allowed to use",
+                    "Teams should report the stage 1 hour prior to the event",
+                    "Registration is mandatory",
+                    "Participants must be students"
+                ],
+                "organizers":[
+                    {
+                        "name":"Krishna Mohan",
+                        "phone":9495296361
+                    },
+                    {
+                        "name":"Adharshya Krishnan",
+                        "phone":9496961549
+                    }                ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 50,000"
+            },
+            "2":{
+                "code":"GEN02",
+                "name":"STAR OF RITU",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/StarOfRitu.jpg",                
+                "descr":"When you shine as bright as a star, when you remove darkness from your path,you becomes a real star<br/>Presenting before you, the hunt to find the ultimate master of charm, grace and charisma, <br/><b>STAR OF RITU</b><br/>If you are a crowd puller, if you believe you are special, we give you a chance to showcase your skills and become the real Star<br/>Come,explore and showcase the best in you by being a part of STAR OF RITU because we will make you do your best!<br/>",
+                "rules":[
+                    "Registration Fee: Rs 200",
+                    "There will be a preliminary round and onstage round.",
+                    "Participants can chose either English or Malayalam as medium of communication.",
+                    "Decision of the judges will be final.",
+                    "Participants should stick on to the instructions of the coordinators."
+                ],
+                "organizers":[
+                    {
+                        "name":"Ansu Joseph",
+                        "phone":8547195394
+                    }               ],
+                "date":"01 March, 2018",
+                "prize":"Prizes worth Rs 15,000"
+            },
+            "3":{
+                "code":"GEN03",
+                "name":"EXODUS",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Exodus.jpg",
+                "descr":"The arena is all set for the ultimate war of sophisticated machines.<br/> Where the wheels get tangled, where the fittest get survived, where there is no place for empathy…<br/>Get ready for the most exciting and ultimate war to bring up your machine that can survive till the end, with strength, power and speed. Speed up your wheels for war of the bots.",
+                "rules":[
+                    "Registration Fee: Rs 500 per team",
+                    "Final decisions will be taken by the event co-ordinators."
+                ],
+                "organizers":[
+                    {
+                        "name":"Ashlin Francis",
+                        "phone":9847630761
+                    }
+               ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 15,000"
+            },
+            "4":{
+                "code":"GEN04",
+                "name":"TALAASH",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Talaash.jpg",
+                "descr":"Wit beyond measure is man's greatest treasure.<br/> Hidden amidst these lands are treasure for the ones who search with not just their eyes and ears but with the most essential wit.<br/> Put your wits to use and dig out RITs hidden treasure, start out on a Talaash of glory.<br/>Tighten your shoes to grab all what you need to be the winner.",
+                "rules":[
+                    "Registration Fee: Rs 400 per team",
+                    "Each team should consist of four members.",
+                    "Prelims will be held for shortlisting the participant teams.",
+                    "No switching of team members will be permitted after the hunt begins.",
+                    "Final decisions will be taken by the event co-ordinators."
+                ],
+                "organizers":[
+                    {
+                        "name":"Aseem K A",
+                        "phone":9656643696
+                    },
+                    {
+                        "name":"Hazeeb Ismail",
+                        "phone":9544364730
+                    }
+               ],
+                "date":"02 March, 2018",
+                "prize":"Prizes worth Rs 12,000"
+            },
+            "5":{
+                "code":"GEN05",
+                "name":"VOICE OF RITU",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/VoiceOfRitu.jpg",
+                "descr":"Music speaks what cannot be expressed. <br/>It soothes the mind and gives it rest, heals heart and makes it whole, flows from heaven to the soul<br/>A great singing voice is not something that can be taught, it is a gift very few people are born with. <br/><b>Are you among the lucky few? </b><br/>Here, Rajiv Gandhi Institute of Technology, Kottayam gives you a platform to showcase your skills in Ritu'18<br/><br/>Hit the right note to win the battle.",
+                "rules":[
+                    "Registration Fee: Rs 100 per head",
+                    "There will be 4 rounds:",
+                    "<br/><b>First Round : Audition </b><br/>There will be an audition based on the number of participants. Participants can perform any song of thier choice with karaoke. Song can be Malayalam,Hindi or Tamil (Max time allotted:4min). Only 5 participants will progress to next round.",
+                    "<br/><b>Second Round : Evergreen Malayalam Melody</b><br/>participants should perform any song in Malayalam with karaoke.The karaoke must be clean and voice suppressed tracks are not allowed. (Time allotted:6 minutes)",
+                    "<br/><b>Third Round : Performance Round</b><br/>Participants must perform a fast song in Malayalam/Tamil/Hindi. Karaoke needed. (Max time allotted: 7min). 2 participants will be eliminated after 3rd round.",
+                    "<br/><b>Final Round </b><br/>The final Participants must save thier best performance for the last round<br/>They can perform any song of thier choice in Malayalam/Tamil/Hindi<br/>(Max time:6min)<br/>Final judgement will be purely based on the overall singing and performance .<br/>",
+                    "Final decisions will be taken by the event co-ordinators."
+                ],
+                "organizers":[
+                    {
+                        "name":"Ashik Dinesh",
+                        "phone":9447017373
+                    },
+                    {
+                        "name":"Amal Dev V V",
+                        "phone":9526503982
+                    }
+               ],
+                "date":"01 March, 2018",
+                "prize":"Prizes worth Rs 7,000"
+            }
+        },
+        "6":{
+            "code":"GEN06",
+            "name":"ROTODRAG",
+            "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/RotoDrag.jpg",
+            "descr":"Drift through the even sky and look through the eagle's eye.<br/> Push your rotoring skills to the limit, cut through the winds, dash like a swallow to make your drone the ultimate aero.<br/> Maneuver your drones to show your piloting skills.<br/>",
+            "rules":[
+                "Registration Fee: Rs 550 per team",
+                "Maximum frame size allowed is 80x80cm",
+                "RTF(ready to fly),FPVs,Navigation,Altitude Hold aspects are strictly prohibited.",
+                "A team can have maximum of 5 members.",
+                "Contest comprises of two rounds:<br/>Round 1: Pilot the drone from circle A to Circle B. (NB:not an elimination round)<br/>Round 2: Maneuver the drone through obstacle course.",
+                "Points will be awarded according to the task completed.",
+                "Final decisions will be taken by the event co-ordinators."
+            ],
+            "organizers":[
+                {
+                    "name":"Muhammad Arafa",
+                    "phone":8891452254
+                }
+           ],
+            "date":"28 Feb, 2018",
+            "prize":"Prizes worth Rs 15,000"
+        },
+        "7":{
+            "code":"GEN07",
+            "name":"COUNTY CRICKET LEAGUE",
+            "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/CountyCricketLeague.jpg",
+            "descr":"It's the time to show your county skills. Sometimes it's not about the big hits,placement becomes the challenge",
+            "rules":[
+                "Registration Fee: Rs 500 per team",
+                "Maximum 5 players in a team.",
+                "Scoring area is restricted to offside.",
+                "3 over game per side.",
+                "Each bowler can bowl 1 over.",
+                "Bowlers are allowed to bowl inside a box.",
+                "Umpires decision will be final.",
+                "Other rules are as per BCCI."
+            ],
+            "organizers":[
+                {
+                    "name":"Ananthakrishnan K",
+                    "phone":7012114870
+                },
+                {
+                    "name":"Aravind Krishna",
+                    "phone":9400281237
+                }
+           ],
+            "date":"20 Feb, 2018",
+            "prize":"Prizes worth Rs 10,000"
+        },
+        "8":{
+            "code":"GEN08",
+            "name":"COLOSSEUM",
+            "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Colosseum.jpg",
+            "descr":"Do you call yourself a GAMER?<br/>Have you got what it takes to enter the battlefield and TAKE DOWN your enemies?<br/>Come prove yourself, the COLOSSEUM waits you at RITU'18.<b>Counter Strike GO :</b><br/>Prize - 8k(1st) + 4k(2nd)<br/>Entry fee - 500 per team<br/><br/><b>NFS Most Wanted :</b><br/>Prize - 2.5k(1st) + 1.5k(2nd)<br/>Entry fee - 50 per head<br/><br/><b>FIFA :</b><br/>Prize - 2.5k(1st) + 1.5k(2nd)<br/>Entry fee - 100 per head<br/>",
+            "rules":[
+                "Final decisions will be taken by the event co-ordinators."
+            ],
+            "organizers":[
+                {
+                    "name":"Hadeeb Farhan",
+                    "phone":8714149044
+                },
+                {
+                    "name":"Kiran Das",
+                    "phone":9744083473
+                }
+           ],
+            "date":"28 Feb, 2018",
+            "prize":"Total Prizes worth Rs 20,000"
+        },
+        "9":{
+            "code":"GEN09",
+            "name":"AERO SHOW",
+            "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/AeroShow.jpg",
+            "descr":"Its only when you're flying above it that you realise how incredible the earth really is.<br/>So get a chance to view everyone from above and see with a new perspective.<br/>Presenting before you Swift but charming drones just for your amazement.<br/>So lift your heads up and watch the magic of these flying demons in the sky<br/>",
+            "rules":[
+            ],
+            "organizers":[
+                {
+                    "name":"Anil P",
+                    "phone":8547195394
+                }               ],
+            "date":"02 March, 2018"
+        },
+        "10":{
+            "code":"GEN10",
+            "name":"AQUA STRIKE",
+            "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/AquaStrike.jpg",
+            "descr":"Your mission should you choose to accept it...is to build an unrivalled water rocket that can survive the trials because when it comes down to the seas, only the smartest fish survive.<br/> Speed, Range, Accuracy, you've got to excel in them all.",
+            "rules":[
+                "Registration Fee: Rs 150",
+                "A team can have upto 3 members",
+                "The rocket body should be made only with plastic bottles of maximum capacity 2.25L and must be single stage.",
+                "Bring 2 rockets which can withstand multiple crashes.",
+                "Launcher and pump will be provided.",
+                "There will be a two round matchup <br/>1. Max range <br/>2. Bullseye Bombing"
+            ],
+            "organizers":[
+                {
+                    "name":"Sarin K Koyyothy",
+                    "phone":9995220976
+                }               ],
+            "date":"01 March, 2018",
+            "prize":"Prizes worth Rs 5,000"
+        }
+    },
     "cse":
     {
         "name":"Computer Science and Engineering",
@@ -905,6 +1133,7 @@
             }
         }
     },
+<<<<<<< HEAD
     "gen":{
         "name":"General Events",
         "events":{
@@ -1134,6 +1363,8 @@
             "prize":"Prizes worth Rs 5,000"
         }
 },
+=======
+>>>>>>> 68a2d11538ec049d5b335a8d603a5552d960355c
 "tin":{
     "name":"TinkerHub",
     "events":{

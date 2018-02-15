@@ -41,7 +41,6 @@
 }
 .people{
     display: table;
-    margin-left: 1em;
 }
 .organizer{
     display: table-row
@@ -62,12 +61,17 @@
 }
 .phone , .info{
     flex:1;
+    margin: auto;
 }
-.prize .info{
+.prize .info,.contact .phone {
     margin: auto 1em;
 }
  .prize span{
     flex:5;
+}
+.organizer a {
+    text-decoration: none;
+    color: #222;
 }
 .back-button {
     position: fixed;
@@ -82,7 +86,7 @@
 @media (min-width:768px) {
     .detail{
         padding: 5% 10%;
-        margin: 5% 20% 5% 20%;
+        margin: 5% 15%;
         box-shadow: 0 0 3px #0000005e;
         background-color: #eeeeee;
         border-radius: 5px;

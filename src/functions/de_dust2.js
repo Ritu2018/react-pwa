@@ -18,7 +18,6 @@ function animate() {
 
     ctx = canvas.getContext("2d"); // settng the context to 2d rather than the 3d WEBGL
     ctx.globalCompositeOperation = "lighter";
-    console.log(ctx);
     var mouse = {
       x: 0, 
       y: 0,
@@ -48,9 +47,9 @@ function animate() {
     class Particle {
         //using hsl is easier when we need particles with similar colors
         constructor(){
-        this.h=parseInt(45);
-        this.s=parseInt(40 * Math.random() + 30);
-        this.l=parseInt(10 * Math.random() + 90);
+        this.h=parseInt(45,10);
+        this.s=parseInt(40 * Math.random() + 30, 10);
+        this.l=parseInt(10 * Math.random() + 90, 10);
         this.a=0.5*Math.random() ;
       
         this.color = "hsla("+ this.h +","+ this.s +"%,"+ this.l +"%,"+(this.a)+")";
@@ -157,6 +156,7 @@ function animate() {
     function initParticleSystem() {
         createParticles();
         drawParticles();
+        // animateParticles();
     }
 
     function animateParticles() {
@@ -167,9 +167,6 @@ function animate() {
         updateParticles();
         // requestAnimationFrame(animateParticles);
     }
-  
-    initParticleSystem();
-    setInterval(function(){requestAnimationFrame(animateParticles)},50) ;
   
     function setDelta() {  
        let now    =   (new Date()).getTime();  
@@ -188,15 +185,11 @@ function animate() {
         mouse.rx -=  ((mouse.rx - mouse.x) / mouse.speed); 
         mouse.ry -=  ((mouse.ry - mouse.y) / mouse.speed); 
          
-    }   
+        }   
   
-};  
-    
-
-
-
-
-
+    };
+    initParticleSystem();
+    return setInterval(function(){requestAnimationFrame(animateParticles)},50) ;
 }
 
 export default animate;

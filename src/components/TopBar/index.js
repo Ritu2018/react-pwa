@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 
-import topLogo from '../../assets/ritu.png';
+import topLogo from '../../assets/rituwhite.png';
 import './style.css'
 
 class TopBar extends Component {

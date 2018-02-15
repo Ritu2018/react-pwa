@@ -112,31 +112,26 @@ img.bg {
 .yellow {
     background-color: var(--yellow);
     animation: animate-menu ease-out 0.15s;
-    animation-fill-mode: forwards;
-    
-    
+    animation-delay: 0s;
+    animation-fill-mode: forwards;    
 }
 .red {
     background-color: var(--red);
     animation: animate-menu ease-out 0.15s;
     animation-delay: 0.05s;
     animation-fill-mode: forwards;
-    
-    
 }
 .blue {
     background-color: var(--blue);
     animation: animate-menu ease-out 0.15s;
     animation-delay: 0.15s;
     animation-fill-mode: forwards;
-    
 }
 .green {
     background-color: var(--green);
     animation: animate-menu ease-out 0.15s;
     animation-delay: 0.25s;
     animation-fill-mode: forwards;
-    
 }
 
 @keyframes animate-menu{

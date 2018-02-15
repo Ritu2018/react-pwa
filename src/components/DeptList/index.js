@@ -23,6 +23,7 @@ class DeptList extends Component {
             {
                 left:0,
                 redirect:false,
+                started:false,
                 curr_dept:0
             }
         );
@@ -36,9 +37,14 @@ class DeptList extends Component {
             else if(event.key === 'ArrowRight'||event.key === 'ArrowDown')
                 that.slide(1);
         });
-        // animate();
+        if(this.state.started)
+            return; 
+        this.animation = animate();
+        this.setState({started:true});
     }
-
+    componentWillUnmount() {
+        clearInterval(this.animation);
+    }
     slide(count) {
         // console.log(count);
         let l = this.depts.length;
@@ -132,19 +138,19 @@ class DeptList extends Component {
             <div className="icon-container">
                 <div className="side-icon" onClick={()=>this.slide(-1)}>
                     <div className="circle">
-                        <img className="bot-icon" alt=""
+                        <img className="bot-icon" alt={this.depts[(this.state.curr_dept-1+l)%l][1]}
                          src={process.env.PUBLIC_URL + '/static/depicons/'+this.depts[(this.state.curr_dept-1+l)%l][0]+'.png'}/>
                     </div>
                 </div>
                 <div className="main-icon" onClick={()=>this.setState({redirect:true})}>
                     <div className="circle">
-                        <img className="bot-icon" alt=""
+                        <img className="bot-icon" alt={this.depts[this.state.curr_dept][1]}
                          src={process.env.PUBLIC_URL + '/static/depicons/'+this.depts[this.state.curr_dept][0]+'.png'}/>
                     </div>
                 </div>
                 <div className="side-icon" onClick={()=>this.slide(1)}>
                     <div className="circle">
-                        <img className="bot-icon" alt=""
+                        <img className="bot-icon" alt={this.depts[(this.state.curr_dept+1+l)%l][1]}
                          src={process.env.PUBLIC_URL + '/static/depicons/'+this.depts[(this.state.curr_dept+1+l)%l][0]+'.png'}/>
                     </div>
                 </div>

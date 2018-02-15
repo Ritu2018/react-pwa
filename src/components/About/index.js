@@ -1,17 +1,31 @@
 import React ,{ Component } from "react";
-import axios from 'axios';
 import './style.css';
 import TopBar from "../TopBar/index";
 import bgImg from '../../assets/back.jpg';
+import animate from '../../functions/de_dust2';
 
 class About extends Component {
+    constructor(){
+        super();
+        this.state = ({
+            started:false
+        });
+    }
+    componentDidMount(){
+        if(this.state.started)
+            return;
+        this.animation = animate();
+        this.setState({started:true});
+    }
+    componentWillUnmount() {
+        clearInterval(this.animation);
+    }
     render() {
         return(
             <div className="about-container">
+                <canvas id="canvas" className="canvas"/>
                 <img src={bgImg} className="bgimg" alt=""/>
                 <TopBar/>
-                <img/>
-                <img/>
                 <div className="title-content">
                     <div className="ritu-title">RITU</div>
                     <div className="ritu-desc">
@@ -22,7 +36,7 @@ RITU has been conceived to unveil the true grit and shine of our institute, a pl
                     <div className="dev-title" >Developers</div>
                     <div className="card-list">
                         <div className="card">
-                            <a href="https://github.com/hadeeb" target="_blank">
+                            <a href="https://github.com/hadeeb" target="_blank" rel="noopener noreferrer">
                             <img src="https://avatars3.githubusercontent.com/u/16823042" alt=""/>
                             <div className="team-profile" >
                                 <h4><b>
@@ -33,8 +47,8 @@ RITU has been conceived to unveil the true grit and shine of our institute, a pl
                             </a>
                         </div>
                         <div className="card">
-                            <a href="https://github.com/bineeth923" target="_blank">
-                            <img src={"https://avatars0.githubusercontent.com/u/13812260"}/>
+                            <a href="https://github.com/bineeth923" target="_blank"rel="noopener noreferrer">
+                            <img src={"https://avatars0.githubusercontent.com/u/13812260"} alt=""/>
                             <div className="team-profile" >
                                 <h4><b>Bineeth</b></h4> 
                                 <p></p>
@@ -42,8 +56,8 @@ RITU has been conceived to unveil the true grit and shine of our institute, a pl
                             </a>
                         </div>
                         <div className="card">
-                        <a href="https://github.com/paradoxzero" target="_blank">
-                            <img src={"https://avatars2.githubusercontent.com/u/14165258"}/>
+                        <a href="https://github.com/paradoxzero" target="_blank" rel="noopener noreferrer">
+                            <img src={"https://avatars2.githubusercontent.com/u/14165258"} alt=""/>
                             <div className="team-profile" >
                                 <h4><b>Sidhin S Thomas</b></h4> 
                                 <p></p>
@@ -51,8 +65,8 @@ RITU has been conceived to unveil the true grit and shine of our institute, a pl
                         </a>
                         </div>
                         <div className="card">
-                            <a href="https://github.com/abhiram-r" target="_blank">
-                            <img src={"https://avatars0.githubusercontent.com/u/19486977"}/>
+                            <a href="https://github.com/abhiram-r" target="_blank" rel="noopener noreferrer">
+                            <img src={"https://avatars0.githubusercontent.com/u/19486977"} alt=""/>
                             <div className="team-profile" >
                                 <h4><b>Abhiram</b></h4> 
                                 <p></p>
@@ -60,8 +74,8 @@ RITU has been conceived to unveil the true grit and shine of our institute, a pl
                             </a>
                         </div>
                         <div className="card">
-                            <a href="https://github.com/jelitkr" target="_blank">
-                            <img src={"https://avatars0.githubusercontent.com/u/36465496"}/>
+                            <a href="https://github.com/jelitkr" target="_blank" rel="noopener noreferrer">
+                            <img src={"https://avatars0.githubusercontent.com/u/36465496"} alt=""/>
                             <div className="team-profile" >
                                 <h4><b>Jelit</b></h4> 
                                 <p></p>
@@ -69,8 +83,8 @@ RITU has been conceived to unveil the true grit and shine of our institute, a pl
                             </a>
                         </div>
                         <div className="card">
-                            <a href="https://github.com/abhi1401" target="_blank">
-                            <img src={"https://avatars3.githubusercontent.com/u/15173043"}/>
+                            <a href="https://github.com/abhi1401" target="_blank" rel="noopener noreferrer">
+                            <img src={"https://avatars3.githubusercontent.com/u/15173043"} alt=""/>
                             <div className="team-profile" >
                                 <h4><b>Abhishek</b></h4> 
                                 <p></p>
@@ -78,8 +92,8 @@ RITU has been conceived to unveil the true grit and shine of our institute, a pl
                             </a>
                         </div>
                         <div className="card">
-                            <a href="https://github.com/gintu" target="_blank">
-                            <img src={"https://avatars2.githubusercontent.com/u/13748550"}/>
+                            <a href="https://github.com/gintu" target="_blank" rel="noopener noreferrer">
+                            <img src={"https://avatars2.githubusercontent.com/u/13748550"} alt=""/>
                             <div className="team-profile" >
                                 <h4><b>Gintu Tom</b></h4> 
                                 <p></p>
@@ -87,8 +101,8 @@ RITU has been conceived to unveil the true grit and shine of our institute, a pl
                             </a>
                         </div>
                         <div className="card">
-                            <a href="https://github.com/akhilmhdh" target="_blank">
-                            <img src={"https://avatars1.githubusercontent.com/u/31166322"}/>
+                            <a href="https://github.com/akhilmhdh" target="_blank" rel="noopener noreferrer">
+                            <img src={"https://avatars1.githubusercontent.com/u/31166322"} alt=""/>
                             <div className="team-profile" >
                                 <h4><b>Akhil</b></h4> 
                                 <p></p>
