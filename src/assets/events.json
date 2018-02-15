@@ -311,7 +311,7 @@
                 "descr":"Does the world of 'dot-coms' fascinate you enough to weave your own webbie sphere?<br/>If yes, here's your chance..The ultimate web design and development competition. <br/>Come up the hill and prove your mettle!!",
                 "rules":[
                     "Registration Fee : ₹100",
-                    "Individual participation",
+                    "A team can have upto 2 members",
                     "Decision of event heads will be final"
                 ],
                 "organizers":[
@@ -473,7 +473,32 @@
                 ],
                 "date":"28 Feb, 2018",
                 "prize":"Prizes worth Rs 3,000"
+            },
+            "6":{
+                "code":"ECE06",
+                "name":"Quarantine",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/Quarantine.jpg",
+                "descr":"<b>So you think you’ve mastered the technical knowledge?</b><br/>Know to choose your destiny wisely, use your skills to unlock the mysteries, unlock each stage using your debugging techniques. Only a racing mind and laser beam focus can open the tight doors of each task.<br/>Tease your brain, set those feet on motion and prove your scavenging skills here at <b>‘QUARANTINE’</b><br/>The dept of ECE is back again with yet another crazy adventure marathon where you get to push your technical skills off the limits and experience the adrenaline rush..!!<br/> An event that tests the skills of an electronics engineer to show off your coding skills and electronic designing. <br/>Let us see who could put forward the best team work and patience..<br/>Are you up for the challenge?<br/>",
+                "rules":[
+                    "Registration Fee : ₹100 per team",
+                    "A team can have upto 2 members",
+                    "The event is set up as a virtual treasure hunt in which the participants go through different tasks including MATLAB, Verilog and C coding , Circuit design and debugging as well as your PCB skills and complete the challenges that ultimately claim your title!",
+                    "Decision of event heads will be final"                    
+                ],
+                "organizers":[
+                    {
+                        "name":"Neil",
+                        "phone":7561021691
+                    },
+                    {
+                        "name":"Athul",
+                        "phone":9961866108
+                    }
+                ],
+                "date":"02 March, 2018",
+                "prize":"Prizes worth Rs 7,000"
             }
+
         }
     },
     "eee":{
