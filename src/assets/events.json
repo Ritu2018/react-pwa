@@ -1133,7 +1133,6 @@
             }
         }
     },
-<<<<<<< HEAD
     "gen":{
         "name":"General Events",
         "events":{
@@ -1363,8 +1362,6 @@
             "prize":"Prizes worth Rs 5,000"
         }
 },
-=======
->>>>>>> 68a2d11538ec049d5b335a8d603a5552d960355c
 "tin":{
     "name":"TinkerHub",
     "events":{
