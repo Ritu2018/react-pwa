@@ -195,6 +195,25 @@
         "date":"24 Feb, 2018"
     },
     "13":{
+        "code":"ECE03",
+        "name":"Game Development",
+        "poster":"",
+        "descr":"Battlefield 2, Civilization IV, Bridge Commander..! <br/><br/>If you have ever wondered how these  fantastic games were made, we have the answer for you...<br/><br/>We at the Department of ECE at RIT as part of Ritu'18 presents a <b>2-D game development workshop</b> using Python and Pygame. <br/><br/>This is a game development workshop for absolute beginners. You will learn python programming language and the basics of pygame. By the end of the workshop, you will build a basic 2D game using python and pygame.<br/>",
+        "regfee":"Rs 300",
+        "reglink":"",
+        "organizers":[
+            {
+                "name":"Viswanathan:",
+                "phone":"8606522284"
+            }
+        ],
+        "instructions":[
+            "Don't forget to bring your laptop",
+            "Lunch and refreshments will be provided"
+        ],
+        "date":"28 Feb, 2018"
+    },
+    "14":{
         "code":"ME01",
         "name":"PLETHORA",
         "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wme/Plethora.jpg",
