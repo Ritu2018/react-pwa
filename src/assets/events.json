@@ -102,7 +102,7 @@
                     "First Round : Audition | There will be an audition based on the number of participants. Participants can perform any song of thier choice with karaoke. Song can be Malayalam,Hindi or Tamil (Max time allotted:4min). Only 5 participants will progress to next round.",
                     "Second Round : Evergreen Malayalam Melody | participants should perform any song in Malayalam with karaoke.The karaoke must be clean and voice suppressed tracks are not allowed. (Time allotted:6 minutes).",
                     "Third Round : Performance Round | Participants must perform a fast song in Malayalam/Tamil/Hindi. Karaoke needed. (Max time allotted: 7min). 2 participants will be eliminated after 3rd round.",
-                    "Final Round : The final Participants must save thier best performance for the last round. They can perform any song of thier choice in Malayalam/Tamil/Hindi(Max time:6min). ",
+                    "Final Round : The final Participants must save their best performance for the last round. They can perform any song of thier choice in Malayalam/Tamil/Hindi(Max time:6min). ",
                     "Final judgement will be purely based on the overall singing and performance .",
                     "Final decisions will be taken by the event co-ordinators."
                 ],
@@ -176,7 +176,7 @@
                 "code":"GEN08",
                 "name":"COLOSSEUM",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Colosseum.jpg",
-                "descr":"Do you call yourself a GAMER?<br/>Have you got what it takes to enter the battlefield and TAKE DOWN your enemies?<br/>Come prove yourself, the COLOSSEUM waits you at RITU'18.<b>Counter Strike GO :</b><br/>Prize - 8k(1st) + 4k(2nd)<br/>Entry fee - 500 per team<br/><br/><b>NFS Most Wanted :</b><br/>Prize - 2.5k(1st) + 1.5k(2nd)<br/>Entry fee - 50 per head<br/><br/><b>FIFA :</b><br/>Prize - 2.5k(1st) + 1.5k(2nd)<br/>Entry fee - 100 per head<br/>",
+                "descr":"Do you call yourself a GAMER?<br/>Have you got what it takes to enter the battlefield and TAKE DOWN your enemies?<br/>Come prove yourself, the COLOSSEUM waits you at RITU'18.<br/><b>Counter Strike GO :</b><br/>Prize - 8k(1st) + 4k(2nd)<br/>Entry fee - 500 per team<br/><br/><b>NFS Most Wanted :</b><br/>Prize - 2.5k(1st) + 1.5k(2nd)<br/>Entry fee - 50 per head<br/><br/><b>FIFA :</b><br/>Prize - 2.5k(1st) + 1.5k(2nd)<br/>Entry fee - 100 per head<br/>",
                 "rules":[
                     "Final decisions will be taken by the event co-ordinators."
                 ],
@@ -287,7 +287,7 @@
                 "code":"CSE03",
                 "name":"CODE WARS",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/CodeWars.jpg",
-                "descr":"Eons have passed since the Death Star succeeded in spreading fear in the universe.<br/> To curb the rising tensions, the jedi have risen once again. With the mouse sabre in your hand, do you think you've got what it takes to beat the Dark Side of the code? Join us at Code Wars 18'  and get a chance to code your way to glory! <br/>Rs.7000 worth of prizes up for grabs..........but that's nothing compared to what you can do once you've mastered the code!<br/> Face off against the Darth Vader of bugs and code to restore peace to the Universe. and most importantly,..........Destroy the Emperor of errors! ",
+                "descr":"Eons have passed since the Death Star succeeded in spreading fear in the universe.<br/> To curb the rising tensions, the jedi have risen once again. With the mouse sabre in your hand, do you think you've got what it takes to beat the Dark Side of the code? Join us at Code Wars 18'  and get a chance to code your way to glory! <br/>Rs.7000 worth of prizes up for grabs, but that's nothing compared to what you can do once you've mastered the code!<br/> Face off against the Darth Vader of bugs and code to restore peace to the Universe, and most importantly - Destroy the Emperor of errors! ",
                 "rules":[
                     "Registration Fee : ₹100",
                     "Individual participation",
@@ -362,7 +362,7 @@
                 "code":"ECE05",
                 "name":"ELECTROCUTION",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/Electrocution.jpg",
-                "descr":"Age is never a matter in gaming. We become aged when we stop playing. Nothing becomes complete with a touch of fun, and that too with the electronics.<br/>Enter to the world of games. ",
+                "descr":"Age is never a matter in gaming. We become aged when we stop playing. Nothing becomes complete without a touch of fun, and that too with the electronics.<br/>Enter to the world of games. ",
                 "rules":[
                     "Electrocution is a series of games built with electronic circuits which win the participant points. ",
                     "The  points are accumulated and the one with the maximum point wins.",
@@ -410,7 +410,7 @@
                 "code":"ECE03",
                 "name":"SELL ME THE CIRCUIT",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/SellMeTheCircuit.jpg",
-                "descr":"BUY..SELL...BORROW<br/>Buy low and sell high..its simple <br/>Are you skilled at digital circuits? Are you a good trader ?Then grab your seat  and get ready to show your skill in building digital circuits and trading.<br/>Crack the prilims and certain your seats ..Build the circuits..borrow or buy  at cost of points..sell to gain more...",
+                "descr":"BUY..SELL...BORROW<br/>Buy low and sell high..its simple <br/>Are you skilled at digital circuits? Are you a good trader ?Then grab your seat  and get ready to show your skill in building digital circuits and trading.<br/>Crack the prelims and certain your seats ..Build the circuits..borrow or buy  at cost of points..sell to gain more...",
                 "rules":[
                     "Registration Fee : ₹100 per team",
                     "A team can have upto 2 members",
@@ -457,7 +457,7 @@
                 "code":"ECE02",
                 "name":"LINE FOLLOWER",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/LineFollower.jpg",
-                "descr":"<b>Are your hands nimble and your minds sharp?</b><br/>Can you work them in tandem and make the ultimate LINE FOLLOWER to lead you victory?<br/><br/>Then buckle up and start putting together your line follower.<br/>Race your creation through an exciting maze of obstacles and see if it holds up to the truly remarkable standards of engineering perfection to leave your competitors in the dust. <br/>Those of you who are ready to test your creativity, to tinker and tweak your designs to make the greatest <b>LINE FOLLOWER</b> that can clear the most intricate tracks,<br/><b>Department of Eʟᴇᴄᴛʀᴏɴɪᴄs ᴀɴᴅ Cᴏᴍᴍᴜɴɪᴄᴀᴛɪᴏɴ</b> beckons you to put your innovations to test with the Line Follower challenge.",
+                "descr":"<b>Are your hands nimble and your minds sharp?</b><br/>Can you work them in tandem and make the ultimate LINE FOLLOWER to lead you victory?<br/><br/>Then buckle up and start putting together your line follower.<br/>Race your creation through an exciting maze of obstacles and see if it holds up to the truly remarkable standards of engineering perfection to leave your competitors in the dust. <br/>Those of you who are ready to test your creativity, to tinker and tweak your designs to make the greatest <b>LINE FOLLOWER</b> that can clear the most intricate tracks,<br/><b>Department of Electronics and Communication </b> beckons you to put your innovations to test with the Line Follower challenge.",
                 "rules":[
                     "Registration Fee : ₹50 per team",
                     "A team can have upto 2 members",
@@ -577,7 +577,7 @@
                 "code":"EEE02",
                 "name":"IDEATOR",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/Ideator.jpg",
-                "descr":"Paper presentation <br/> Lighten up your master minds!!! Creativity is thinking up new things. Innovation is doing new things. The Dept. Of EEE Rajiv Gandhi Institute of Technology,Kottayam in association with Ritu 18 provides you with the perfect opportunity to showcase your skills through Paper Presentation" 
+                "descr":"Lighten up your master minds!!! Creativity is thinking up new things. Innovation is doing new things. The Dept. Of EEE Rajiv Gandhi Institute of Technology,Kottayam in association with Ritu 18 provides you with the perfect opportunity to showcase your skills through Paper Presentation" 
                 ,"rules":[
                     "Registration fee Rs 150/- per head",
                     "The team should have not more than 2 members.",
@@ -1075,7 +1075,7 @@
                     "The event will be for individuals.",
                     "The event will have held in 3 rounds.",
                     "All round are carried out in machines.",
-                    "Round 1: General Test- A test is conducted for measures the knowledge in the database concepts.",
+                    "Round 1: General Test- A test is conducted to measure the knowledge in the database concepts.",
                     "Round 2: Query Test- A query test for writing the SQL queries for desired outputs.",
                     "Round 3: Connectivity Test- A participant has to do database connectivity using a latest programming language.",
                     "Venue: MCA LAB"
@@ -1117,7 +1117,7 @@
                 "code":"MCA04",
                 "name":"FIX ME BUDDY",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/FixMeBuddy.jpg",
-                "descr":"Are you a master in hardware?<br/>Do you think you can meet the hazards in hardware and emerge as a winner. If you have the faith in you as a hardware master. Let you skill be awakend at the venue of Fix me buddy conducted by the MCA department."
+                "descr":"Are you a master in hardware?<br/>Do you think you can meet the hazards in hardware and emerge as a winner. If you have the faith in you as a hardware master, let your skill be awakend at the venue of Fix me buddy conducted by the MCA department."
                 ,"rules":[
                     "The event will be for Solo Ones.",
                     "Maximum Duration 2hrs.",
@@ -1147,7 +1147,7 @@
                     "Registration fee Rs 100/-",
                     "Preliminary Level  will be conducted.",
                     "Individual participation.",
-                    "There is no any time consideration will be given after the time limit. ",
+                    "No time consideration will be given after the time limit. ",
                     "No external device or mobile phones are allowed.",
                     "Venue: Project Lab, MCA Dept"
                     
