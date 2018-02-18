@@ -108,7 +108,7 @@
         "code":"EEE01",
         "name":"CAD Workshop",
         "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/weee/CAD.jpg",
-        "descr":"A chance to be the perfect professional<br/>Picture yourself walking down the street. How about getting informative graphics in your field of view?<br/>Stunned!!!<br/>Then this is gonna be your future AUGMENTED REALITY<br/>'Creativity comes from unlikely juxtaposition' Then what's engineer's design tool?<br/><b>CAD</b><br/>Master the art of Computer Aided Design and talk like an Engineer..<br/>APTITUDE is basically an innate, learned or acquired ability of an individual. Indeed Aptitude is the first step to professionalism. <br/>So let's get nurtured and trained to be the professionals..<br/>",
+        "descr":"A chance to be the perfect professional<br/>Picture yourself walking down the street. How about getting informative graphics in your field of view?<br/>Stunned!!!<br/>Then this is gonna be your future AUGMENTED REALITY<br/>'Creativity comes from unlikely juxtaposition' Then what's engineer's design tool?<br/><b>CAD</b><br/>Master the art of Computer Aided Design and talk like an Engineer..<br/>APTITUDE is basically an innate, learned or acquired ability of an individual. Indeed Aptitude is the first step to professionalism. <br/>So let's get nurtured and trained to be the professionals..<br/><font color='red'><b>WORKSHOP HAS BEEN POSTPONED TO 24th FEB</b></font> ",
         "regfee":"Rs 300 per head",
         "reglink":"https://www.yepdesk.com/open-register/5a86c055e4b013a3313fb1a4",
         "organizers":[
@@ -119,7 +119,7 @@
         ],
         "instructions":[
         ],
-        "date":"18 Feb, 2018"
+        "date":"24 Feb, 2018"
     },
     "10":{
         "code":"EEE02",
@@ -197,7 +197,7 @@
     "13":{
         "code":"ECE03",
         "name":"Game Development",
-        "poster":"",
+        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wece/GameDevelopment.jpg",
         "descr":"Battlefield 2, Civilization IV, Bridge Commander..! <br/><br/>If you have ever wondered how these  fantastic games were made, we have the answer for you...<br/><br/>We at the Department of ECE at RIT as part of Ritu'18 presents a <b>2-D game development workshop</b> using Python and Pygame. <br/><br/>This is a game development workshop for absolute beginners. You will learn python programming language and the basics of pygame. By the end of the workshop, you will build a basic 2D game using python and pygame.<br/>",
         "regfee":"Rs 300",
         "reglink":"",
