@@ -45,7 +45,7 @@ class HomePage extends Component {
         });
     }
     getTimeRemaining() {
-        let endtime = new Date(Date.parse("Tue Feb 28 2018 08:59:00 GMT+0530 (India Standard Time)"));
+        let endtime = new Date(Date.parse("Tue Feb 27 2018 11:59:59 GMT+0530 (India Standard Time)"));
         var t = Date.parse(endtime) - Date.parse(this.state.date);
         var seconds = Math.floor((t / 1000) % 60);
         var minutes = Math.floor((t / 1000 / 60) % 60);
