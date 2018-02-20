@@ -72,22 +72,27 @@
             },
             "4":{
                 "code":"GEN04",
-                "name":"",
-                "reglink":"https://www.yepdesk.com/open-register/5a8b7f40e4b0632175419606",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Exodus.jpg",
-                "descr":"The arena is all set for the ultimate war of sophisticated machines.<br/> Where the wheels get tangled, where the fittest get survived, where there is no place for empathy…<br/>Get ready for the most exciting and ultimate war to bring up your machine that can survive till the end, with strength, power and speed. Speed up your wheels for war of the bots.",
+                "name":"ONE HACK",
+                "reglink":"https://onehack.org/",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/OneHack.jpg",
+                "descr":"For the superheroes out there, we have a golden opportunity..As a part of RITU'18, Startup Bootcamp RIT presents ONEHACK, a 24hour hackathon where you can meet with the most exciting theme that you can ever think of ( superb surprise to you....🤩) where you'll develop the most innovative, most economical and feasible solution. Participants,be ready to forgo your sleep for a night and join a team to put in your skills to create a software product/project in the best ambient atmosphere you can ever avail. At the end of the event you will be with a solution for our problem. <br/><br/><b>Build an innovative and economically feasible solution and grab a cash prize of worth 30k!!! Prizes and goodies & swags worth above 3 lakh Sponsored by Github, SV.CO and Wolfram Alpha</b>",
                 "rules":[
-                    "Registration Fee: Rs 500 per team",
-                    "Final decisions will be taken by the event co-ordinators."
+                    "A team should consist of 3-4 members.",
+                    "Decision of the judges would be final.",
+                    "There would special arrangements for girls so that they could also participate",
+                    "The event would commense on 1st march 12pm",
+                    "Any furthur information would be notified via email",
+                    "Partcipants will be given access to WolframOne after successfull registration with full access to get familiar with its features( Not Mandatory to make use of it during the event )",
+                    "Maximum 15 teams so hurry"
                 ],
                 "organizers":[
                     {
-                        "name":"Ashlin Francis",
-                        "phone":9847630761
+                        "name":"Sachu Shaji",
+                        "phone":7034356323
                     }
                ],
-                "date":"28 Feb, 2018",
-                "prize":"Prizes worth Rs 15,000"
+                "date":"01 March, 2018",
+                "prize":"Prizes worth Rs 30,000"
             },
             "5":{
                 "code":"GEN05",
