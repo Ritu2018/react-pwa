@@ -50,6 +50,7 @@
                 "date":"01 March, 2018",
                 "prize":"Prizes worth Rs 15,000"
             },
+
             "3":{
                 "code":"GEN03",
                 "name":"EXODUS",
@@ -71,6 +72,25 @@
             },
             "4":{
                 "code":"GEN04",
+                "name":"",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b7f40e4b0632175419606",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Exodus.jpg",
+                "descr":"The arena is all set for the ultimate war of sophisticated machines.<br/> Where the wheels get tangled, where the fittest get survived, where there is no place for empathy…<br/>Get ready for the most exciting and ultimate war to bring up your machine that can survive till the end, with strength, power and speed. Speed up your wheels for war of the bots.",
+                "rules":[
+                    "Registration Fee: Rs 500 per team",
+                    "Final decisions will be taken by the event co-ordinators."
+                ],
+                "organizers":[
+                    {
+                        "name":"Ashlin Francis",
+                        "phone":9847630761
+                    }
+               ],
+                "date":"28 Feb, 2018",
+                "prize":"Prizes worth Rs 15,000"
+            },
+            "5":{
+                "code":"GEN05",
                 "name":"TALAASH",
                 "reglink":"https://www.yepdesk.com/open-register/5a8b8137e4b063217541b6d0",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Talaash.jpg",
@@ -95,8 +115,8 @@
                 "date":"02 March, 2018",
                 "prize":"Prizes worth Rs 12,000"
             },
-            "5":{
-                "code":"GEN05",
+            "6":{
+                "code":"GEN06",
                 "name":"VOICE OF RITU",
                 "reglink":"https://www.yepdesk.com/open-register/5a8b81c0e4b063217541b849",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/VoiceOfRitu.jpg",
@@ -124,8 +144,8 @@
                 "date":"01 March, 2018",
                 "prize":"Prizes worth Rs 7,000"
             },
-            "6":{
-                "code":"GEN06",
+            "7":{
+                "code":"GEN07",
                 "name":"ROTODRAG",
                 "reglink":"https://www.yepdesk.com/open-register/5a8b8306e4b063217541e15b",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/RotoDrag.jpg",
@@ -150,8 +170,8 @@
                 "date":"28 Feb, 2018",
                 "prize":"Prizes worth Rs 15,000"
             },
-            "7":{
-                "code":"GEN07",
+            "8":{
+                "code":"GEN08",
                 "name":"COUNTY CRICKET LEAGUE",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/CountyCricketLeague.jpg",
                 "descr":"It's the time to show your county skills. Sometimes it's not about the big hits,placement becomes the challenge",
@@ -178,8 +198,8 @@
                 "date":"20 Feb, 2018",
                 "prize":"Prizes worth Rs 10,000"
             },
-            "8":{
-                "code":"GEN08",
+            "9":{
+                "code":"GEN09",
                 "name":"COLOSSEUM",
                 "reglink":"https://www.yepdesk.com/open-register/5a8b8558e4b063217541e412",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Colosseum.jpg",
@@ -200,8 +220,8 @@
                 "date":"28 Feb, 2018",
                 "prize":"Total Prizes worth Rs 20,000"
             },
-            "9":{
-                "code":"GEN09",
+            "10":{
+                "code":"GEN10",
                 "name":"AERO SHOW",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/AeroShow.jpg",
                 "descr":"Its only when you're flying above it that you realise how incredible the earth really is.<br/>So get a chance to view everyone from above and see with a new perspective.<br/>Presenting before you Swift but charming drones just for your amazement.<br/>So lift your heads up and watch the magic of these flying demons in the sky<br/>",
@@ -215,8 +235,8 @@
                 ],
                 "date":"02 March, 2018"
             },
-            "10":{
-                "code":"GEN10",
+            "11":{
+                "code":"GEN11",
                 "name":"AQUA STRIKE",
                 "reglink":"https://www.yepdesk.com/open-register/5a8b866de4b06321754216c1",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/AquaStrike.jpg",
