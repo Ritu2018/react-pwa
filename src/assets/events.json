@@ -263,6 +263,30 @@
                     }               ],
                 "date":"01 March, 2018",
                 "prize":"Prizes worth Rs 5,000"
+            },
+            "11":{
+                "code":"GEN11",
+                "name":"Optimus",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/optimus.jpg",
+                "descr":"'The ones who are crazy enough to think they can change the world are the ones that do'<br><br>Funny! Isn't it?<br>But do you think you have that craze. Well we think you do.<br><br>'Transform your ideas  into reality...'<br><br><br><b>Ritu 2K18</b> offers you a platform to present your <i>innovative projects</i> that could revolutionize the future!",
+                "rules":[
+                    "Individual/Team (not more than 4 members).",
+                    "Idea that can be demonstrated by a working model can be submitted.",
+                    "Registration fee Rs 200/-(for shortlisted entries).",
+                    "The abstract(in pdf or Microsoft word document format) should be sent to optimus.ritu18@gmail.com on or before 24-feb-18."
+                ],
+                "organizers":[
+                    {
+                        "name":"Anandu Vinayan",
+                        "phone":9562206881
+                    },
+                    {
+                        "name":"Vysakh S Kumar",
+                        "phone":8943933308
+                    }
+                ],
+                "date":"02 March, 2018",
+                "prize":"Total Prizes worth Rs 20,000"
             }
         }
     },
