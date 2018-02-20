@@ -553,6 +553,7 @@
             "3":{   
                 "name":"MACHINE DEBUGGING",
                 "code":"EEE03",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bd8dde4b0632175453705",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/MaD.jpg",
                 "descr":"Progress is made by the improvement of people and not machines...<br/>Have you ever envied your error debugging skills, then definitely this is the platform for you. The department of Electrical and Electronics Engineering in association with RITU'18 provides you an excellent arena to compete with the best minds out there.",
                 "rules":[
@@ -582,6 +583,7 @@
             "4":{
                 "code":"EEE04",
                 "name":"MAZE RUNNER",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bd9fee4b0632175453923",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/MazeRunner.jpg",
                 "descr":"If you can run,then you are a runner. It doesn't matter how far or how fast<br/>An Electrical department treasure hunt. Brush up just your basics and be there for RITU'18  on March 1 because Where's the fun if all events are for techies. ",
                 "rules":[
@@ -599,6 +601,7 @@
             "1":{
                 "code":"EEE01",
                 "name":"MAESTRO",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bd7d7e4b0632175453596",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/Maestro.jpg",
                 "descr":"Have you ever thought about the true purpose of an engineer? Engineers are creators, people who believe they can change the world. <br/>Bring out The Best Electrical Engineer in you!!!<br/>Compete with the sharpest minds and you will be the one to bag the prize.",
                 "rules":[
@@ -620,6 +623,7 @@
             "2":{
                 "code":"EEE02",
                 "name":"IDEATOR",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bd866e4b0632175453653",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/Ideator.jpg",
                 "descr":"Lighten up your master minds!!! Creativity is thinking up new things. Innovation is doing new things. The Dept. Of EEE Rajiv Gandhi Institute of Technology,Kottayam in association with Ritu 18 provides you with the perfect opportunity to showcase your skills through Paper Presentation" 
                 ,"rules":[
@@ -646,6 +650,7 @@
             "5":{
                 "code":"EEE05",
                 "name":" CAD MASTER",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bdb88e4b0632175455042",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/CADMaster.jpg",
                 "descr":"Drawing is Thinking Made Visual.<br/>The Dept of EEE, Govt. RIT Kottayam in association with RITU'18 provides an excellent opportunity to showcase your technical drawing skills. CAD MASTER test you for engineering design abilities, imagination and technical drawing skills."
                 ,"rules":[
@@ -676,6 +681,7 @@
             "5":{
                 "code":"CVL05",
                 "name":"THE CONCRETE QUEST",
+                "reglink":"https://www.yepdesk.com/open-register/5a8be823e4b063217545908600",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ce/Decafio-Concreto.jpg",
                 "descr":"This year's Ritu brings you an interesting challenge with concrete. Design a concrete mix  for a characteristic compressive strength of 30 N /mm2 and 100 mm slump.",
                 "rules":[
@@ -704,6 +710,7 @@
             "1":{
                 "code":"CVL01",
                 "name":"PERUNTHACHAN",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bdc80e4b06321754552f1",
                 "descr":"Are you the one who can outshine with your exceptional talents in diverse areas of civil engineering? Ritu brings the perfect platform for all those aspiring civil engineers, PERUNTHACHAN. Be that team which can excel in technical, managerial and logical skills through wide spectra of contests."
                 ,"rules":[
                     "Each team should consist of 3 to 4 members.",
@@ -732,6 +739,7 @@
             "2":{
                 "code":"CVL02",
                 "name":"ENCUEASTA",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bdf4ce4b0632175455c7a",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ce/Encueasta.jpg",
                 "descr":"May your angle be right and compass be true. The perfect chance to showcase your surveying skills. Its all about being the fastest and the sharpest. Survey your way through the rounds and unlock the treasure! The better you think, the better you find."
                 ,"rules":[
@@ -762,6 +770,7 @@
             "3":{
                 "code":"CVL03",
                 "name":"ANTHROPOMETRIST",
+                "reglink":"https://www.yepdesk.com/open-register/5a8be049e4b0632175455e27",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ce/Anthropometrist.jpg",
                 "descr":"Should we engineers ourselves depend on machines and electronic gadgets when we have this enormous power of observation.Govt. RIT Kottayam presents Anthropometrist  as part of RITU'18 .Show us your talent to measure by visual inspection and observation. Let this be the stage to unleash your skills."
                 ,"rules":[
@@ -793,6 +802,7 @@
             "4":{
                 "code":"CVL04",
                 "name":"TANTRADNYA ",
+                "reglink":"https://www.yepdesk.com/open-register/5a8be14ce4b0632175455fcb",
                 "descr":"Do you have a spark, something that is hidden deep inside your creative mind, that has the power to reform innovate and revolutionize the techno world? Come On…hurry up…jot them down make it a paper and present…For RITU is offering you a platform as an event TANTRADNYA ,to be a phoenix… Rise from your ashes, make the spark in to a fire: A fire that will guide the future technical world."
                 ,"rules":[
                     "For team paper Rs: 150, for individual paper Rs: 100 ",
@@ -975,7 +985,7 @@
                         "phone":8281053714
                     }
                 ],
-                "date":"28 Feb, 2018",
+                "date":"01 March, 2018",
                 "prize":"Prizes worth Rs 3,000"
             },
             "6":{
