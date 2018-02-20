@@ -5,6 +5,7 @@
              "1":{
                 "code":"GEN01",
                 "name":"NRITYA",
+                "reglink":"https://www.yepdesk.com/open-register/5a8af594e4b06321753ed102",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Nritya.jpg",                
                 "descr":"Let your life dance on the edges of time like dews on the tip of leaf...<br/>It's time to use your dancing skills to amaze people around you..<br/><br/>Think of the magic of that foot ,shout your ideas through your moves,express yourselves and dance like nobody's watching.<br/>Pump up your adrenaline and prepare yourselves for NRITYA, inter-college dance competition.#Never miss a chance to dance....<br/>",
                 "rules":[
@@ -31,6 +32,7 @@
             "2":{
                 "code":"GEN02",
                 "name":"STAR OF RITU",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b7a78e4b06321754180eb",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/StarOfRitu.jpg",                
                 "descr":"When you shine as bright as a star, when you remove darkness from your path,you becomes a real star.<br/>Presenting before you, the hunt to find the ultimate master of charm, grace and charisma, <br/><b>STAR OF RITU</b><br/>If you are a crowd puller, if you believe you are special, we give you a chance to showcase your skills and become the real star.<br/>Come,explore and showcase the best in you by being a part of STAR OF RITU because we will make you do your best!<br/>",
                 "rules":[
@@ -48,9 +50,11 @@
                 "date":"01 March, 2018",
                 "prize":"Prizes worth Rs 15,000"
             },
+
             "3":{
                 "code":"GEN03",
                 "name":"EXODUS",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b7f40e4b0632175419606",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Exodus.jpg",
                 "descr":"The arena is all set for the ultimate war of sophisticated machines.<br/> Where the wheels get tangled, where the fittest get survived, where there is no place for empathy…<br/>Get ready for the most exciting and ultimate war to bring up your machine that can survive till the end, with strength, power and speed. Speed up your wheels for war of the bots.",
                 "rules":[
@@ -68,7 +72,32 @@
             },
             "4":{
                 "code":"GEN04",
+                "name":"ONE HACK",
+                "reglink":"https://onehack.org/",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/OneHack.jpg",
+                "descr":"For the superheroes out there, we have a golden opportunity..As a part of RITU'18, Startup Bootcamp RIT presents ONEHACK, a 24hour hackathon where you can meet with the most exciting theme that you can ever think of ( superb surprise to you....🤩) where you'll develop the most innovative, most economical and feasible solution. Participants,be ready to forgo your sleep for a night and join a team to put in your skills to create a software product/project in the best ambient atmosphere you can ever avail. At the end of the event you will be with a solution for our problem. <br/><br/><b>Build an innovative and economically feasible solution and grab a cash prize of worth 30k!!! Prizes and goodies & swags worth above 3 lakh Sponsored by Github, SV.CO and Wolfram Alpha</b>",
+                "rules":[
+                    "A team should consist of 3-4 members.",
+                    "Decision of the judges would be final.",
+                    "There would special arrangements for girls so that they could also participate",
+                    "The event would commense on 1st march 12pm",
+                    "Any furthur information would be notified via email",
+                    "Partcipants will be given access to WolframOne after successfull registration with full access to get familiar with its features( Not Mandatory to make use of it during the event )",
+                    "Maximum 15 teams so hurry"
+                ],
+                "organizers":[
+                    {
+                        "name":"Sachu Shaji",
+                        "phone":7034356323
+                    }
+               ],
+                "date":"01 March, 2018",
+                "prize":"Prizes worth Rs 30,000"
+            },
+            "5":{
+                "code":"GEN05",
                 "name":"TALAASH",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8137e4b063217541b6d0",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Talaash.jpg",
                 "descr":"Wit beyond measure is man's greatest treasure.<br/> Hidden amidst these lands are treasure for the ones who search with not just their eyes and ears but with the most essential wit.<br/> Put your wits to use and dig out RIT's hidden treasure, start out on a Talaash of glory.<br/>Tighten your shoes to grab all what you need to be the winner.",
                 "rules":[
@@ -91,9 +120,10 @@
                 "date":"02 March, 2018",
                 "prize":"Prizes worth Rs 12,000"
             },
-            "5":{
-                "code":"GEN05",
+            "6":{
+                "code":"GEN06",
                 "name":"VOICE OF RITU",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b81c0e4b063217541b849",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/VoiceOfRitu.jpg",
                 "descr":"Music speaks what cannot be expressed. <br/>It soothes the mind and gives it rest, heals heart and makes it whole, flows from heaven to the soul.<br/>A great singing voice is not something that can be taught, it is a gift very few people are born with. <br/><b>Are you among the lucky few? </b><br/>Here, Rajiv Gandhi Institute of Technology, Kottayam gives you a platform to showcase your skills in Ritu'18<br/><br/>Hit the right note to win the battle.",
                 "rules":[
@@ -119,9 +149,10 @@
                 "date":"01 March, 2018",
                 "prize":"Prizes worth Rs 7,000"
             },
-            "6":{
-                "code":"GEN06",
+            "7":{
+                "code":"GEN07",
                 "name":"ROTODRAG",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8306e4b063217541e15b",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/RotoDrag.jpg",
                 "descr":"Drift through the even sky and look through the eagle's eye.<br/> Push your rotoring skills to the limit, cut through the winds, dash like a swallow to make your drone the ultimate aero.<br/> Maneuver your drones to show your piloting skills.<br/>",
                 "rules":[
@@ -144,8 +175,8 @@
                 "date":"28 Feb, 2018",
                 "prize":"Prizes worth Rs 15,000"
             },
-            "7":{
-                "code":"GEN07",
+            "8":{
+                "code":"GEN08",
                 "name":"COUNTY CRICKET LEAGUE",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/CountyCricketLeague.jpg",
                 "descr":"It's the time to show your county skills. Sometimes it's not about the big hits,placement becomes the challenge",
@@ -172,9 +203,10 @@
                 "date":"20 Feb, 2018",
                 "prize":"Prizes worth Rs 10,000"
             },
-            "8":{
-                "code":"GEN08",
+            "9":{
+                "code":"GEN09",
                 "name":"COLOSSEUM",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8558e4b063217541e412",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/Colosseum.jpg",
                 "descr":"Do you call yourself a GAMER?<br/>Have you got what it takes to enter the battlefield and TAKE DOWN your enemies?<br/>Come prove yourself, the COLOSSEUM waits you at RITU'18.<br/><b>Counter Strike GO :</b><br/>Prize - 8k(1st) + 4k(2nd)<br/>Entry fee - 500 per team<br/><br/><b>NFS Most Wanted :</b><br/>Prize - 2.5k(1st) + 1.5k(2nd)<br/>Entry fee - 50 per head<br/><br/><b>FIFA :</b><br/>Prize - 2.5k(1st) + 1.5k(2nd)<br/>Entry fee - 100 per head<br/>",
                 "rules":[
@@ -193,8 +225,8 @@
                 "date":"28 Feb, 2018",
                 "prize":"Total Prizes worth Rs 20,000"
             },
-            "9":{
-                "code":"GEN09",
+            "10":{
+                "code":"GEN10",
                 "name":"AERO SHOW",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/AeroShow.jpg",
                 "descr":"Its only when you're flying above it that you realise how incredible the earth really is.<br/>So get a chance to view everyone from above and see with a new perspective.<br/>Presenting before you Swift but charming drones just for your amazement.<br/>So lift your heads up and watch the magic of these flying demons in the sky<br/>",
@@ -208,9 +240,10 @@
                 ],
                 "date":"02 March, 2018"
             },
-            "10":{
-                "code":"GEN10",
+            "11":{
+                "code":"GEN11",
                 "name":"AQUA STRIKE",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b866de4b06321754216c1",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/AquaStrike.jpg",
                 "descr":"Your mission should you choose to accept it...is to build an unrivalled water rocket that can survive the trials because when it comes down to the seas, only the smartest fish survive.<br/> Speed, Range, Accuracy, you've got to excel in them all.",
                 "rules":[
@@ -264,6 +297,7 @@
             "1":{
                 "code":"CSE01",
                 "name":"RAPID MINER",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b88f4e4b0632175428c63",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Rapid_Miner.jpg",
                 "descr":"Do you have the flair to make a computer dance to your tunes?  Do you want to prove to the world that you're worth your salt ? We offer you the ultimate challenge. <br/> Fight your way up the four different rounds and be crowned as the conqueror of the world of zeroes and ones.",
                 "rules":[
@@ -287,6 +321,7 @@
             "2":{
                 "code":"CSE02",
                 "name":"THE VINCI CODE",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b897fe4b06321754298b6",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/TheVinciCode.jpg",
                 "descr":"Crack the code and the Ultimate Treasure is all yours!!! If you have the master brain to break the glass, to crack the cryptos, to mine and uncover the jewels on your way... <br/>If you are quick enough to seize the clues and sharp enough to unveil the concealed hints... <br/>Then here is your chance....",
                 "rules":[
@@ -310,6 +345,7 @@
             "3":{
                 "code":"CSE03",
                 "name":"CODE WARS",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8a0fe4b0632175429a38",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/CodeWars.jpg",
                 "descr":"Eons have passed since the Death Star succeeded in spreading fear in the universe.<br/> To curb the rising tensions, the jedi have risen once again. With the mouse sabre in your hand, do you think you've got what it takes to beat the Dark Side of the code? Join us at Code Wars 18'  and get a chance to code your way to glory! <br/>Rs.7000 worth of prizes up for grabs, but that's nothing compared to what you can do once you've mastered the code!<br/> Face off against the Darth Vader of bugs and code to restore peace to the Universe, and most importantly - Destroy the Emperor of errors! ",
                 "rules":[
@@ -333,6 +369,7 @@
             "4":{
                 "code":"CSE04",
                 "name":"404",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8a8ee4b0632175429af7",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/404.png",
                 "descr":"Does the world of 'dot-coms' fascinate you enough to weave your own webbie sphere?<br/>If yes, here's your chance..The ultimate web design and development competition. <br/>Come up the hill and prove your mettle!!",
                 "rules":[
@@ -356,6 +393,7 @@
             "5":{
                 "code":"CSE05",
                 "name":"Googlr",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8b2ee4b0632175429e93",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Googlr.jpeg",
                 "descr":"Of all the species that walk on Earth, curiosity was always man's forte. Whenever  there's something hidden, you always feel the urge to find it. And this time, you are equipped with the ultimate weapon ever forged at your disposal. That moment when you realize that an omniscient entity will lead you to the ultimate prize.<br/>Yes, Google is your haystack !<br/>But the big question is.... Can you find the needle??",
                 "rules":[
@@ -385,6 +423,7 @@
             "5":{
                 "code":"ECE05",
                 "name":"ELECTROCUTION",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8e6fe4b063217542a349",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/Electrocution.jpg",
                 "descr":"Age is never a matter in gaming. We become aged when we stop playing. Nothing becomes complete without a touch of fun, and that too with the electronics.<br/>Enter to the world of games. ",
                 "rules":[
@@ -410,6 +449,7 @@
             "4":{
                 "code":"ECE04",
                 "name":"IC WAR",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8de2e4b063217542a23b",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/ICWar.jpg",
                 "descr":"Connect the possibilities and be the IC King..<br/> lf you have the spark of innovation in you..<br/>If you got in yourself the confidence to handle those miniature arachnids..,<br/>This is the call for you..<br/> Come join the battle and win the war with the talent you got and fight with the skill you have..<br/>Move those arms and connect the circuits...<br/>Manifest your knowledge of basic IC's , your skill to assemble them, and the logic to debug them..<br/>Explore the wonderous world of the 8 legged IC's..Lead them to the battle field and win the crown..",
                 "rules":[
@@ -433,6 +473,7 @@
             "3":{
                 "code":"ECE03",
                 "name":"SELL ME THE CIRCUIT",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8ce5e4b063217542a0ea",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/SellMeTheCircuit.jpg",
                 "descr":"BUY..SELL...BORROW<br/>Buy low and sell high..its simple <br/>Are you skilled at digital circuits? Are you a good trader ?Then grab your seat  and get ready to show your skill in building digital circuits and trading.<br/>Crack the prelims and certain your seats ..Build the circuits..borrow or buy  at cost of points..sell to gain more...",
                 "rules":[
@@ -457,6 +498,7 @@
             "1":{
                 "code":"ECE01",
                 "name":"LAB HUNT",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8bb8e4b0632175429f3e",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/LabHunt.jpg",
                 "descr":"So you think you mastered the art of deduction..?<br/><br/>Do you have the wit beyond textbooks, the brains to see through facades, and the stamina to go on a restless quest..?<br/><br/>Tease your brain, set those feet on motion and prove your scavenging skills here at <b>LAB HUNT</b><br/><br/> The dept of ECE is back again with yet another crazy adventure marathon where you get to push your technical, thinking, puzzle solving skills off the limits and experience the adrenaline rush..!!<br/><br/>Look for the clues on places no one ever expects...unlock and explore the labs, solve the puzzles, have fun and complete the challenges that would ultimately lead to the treasure you're seeking. <br/><br/>Let us see who could put forward the best team work and patience..",
                 "rules":[
@@ -480,6 +522,7 @@
             "2":{
                 "code":"ECE02",
                 "name":"LINE FOLLOWER",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8c5fe4b063217542a00c",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/LineFollower.jpg",
                 "descr":"<b>Are your hands nimble and your minds sharp?</b><br/>Can you work them in tandem and make the ultimate LINE FOLLOWER to lead you victory?<br/><br/>Then buckle up and start putting together your line follower.<br/>Race your creation through an exciting maze of obstacles and see if it holds up to the truly remarkable standards of engineering perfection to leave your competitors in the dust. <br/>Those of you who are ready to test your creativity, to tinker and tweak your designs to make the greatest <b>LINE FOLLOWER</b> that can clear the most intricate tracks,<br/><b>Department of Electronics and Communication </b> beckons you to put your innovations to test with the Line Follower challenge.",
                 "rules":[
@@ -503,6 +546,7 @@
             "6":{
                 "code":"ECE06",
                 "name":"QUARANTINE",
+                "reglink":"https://www.yepdesk.com/open-register/5a8b8f06e4b063217542a4cf",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ece/Quarantine.jpg",
                 "descr":"<b>So you think you’ve mastered the technical knowledge?</b><br/>Know to choose your destiny wisely, use your skills to unlock the mysteries, unlock each stage using your debugging techniques. Only a racing mind and laser beam focus can open the tight doors of each task.<br/>Tease your brain, set those feet on motion and prove your scavenging skills here at <b>‘QUARANTINE’</b><br/>The dept of ECE is back again with yet another crazy adventure marathon where you get to push your technical skills off the limits and experience the adrenaline rush..!!<br/> An event that tests the skills of an electronics engineer to show off your coding skills and electronic designing. <br/>Let us see who could put forward the best team work and patience..<br/>Are you up for the challenge?<br/>",
                 "rules":[
@@ -533,6 +577,7 @@
             "3":{   
                 "name":"MACHINE DEBUGGING",
                 "code":"EEE03",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bd8dde4b0632175453705",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/MaD.jpg",
                 "descr":"Progress is made by the improvement of people and not machines...<br/>Have you ever envied your error debugging skills, then definitely this is the platform for you. The department of Electrical and Electronics Engineering in association with RITU'18 provides you an excellent arena to compete with the best minds out there.",
                 "rules":[
@@ -562,6 +607,7 @@
             "4":{
                 "code":"EEE04",
                 "name":"MAZE RUNNER",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bd9fee4b0632175453923",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/MazeRunner.jpg",
                 "descr":"If you can run,then you are a runner. It doesn't matter how far or how fast<br/>An Electrical department treasure hunt. Brush up just your basics and be there for RITU'18  on March 1 because Where's the fun if all events are for techies. ",
                 "rules":[
@@ -579,6 +625,7 @@
             "1":{
                 "code":"EEE01",
                 "name":"MAESTRO",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bd7d7e4b0632175453596",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/Maestro.jpg",
                 "descr":"Have you ever thought about the true purpose of an engineer? Engineers are creators, people who believe they can change the world. <br/>Bring out The Best Electrical Engineer in you!!!<br/>Compete with the sharpest minds and you will be the one to bag the prize.",
                 "rules":[
@@ -600,6 +647,7 @@
             "2":{
                 "code":"EEE02",
                 "name":"IDEATOR",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bd866e4b0632175453653",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/Ideator.jpg",
                 "descr":"Lighten up your master minds!!! Creativity is thinking up new things. Innovation is doing new things. The Dept. Of EEE Rajiv Gandhi Institute of Technology,Kottayam in association with Ritu 18 provides you with the perfect opportunity to showcase your skills through Paper Presentation" 
                 ,"rules":[
@@ -626,6 +674,7 @@
             "5":{
                 "code":"EEE05",
                 "name":" CAD MASTER",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bdb88e4b0632175455042",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/eee/CADMaster.jpg",
                 "descr":"Drawing is Thinking Made Visual.<br/>The Dept of EEE, Govt. RIT Kottayam in association with RITU'18 provides an excellent opportunity to showcase your technical drawing skills. CAD MASTER test you for engineering design abilities, imagination and technical drawing skills."
                 ,"rules":[
@@ -656,6 +705,7 @@
             "5":{
                 "code":"CVL05",
                 "name":"THE CONCRETE QUEST",
+                "reglink":"https://www.yepdesk.com/open-register/5a8be823e4b063217545908600",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ce/Decafio-Concreto.jpg",
                 "descr":"This year's Ritu brings you an interesting challenge with concrete. Design a concrete mix  for a characteristic compressive strength of 30 N /mm2 and 100 mm slump.",
                 "rules":[
@@ -684,6 +734,7 @@
             "1":{
                 "code":"CVL01",
                 "name":"PERUNTHACHAN",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bdc80e4b06321754552f1",
                 "descr":"Are you the one who can outshine with your exceptional talents in diverse areas of civil engineering? Ritu brings the perfect platform for all those aspiring civil engineers, PERUNTHACHAN. Be that team which can excel in technical, managerial and logical skills through wide spectra of contests."
                 ,"rules":[
                     "Each team should consist of 3 to 4 members.",
@@ -712,6 +763,7 @@
             "2":{
                 "code":"CVL02",
                 "name":"ENCUEASTA",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bdf4ce4b0632175455c7a",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ce/Encueasta.jpg",
                 "descr":"May your angle be right and compass be true. The perfect chance to showcase your surveying skills. Its all about being the fastest and the sharpest. Survey your way through the rounds and unlock the treasure! The better you think, the better you find."
                 ,"rules":[
@@ -742,6 +794,7 @@
             "3":{
                 "code":"CVL03",
                 "name":"ANTHROPOMETRIST",
+                "reglink":"https://www.yepdesk.com/open-register/5a8be049e4b0632175455e27",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ce/Anthropometrist.jpg",
                 "descr":"Should we engineers ourselves depend on machines and electronic gadgets when we have this enormous power of observation.Govt. RIT Kottayam presents Anthropometrist  as part of RITU'18 .Show us your talent to measure by visual inspection and observation. Let this be the stage to unleash your skills."
                 ,"rules":[
@@ -773,6 +826,7 @@
             "4":{
                 "code":"CVL04",
                 "name":"TANTRADNYA ",
+                "reglink":"https://www.yepdesk.com/open-register/5a8be14ce4b0632175455fcb",
                 "descr":"Do you have a spark, something that is hidden deep inside your creative mind, that has the power to reform innovate and revolutionize the techno world? Come On…hurry up…jot them down make it a paper and present…For RITU is offering you a platform as an event TANTRADNYA ,to be a phoenix… Rise from your ashes, make the spark in to a fire: A fire that will guide the future technical world."
                 ,"rules":[
                     "For team paper Rs: 150, for individual paper Rs: 100 ",
@@ -806,6 +860,7 @@
             "1":{
                 "code":"ME01",
                 "name":"ENGINE ASSEMBLY",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bea35e4b063217545920a",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/Engine_Assembly.jpg",
                 "descr":"Good at revving up engines ?? <br/>Ever tried to assemble one ?<br/>Because you never know your vehicle if you don't know it's soul.<br/>Turbo power your skills and assemble  from bolt to throttle...",
                 "rules":[
@@ -829,6 +884,7 @@
             "2":{
                 "code":"ME02",
                 "name":"JUNK MASTER",
+                "reglink":"https://www.yepdesk.com/open-register/5a8beaaae4b06321754592d1",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/Junk_Master.jpg",
                 "descr":"Ever imagined waste as a resource...?<br/>Are you a person with insane ideas..!<br/>Then we are giving you the space & time to transform your ideas to creative models...<br/> It is simple, very simple.<br/>You do not need to be perfect.<br/>Imperfection is beauty.<br/>You just need to be better....<br/>Do whatever your heart tells...!!",
                 "rules":[
@@ -860,6 +916,7 @@
             "3":{
                 "code":"ME03",
                 "name":"MACHINIST",
+                "reglink":"https://www.yepdesk.com/open-register/5a8beb10e4b063217545937f",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/Machinist.jpg",
                 "descr":"Recognition awaits for your precision. <br/><br/>So turn on the <b>machinist</b> inside you and face the chance to be the best in the business.",
                 "rules":[
@@ -879,6 +936,7 @@
             "4":{
                 "code":"ME04",
                 "name":" NUMERA UNO",
+                "reglink":"https://www.yepdesk.com/open-register/5a8beb7be4b0632175459437",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/Numera_Uno.jpg",
                 "descr":"Ideas of today shape the reality of tomorrow.<br/>Let the world know of your brilliance as we provide you the ample platform to realize your ideas. <br/>No matter how lunatic it may seem, an idea works only when you believe. So bring out your crazy genius as they say <i>'Change doesn't come on its own , it is brought'</i><br/>Theme : <i>Technologies that optimize</i>",
                 "rules":[
@@ -907,6 +965,7 @@
             "5":{
                 "code":"ME05",
                 "name":"GUNS N' ROSES",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bebf3e4b0632175459506",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/me/GunsNRoses.jpg",
                 "descr":"This Ritu invoke the inventor in you , where creativity is the game.<br/>Your ability to design and fabricate from an inventory of materials given to you , a working prototype of the subject , is what stands between you and that 7k cash prize.<br/>",
                 "rules":[
@@ -940,6 +999,7 @@
             "2":{
                 "code":"BAR02",
                 "name":"TRANSFORM",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bed2fe4b0632175459be4",
                 "descr":"Fashion is a statement, an art of personal self expression. The style you bring speaks of who you are. So inhold the magic and execute a masterpiece. ",
                 "rules":[
                     "3 members in a team ( 1 model and 2 for designing ) .",
@@ -955,12 +1015,13 @@
                         "phone":8281053714
                     }
                 ],
-                "date":"28 Feb, 2018",
+                "date":"01 March, 2018",
                 "prize":"Prizes worth Rs 3,000"
             },
             "6":{
                 "code":"BAR06",
                 "name":"PUTHIYAMUKHAM",
+                "reglink":"https://www.yepdesk.com/open-register/5a8beefde4b063217545ad78",
                 "descr":"Its time to bring the drama on the face . Hold the power in your hand and execute the theatrically. Bring out the expression .... ! Let them exude through the face ."
                 ,"rules":[
                     "2 persons per team.", 
@@ -982,6 +1043,7 @@
             "3":{
                 "code":"BAR03",
                 "name":"SRISHTI",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bedade4b063217545aa10",
                 "descr":"All those who long for their vision to come true, prepare to create. Design a product with ideal function and good aesthetic. Prove your metal with your timeless product."
                 ,"rules":[
                     "2 members in a team .",
@@ -1001,6 +1063,7 @@
             "4":{
                 "code":"BAR04",
                 "name":"FRUIT CARVING",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bee21e4b063217545aae0",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/ar/FruitCarving.png",
                 "descr":"The sight of a fruit always refresh us. Carving a design out of it would enhance the effect. So cut the fruit and take the prize. "
                 ,"rules":[
@@ -1022,6 +1085,7 @@
             "5":{
                 "code":"BAR05",
                 "name":"PAPER TOWER",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bee81e4b063217545ac7f",
                 "descr":"Crafting with paper has always been a exciting and learning art. Towers are always majestic and gives everything around it beauty. So get high and reach the sky with your paper tower. "
                 ,"rules":[
                     "2 members in a team.",
@@ -1042,6 +1106,7 @@
             "1":{
                 "code":"BAR01",
                 "name":"WALL PAYATTU ",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bec7de4b06321754596d8",
                 "descr":"Why creeping through grey scales when your hand is full of colors ??? Scratch the walls, colour it bright, and grab your seat, among the creators of the best season. "
                 ,"rules":[
                     "4 members maximum in a team.",
@@ -1069,6 +1134,7 @@
             "3":{
                 "code":"MCA03",
                 "name":"BOOT ME",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bf029e4b063217545af9b",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/BootMe.jpg",                
                 "descr":"Innovate-Ignite-Inspire <br/> Are you a tech wizard? <br/> Do you think you can smash it out!<br/>Join us......!!!<br/>Be ready to hunt your knowledge on OS Installation. Exuberance,Spontenity and Passion,the key to crack it. Invites you to explore your implicit ideas and ignite your concrete core.<br/>#Act_now  #Act_fast #Reboot_your_potential. ",
                 "rules":[
@@ -1092,6 +1158,7 @@
             "1":{
                 "code":"MCA01",
                 "name":"DBASE",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bef63e4b063217545ae2b",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/Dbase.jpg",                
                 "descr":"This event deals with database aspects. This event analyses your knowledge in the database and also summarize how much you are comfort with database connectivity."
                 ,"rules":[
@@ -1117,6 +1184,7 @@
             "2":{
                 "code":"MCA02",
                 "name":"DESIGN PRO",
+                "reglink":"https://www.yepdesk.com/open-register/5a8befc6e4b063217545aede",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/DesignPro.jpg",
                 "descr":"Nail out the software design from the requirements. <br/>Construct the software flow and data flow diagrams, build the database efficiently within the time limit and present your design. Let your brain work twice, because here’s the dept of MCA, as part of RITU ’18, presenting before you."
                 ,"rules":[
@@ -1140,6 +1208,7 @@
             "4":{
                 "code":"MCA04",
                 "name":"FIX ME BUDDY",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bf087e4b063217545b034",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/FixMeBuddy.jpg",
                 "descr":"Are you a master in hardware?<br/>Do you think you can meet the hazards in hardware and emerge as a winner. If you have the faith in you as a hardware master, let your skill be awakend at the venue of Fix me buddy conducted by the MCA department."
                 ,"rules":[
@@ -1165,6 +1234,7 @@
             "5":{
                 "code":"MCA05",
                 "name":"RUSH HOUR",
+                "reglink":"https://www.yepdesk.com/open-register/5a8bf0ebe4b063217545b0e9",
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/mca/RushHour.jpg",
                 "descr":"Have you got the talent?<br/>Do you have a spirit of a performer?<br/>  Be ready to find you.Its the time to explore your skills.<br/>Here is for you RUSH HOUR with variety of tasks.Show your  talents in an hour."
                 ,"rules":[
