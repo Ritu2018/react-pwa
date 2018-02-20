@@ -2,7 +2,7 @@
     "gen":{
         "name":"General Events",
         "events":{
-             "1":{
+            "1":{
                 "code":"GEN01",
                 "name":"NRITYA",
                 "reglink":"https://www.yepdesk.com/open-register/5a8af594e4b06321753ed102",
@@ -50,7 +50,6 @@
                 "date":"01 March, 2018",
                 "prize":"Prizes worth Rs 15,000"
             },
-
             "3":{
                 "code":"GEN03",
                 "name":"EXODUS",
@@ -199,7 +198,7 @@
                         "name":"Aravind Krishna",
                         "phone":9400281237
                     }
-            ],
+                ],
                 "date":"20 Feb, 2018",
                 "prize":"Prizes worth Rs 10,000"
             },
@@ -221,7 +220,7 @@
                         "name":"Kiran Das",
                         "phone":9744083473
                     }
-            ],
+                ],
                 "date":"28 Feb, 2018",
                 "prize":"Total Prizes worth Rs 20,000"
             },
@@ -275,6 +274,31 @@
                     "Idea that can be demonstrated by a working model can be submitted.",
                     "Registration fee Rs 200/-(for shortlisted entries).",
                     "The abstract(in pdf or Microsoft word document format) should be sent to optimus.ritu18@gmail.com on or before 24-feb-18."
+                ],
+                "organizers":[
+                    {
+                        "name":"Anandu Vinayan",
+                        "phone":9562206881
+                    },
+                    {
+                        "name":"Vysakh S Kumar",
+                        "phone":8943933308
+                    }
+                ],
+                "date":"02 March, 2018",
+                "prize":"Total Prizes worth Rs 20,000"
+            },
+            "13":{
+                "code":"GEN13",
+                "name":"Short Film Competition",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/shortfilm.jpg",
+                "descr":"\"Filmmaking is a chance to live many lifetimes.\"<br/>-Robert Altman<br/>As a part of RITU 18, the National level Techno - Cultural fest of Rajiv Gandhi Institute of Technology Kottayam, the Film Club of RIT brings you 'Footlights', aimed at honouring the best budding filmmakers among us.<br/><br/>Short film can either be uploaded to :<a href='https://script.google.com/macros/s/AKfycbxCWHvMQ3ZRkfve3WQBfaFXHoLWF6W3Bu7i5-1uW_LpAPh7zqWW/exec'>Link</a><br/>or handed over/sent to us on or before 27th February 2018.",
+                "rules":[
+                    "Maximum duration of the movie should not exceed 15 minutes including the credits.",
+                    "Offensive or vulgar language, if noticed, will lead to disqualification.",
+                    "‎Language : English/ Malayalam/ Hindi/ Silent.",
+                    "‎Films submitted to RITU in the past years and plagiarised films are not eligible.",
+                    "‎Subtitles, if needed, should be provided with the film."
                 ],
                 "organizers":[
                     {
@@ -417,7 +441,6 @@
             }
         }
     },
-
     "ece":{
         "name":"Electronics and Communications Engineering",
         "events":{
@@ -854,7 +877,6 @@
             }
         }
     },
-    
     "me":{
         "name":"Mechanical Engineering",
         "events":{
@@ -993,7 +1015,6 @@
             }
         }
     },
-
     "arch":{
         "name":"Architecture",
         "events":{

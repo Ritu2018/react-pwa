@@ -203,7 +203,7 @@
         "reglink":"https://www.yepdesk.com/open-register/5a895942e4b013a33158b520",
         "organizers":[
             {
-                "name":"Viswanathan:",
+                "name":"Viswanathan",
                 "phone":"8606522284"
             }
         ],
@@ -236,5 +236,25 @@
             "Lunch will be provided"
         ],
         "date":"28 Feb, 2018"
+    },
+    "15":{
+        "code":"GENW01",
+        "name":"SCRIPT WRITING & DIRECTION",
+        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wgen/scriptwriting.jpg",
+        "descr":"\"Filmmaking is incredible introspective. It forces you to sort of examine yourself in new ways.\"<br/>- Drew Goddard<br/>Its finally time for aspiring directors and scripwriters to come out of their shells and into the wondrous world of professional filmmaking.<br/>So as a part of <b>RITU'18</b>,<br/>Film Club of RIT proudly presents a workshop on Script Writing and Direction, conducted by the well-renowned Filmmaker, Kamal K.M.<br/>He will nurture untrained creative minds to best make use of their talents and to instill in them the confidence to face all creative challenges.<br/>Besides this he will also reveal all sorts of tips and techniques utilized in filmmaking.<br/>The delegates of the workshop could discuss any area of the filmmaking at the end of the workshop.<br/>After the workshop, there will be an interactive session with Fawaz Mohammed, the famed Scriptwriter of Mammootty-starrer Streetlights.<br/><i>At the end of the day, the award-winning short films, submitted to the Short Film Competition, will be screened at the venue.</i> ",
+        "regfee":"Rs 250 per head",
+        "reglink":"",
+        "organizers":[
+            {
+                "name":"Badhusha",
+                "phone":"9656644981"
+            },
+            {
+                "name":"Thoufeek",
+                "phone":"8921047381"
+            }
+        ],
+        "instructions":[],
+        "date":"1 March, 2018"
     }
 }
