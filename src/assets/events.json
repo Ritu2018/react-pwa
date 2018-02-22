@@ -288,6 +288,27 @@
                 ],
                 "date":"02 March, 2018",
                 "prize":"Total Prizes worth Rs 20,000"
+            },
+            "13":{
+                "code":"GEN13",
+                "name":"Vidhya",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/vidya.jpg",
+                "descr":"Get ready to unwire your brains quizzers,it's time to spit out whatever you have engulfed.Restore and Refurbish your head as the heat is on for the General Quiz event, Vidhya for this season of RITU.<br>Get yourself thinking for what the master has in stock for you.This multidimensional quiz game is going to be a real test. So if u think u can quiz - just get in!<br>",
+                "rules":[
+                    "The event will have two rounds.",
+                    "Teams qualifying the prelims will be selected for the finals.",
+                    "Team of two is allowed. Lone wolves are also welcome.",
+                    "Reg fee: Rs 100 per head. (ie. 200/Team)",
+                    "Cross teams are allowed."
+                ],
+                "organizers":[
+                    {
+                        "name":"Vipin SS",
+                        "phone":7838709803
+                    }
+                ],
+                "date":"01 March, 2018",
+                "prize":"Total Prizes worth Rs 12,000"
             }
         }
     },
