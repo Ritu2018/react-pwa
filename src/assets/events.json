@@ -2,7 +2,7 @@
     "gen":{
         "name":"General Events",
         "events":{
-             "1":{
+            "1":{
                 "code":"GEN01",
                 "name":"NRITYA",
                 "reglink":"https://www.yepdesk.com/open-register/5a8af594e4b06321753ed102",
@@ -50,7 +50,6 @@
                 "date":"01 March, 2018",
                 "prize":"Prizes worth Rs 15,000"
             },
-
             "3":{
                 "code":"GEN03",
                 "name":"EXODUS",
@@ -69,30 +68,6 @@
                ],
                 "date":"28 Feb, 2018",
                 "prize":"Prizes worth Rs 15,000"
-            },
-            "4":{
-                "code":"GEN04",
-                "name":"ONE HACK",
-                "reglink":"https://onehack.org/",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/OneHack.jpg",
-                "descr":"For the superheroes out there, we have a golden opportunity..As a part of RITU'18, Startup Bootcamp RIT presents ONEHACK, a 24hour hackathon where you can meet with the most exciting theme that you can ever think of ( superb surprise to you....🤩) where you'll develop the most innovative, most economical and feasible solution. Participants,be ready to forgo your sleep for a night and join a team to put in your skills to create a software product/project in the best ambient atmosphere you can ever avail. At the end of the event you will be with a solution for our problem. <br/><br/><b>Build an innovative and economically feasible solution and grab a cash prize of worth 30k!!! Prizes and goodies & swags worth above 3 lakh Sponsored by Github, SV.CO and Wolfram Alpha</b>",
-                "rules":[
-                    "A team should consist of 3-4 members.",
-                    "Decision of the judges would be final.",
-                    "There would special arrangements for girls so that they could also participate",
-                    "The event would commense on 1st march 12pm",
-                    "Any furthur information would be notified via email",
-                    "Partcipants will be given access to WolframOne after successfull registration with full access to get familiar with its features( Not Mandatory to make use of it during the event )",
-                    "Maximum 15 teams so hurry"
-                ],
-                "organizers":[
-                    {
-                        "name":"Sachu Shaji",
-                        "phone":7034356323
-                    }
-               ],
-                "date":"01 March, 2018",
-                "prize":"Prizes worth Rs 30,000"
             },
             "5":{
                 "code":"GEN05",
@@ -199,7 +174,7 @@
                         "name":"Aravind Krishna",
                         "phone":9400281237
                     }
-            ],
+                ],
                 "date":"20 Feb, 2018",
                 "prize":"Prizes worth Rs 10,000"
             },
@@ -221,7 +196,7 @@
                         "name":"Kiran Das",
                         "phone":9744083473
                     }
-            ],
+                ],
                 "date":"28 Feb, 2018",
                 "prize":"Total Prizes worth Rs 20,000"
             },
@@ -309,6 +284,30 @@
                 ],
                 "date":"01 March, 2018",
                 "prize":"Total Prizes worth Rs 12,000"
+            },
+            "14": {
+                "name":"Short Film Competition",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/shortfilm.jpg",
+                "descr":"\"Filmmaking is a chance to live many lifetimes.\"<br/>-Robert Altman<br/>As a part of RITU 18, the National level Techno - Cultural fest of Rajiv Gandhi Institute of Technology Kottayam, the Film Club of RIT brings you 'Footlights', aimed at honouring the best budding filmmakers among us.<br/><br/>Short film can either be uploaded to :<a href='https://script.google.com/macros/s/AKfycbxCWHvMQ3ZRkfve3WQBfaFXHoLWF6W3Bu7i5-1uW_LpAPh7zqWW/exec'>Link</a><br/>or handed over/sent to us on or before 27th February 2018.",
+                "rules":[
+                    "Maximum duration of the movie should not exceed 15 minutes including the credits.",
+                    "Offensive or vulgar language, if noticed, will lead to disqualification.",
+                    "‎Language : English/ Malayalam/ Hindi/ Silent.",
+                    "‎Films submitted to RITU in the past years and plagiarised films are not eligible.",
+                    "‎Subtitles, if needed, should be provided with the film."
+                ],
+                "organizers":[
+                    {
+                        "name":"Anandu Vinayan",
+                        "phone":9562206881
+                    },
+                    {
+                        "name":"Vysakh S Kumar",
+                        "phone":8943933308
+                    }
+                ],
+                "date":"02 March, 2018",
+                "prize":"Total Prizes worth Rs 20,000"
             }
         }
     },
@@ -438,7 +437,6 @@
             }
         }
     },
-
     "ece":{
         "name":"Electronics and Communications Engineering",
         "events":{
@@ -875,7 +873,6 @@
             }
         }
     },
-    
     "me":{
         "name":"Mechanical Engineering",
         "events":{
@@ -1014,7 +1011,6 @@
             }
         }
     },
-
     "arch":{
         "name":"Architecture",
         "events":{
@@ -1276,6 +1272,35 @@
                 ],
                 "date":"01 Mar 2018",
                 "prize":"Prizes worth Rs 6,000"
+            }
+        }
+    },
+    "btc":{
+        "name":"Bootcamp",
+        "events":{
+            "1":{
+                "code":"BTC01",
+                "name":"ONE HACK",
+                "reglink":"https://onehack.org/",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/OneHack.jpg",
+                "descr":"Onehack is a 24hr, equal opportunity theme based hackathon where 15 shortlisted teams with a maximum number of 4 members each are supposed to design and develop innovative projects/products. The Theme of hackathon will be unveiled on the commencement of the event.<br/>Participants, be ready to forgo your sleep for a night and join a team to put in your skills to create a software product/project in the best ambient atmosphere you can ever avail. At the end of the event, participants demonstrate their project to fellow hackers/developers/visitors and a panel of judges. Further details of the event will be disclosed to shortlisted teams. All participants must register on or before 22nd february 2018 11.59pm. We will be shortlisting 15 teams of 4 members each  from the registered teams and will notify each of them by email. The hackathon will be conducted at RI, Pampady from 1st March 2018 to 2nd March 2018.<br/>Prizes worth 30k and goodies & swags worth above 3lakhs Sponsored by Wolfram Alpha and Github.<br/>Wanna know more abot OneHack? Visit <a href='https://onehack.org' target='_blank'>OneHack.org</a>",
+                "rules":[
+                    "A team should consist of 3-4 members.",
+                    "Decision of the judges would be final.",
+                    "There would special arrangements for girls so that they could also participate",
+                    "The event would commense on 1st march 12pm",
+                    "Any furthur information would be notified via email",
+                    "Partcipants will be given access to WolframOne after successfull registration with full access to get familiar with its features( Not Mandatory to make use of it during the event )",
+                    "Maximum 15 teams so hurry"
+                ],
+                "organizers":[
+                    {
+                        "name":"Sachu Shaji",
+                        "phone":7034356323
+                    }
+               ],
+                "date":"01 March, 2018",
+                "prize":"Prizes worth Rs 30,000"
             }
         }
     },
