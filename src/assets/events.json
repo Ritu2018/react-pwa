@@ -292,22 +292,23 @@
                 "rules":[
                     "Maximum duration of the movie should not exceed 15 minutes including the credits.",
                     "Offensive or vulgar language, if noticed, will lead to disqualification.",
-                    "‎Language : English/ Malayalam/ Hindi/ Silent.",
-                    "‎Films submitted to RITU in the past years and plagiarised films are not eligible.",
-                    "‎Subtitles, if needed, should be provided with the film."
+                    "Language : English/ Malayalam/ Hindi/ Silent.",
+                    "Films submitted to RITU in the past years and plagiarised films are not eligible.",
+                    "Subtitles, if needed, should be provided with the film.",
+                    "Registration fee: Rs.100"
                 ],
                 "organizers":[
                     {
-                        "name":"Anandu Vinayan",
-                        "phone":9562206881
+                        "name":"Badhusha",
+                        "phone":9656644981
                     },
                     {
-                        "name":"Vysakh S Kumar",
-                        "phone":8943933308
+                        "name":"Thoufeek",
+                        "phone":8921047381
                     }
                 ],
-                "date":"02 March, 2018",
-                "prize":"Total Prizes worth Rs 20,000"
+                "date":"Submit entries on or before 27-Feb",
+                "prize":"Total Prizes worth Rs 7,000"
             },
             "15":{
                 "code":"BTC01",
