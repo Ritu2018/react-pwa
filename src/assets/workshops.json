@@ -68,6 +68,30 @@
         ],
         "date":"17 Feb, 2018"
     },
+
+    "19":{
+        "code":"CSE04",
+        "name":"Ethical Hacking",
+        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wcse/EthicalHacking.jpg",
+        "descr":"<b>'Nothing lasts , nothing is finished, nothing is perfect.'</b><br/><br/>Do you think you are  secure in internet? <br/>Do you feel your passwords are safe and uncrackable?<br/>What if your accounts get compromised?<br/>Don't worry...<br/>Keep calm because this is the time to rise up...<br/>We welcome you to 'Ethical Hacking Workshop' organized as a part of *RITU'18 by CSE Dept of RIT,Kottayam.* Before someone peeps through your privacy and slip past through the loopholes, make yourself armed, clear your vision and sharp your brains...<br/><br/>Come, learn and wear the 'WHITE HAT'...",
+        "regfee":"Rs 500 per head",
+        "reglink":"https://www.yepdesk.com/open-register/5a910411e4b06321757ad54f",
+        "organizers":[
+            {
+                "name":"Anandu S",
+                "phone":"9497888065"
+            },
+            {
+                "name":"Abhishek C",
+                "phone":"8281596630"
+            }
+        ],
+        "instructions":[
+            "Bring your laptops",
+            "Registration fee includes food and refreshments"
+        ],
+        "date":"02 March, 2018"
+    },
     "4":{
         "code":"ME03",
         "name":"La_Conception",
