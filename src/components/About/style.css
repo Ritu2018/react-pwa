@@ -42,6 +42,7 @@
     transition: 0.3s;
     border-radius: 5px;
     color: black;
+    margin-bottom: 2vw;
 }
 .card a {
     text-decoration: none;
