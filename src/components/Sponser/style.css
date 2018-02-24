@@ -27,6 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2vw;
 }
 .card a {
     text-decoration: none;
@@ -38,6 +39,7 @@
 .card img {
     width: 100%;
     flex: 20;
+    object-fit: contain;
     border-radius: 5px 5px 0 0;
 }
 .card .team-profile{
