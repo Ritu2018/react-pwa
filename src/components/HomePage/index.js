@@ -96,8 +96,8 @@ class HomePage extends Component {
                 <div className="menu-btn red" onClick={()=>this.navigateTo("workshops")}>
                     <span className="menu-text">Workshops</span>
                 </div>
-                <div className="menu-btn blue">
-                    <span className="menu-text">Highlights</span>
+                <div className="menu-btn blue" onClick={()=> this.navigateTo("sponsors")}>
+                    <span className="menu-text">Sponsors</span>
                 </div>
                 <div className="menu-btn green" onClick={()=>this.navigateTo("about")}>
                     <span className="menu-text">About</span>

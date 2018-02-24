@@ -22,7 +22,7 @@ class App extends Component {
                     <Route path="/workshops/:id" component={WSDetails}/>
                     <Route path="/registration/:id" component={Registration}/>
                     <Route path="/about" component={About}/>
-                    <Route path="/sponsor" component={Sponsor}/>
+                    <Route path="/sponsors" component={Sponsor}/>
                     <Route path="/" exact component={HomePage}/>
                     <Route path="/" render={()=><Redirect to="/"/>}/>
                 </Switch>
