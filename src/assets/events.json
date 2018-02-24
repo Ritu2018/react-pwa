@@ -288,6 +288,30 @@
                 ],
                 "date":"02 March, 2018",
                 "prize":"Total Prizes worth Rs 20,000"
+            },
+            "14":{
+                "code":"BTC01",
+                "name":"ONE HACK",
+                "reglink":"https://onehack.org/",
+                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/OneHack.jpg",
+                "descr":"Onehack is a 24hr, equal opportunity theme based hackathon where 15 shortlisted teams with a maximum number of 4 members each are supposed to design and develop innovative projects/products. The Theme of hackathon will be unveiled on the commencement of the event.<br/>Participants, be ready to forgo your sleep for a night and join a team to put in your skills to create a software product/project in the best ambient atmosphere you can ever avail. At the end of the event, participants demonstrate their project to fellow hackers/developers/visitors and a panel of judges. Further details of the event will be disclosed to shortlisted teams. All participants must register on or before 22nd february 2018 11.59pm. We will be shortlisting 15 teams of 4 members each  from the registered teams and will notify each of them by email. The hackathon will be conducted at RI, Pampady from 1st March 2018 to 2nd March 2018.<br/>Prizes worth 30k and goodies & swags worth above 3lakhs Sponsored by Wolfram Alpha and Github.<br/>Wanna know more abot OneHack? Visit <a href='https://onehack.org' target='_blank'>OneHack.org</a>",
+                "rules":[
+                    "A team should consist of 3-4 members.",
+                    "Decision of the judges would be final.",
+                    "There would special arrangements for girls so that they could also participate",
+                    "The event would commense on 1st march 12pm",
+                    "Any furthur information would be notified via email",
+                    "Partcipants will be given access to WolframOne after successfull registration with full access to get familiar with its features( Not Mandatory to make use of it during the event )",
+                    "Maximum 15 teams so hurry"
+                ],
+                "organizers":[
+                    {
+                        "name":"Sachu Shaji",
+                        "phone":7034356323
+                    }
+               ],
+                "date":"01 March, 2018",
+                "prize":"Prizes worth Rs 30,000"
             }
         }
     },
@@ -1252,96 +1276,6 @@
                 ],
                 "date":"01 Mar 2018",
                 "prize":"Prizes worth Rs 6,000"
-            }
-        }
-    },
-    "btc":{
-        "name":"Bootcamp",
-        "events":{
-            "1":{
-                "code":"BTC01",
-                "name":"ONE HACK",
-                "reglink":"https://onehack.org/",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/gen/OneHack.jpg",
-                "descr":"Onehack is a 24hr, equal opportunity theme based hackathon where 15 shortlisted teams with a maximum number of 4 members each are supposed to design and develop innovative projects/products. The Theme of hackathon will be unveiled on the commencement of the event.<br/>Participants, be ready to forgo your sleep for a night and join a team to put in your skills to create a software product/project in the best ambient atmosphere you can ever avail. At the end of the event, participants demonstrate their project to fellow hackers/developers/visitors and a panel of judges. Further details of the event will be disclosed to shortlisted teams. All participants must register on or before 22nd february 2018 11.59pm. We will be shortlisting 15 teams of 4 members each  from the registered teams and will notify each of them by email. The hackathon will be conducted at RI, Pampady from 1st March 2018 to 2nd March 2018.<br/>Prizes worth 30k and goodies & swags worth above 3lakhs Sponsored by Wolfram Alpha and Github.<br/>Wanna know more abot OneHack? Visit <a href='https://onehack.org' target='_blank'>OneHack.org</a>",
-                "rules":[
-                    "A team should consist of 3-4 members.",
-                    "Decision of the judges would be final.",
-                    "There would special arrangements for girls so that they could also participate",
-                    "The event would commense on 1st march 12pm",
-                    "Any furthur information would be notified via email",
-                    "Partcipants will be given access to WolframOne after successfull registration with full access to get familiar with its features( Not Mandatory to make use of it during the event )",
-                    "Maximum 15 teams so hurry"
-                ],
-                "organizers":[
-                    {
-                        "name":"Sachu Shaji",
-                        "phone":7034356323
-                    }
-               ],
-                "date":"01 March, 2018",
-                "prize":"Prizes worth Rs 30,000"
-            }
-        }
-    },
-    "tin":{
-        "name":"TinkerHub",
-        "events":{
-            "1":{
-                "code":"TIN01",
-                "name":"OPPORTUNITY HACKATHON",
-                "reglink":"https://www.yepdesk.com/open-register/5a847d4ce4b0de217dd55149",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/tin/Oppurtunity.png",
-                "descr":"<i>The biggest reason why people don’t get into Y Combinator is because they don’t apply</i><br/>- Sam Altman<br/><br/>Missing out on scholarships and events like Jagriti yathra just because you are confused with the procedures for applying?<br/> Well fret not! We have got just the thing for you!<br/><br/><b>Ritu2018</b> in association with <b>Tinkerhub-RIT</b>, proudly presents, <b>Opportunity Hackathon</b>, a one of a kind event, to fix all your scholarship woes.<br/>Join us, as mentors from various fields break down to you the hacks of creating an impressive application and completing the various procedures required. <br/><br/>Choose one of the below opportunities :<br/><ul><li><a target='_blank' href='https://www.ysiglobal.com/program'>YSI global challenge</a></li><li><a target='_blank' href='https://www.outreachy.org/'>Outreachy internships</a></li><li><a target='_blank' href='https://summerofcode.withgoogle.com/'>Google summer of code</a></li><li><a target='_blank' href='https://www.businesswire.com/news/home/20180104006109/en/Harvard-Advanced-Leadership-Initiative-Welcomes-Tenth-Cohort'>Harvard advanced leadership initiative (10th coherent)</a></li><li><a target='_blank' href='http://www.celestiniprojectindia.com/'>Celestini project India 2018</a></li><li><a target='_blank' href='http://socialalphachallenge.org/energy/'>Social alpha energy challenge</a></li></ul>",
-                "rules":[
-                    "Registration Fee: Absolutely nothing",
-                    "Venue: Rit, Kottayam(CS Dept)",
-                    "Participants must be students"
-                ],
-                "organizers":[
-                    {
-                        "name":"Gopikrishnan S",
-                        "phone":8281427437
-                    }
-                ],
-                "date":"01 March, 2018",
-                "prize":"Limited seats only!!"
-            },
-            "2":{
-                "code":"TIN02",
-                "name":"ANDROID DEV WORKSHOP",
-                "reglink":"https://www.yepdesk.com/open-register/5a849fc5e4b0de217dd5dbfc",
-                "descr":"Still downloading apps from Play Store?<br/> It's time to build your own and upload them on the Android Play Store.<br/><br/>TinkerHub-RIT presents you a workshop on Android Development as part of RITU'18. The workshop will provide you with a basic knowledge of Java, Android Studio, and Database Querying. This will leave you capable enough to build your own app. So be there and don't miss this chance to get into your journey of being an app developer.",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/tin/Android_Dev.png",
-                "rules":[
-                    "Registration Fee : Rs 400"
-                ],
-                "organizers":[
-                    {
-                        "name":"Akshatha Nayak",
-                        "phone":8606708227
-                    }
-                ],
-                "date":"28 Feb, 2018",
-                "prize":"Limited seats only!!"
-            },
-            "3":{
-                "code":"TIN03",
-                "name":"DEEP LEARNING",
-                "reglink":"https://www.yepdesk.com/open-register/5a84a12fe4b08e64b51ce288",
-                "descr":"Every day brings us new headlines for how Deep Learning is changing the world around us.<br/> Diagnosing skin cancer, the brain power of Amazon Go, driverless cars...<br/> Deep learning has made its mark in all.<br/><br/>Want to know what this fuss is about?<br/><b>TinkerHub-RIT</b> presents before you an introductory workshop on Deep Learning using Keras as part of RITU'18. The workshop provides a basic foundation, giving an overview of many concepts and techniques. Do not miss this golden opportunity to understand the mysteries of deep learning. ",
-                "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/tin/Deep_Learning.png",
-                "rules":[
-                    "Registration Fee : Rs 400"
-                ],
-                "organizers":[
-                    {
-                        "name":"Ebey Abraham",
-                        "phone":9650331724
-                    }
-                ],
-                "date":"01 March, 2018",
-                "prize":"Only limited seats available."
             }
         }
     }
