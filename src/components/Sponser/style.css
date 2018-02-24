@@ -1,0 +1,63 @@
+.sponsor-container {
+    color: white;
+    padding: 10%;
+    font-family: 'Cuprum', sans-serif;
+}
+.sponsor-title {
+    font-size: 1.5em;
+    padding: 0 0 0 3%;
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    margin: 2%;
+    background-color: white;
+    min-width: 21vw;
+    max-width: 21vw;
+    flex: 1;
+    padding:1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card a {
+    text-decoration: none;
+    color: black;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card img {
+    width: 100%;
+    flex: 20;
+    border-radius: 5px 5px 0 0;
+}
+.card .team-profile{
+    flex:1;
+    padding:3%;
+    font-size: 1.5em;
+}
+@media (max-width: 768px){
+
+    .sponsor-title {
+         padding: 0;
+    }
+
+    .sponsor-title {
+       font-size: 1em;
+       padding: 0;
+    }
+    .card{
+        min-width: 80vw;
+        max-width: 80vw;
+        padding:5%;
+    }
+}

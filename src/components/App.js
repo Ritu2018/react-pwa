@@ -9,7 +9,7 @@ import WSList from './WSList/index';
 import WSDetails from './WSDetails/index';
 import Registration from './Registration/index';
 import About from './About/index';
-
+import Sponsor from './Sponser/index';
 class App extends Component {
     render() {
         return(
@@ -22,6 +22,7 @@ class App extends Component {
                     <Route path="/workshops/:id" component={WSDetails}/>
                     <Route path="/registration/:id" component={Registration}/>
                     <Route path="/about" component={About}/>
+                    <Route path="/sponsor" component={Sponsor}/>
                     <Route path="/" exact component={HomePage}/>
                     <Route path="/" render={()=><Redirect to="/"/>}/>
                 </Switch>
