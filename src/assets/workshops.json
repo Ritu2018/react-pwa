@@ -336,5 +336,30 @@
         ],
         "date":"01 March, 2018",
         "prize":"Only limited seats available."
+    },
+    "20":{
+        "code":"CE01",
+        "name":"REVIT Workshop",
+        "reglink":"https://www.yepdesk.com/open-register/5a92c86ae4b06321758c14d8",
+        "descr":"'MY BUILDING WILL BE MY LEGACY. THEY WILL SPEAK FOR ME, LONG AFTER I'm GONE'<br/>For the civilianz out there, we have a golden opportunity.<br/>As part of RITU 18,Department of civil engineering presents a one day workshop on REVIT ARCHITECTURE, to add a new dimension to your building modelling career. Participants, you are welcome to learn the most popular and powerful building information modelling tool.<br/>Come, enhance your 2D drawing, 3D modelling and Digital presentation skills.<br/>",
+        "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/wce/RevitWorkshop.jpg",
+        "rules":[
+            "Registration Fee : Rs 300 ( Including refreshments )",
+            "Venue: CAD lab (Civil engineering department)",
+            "A team should consist of 2 members.",
+            "A team should have at least one laptop"
+        ],
+        "organizers":[
+            {
+                "name":"Vishnu Mohan",
+                "phone":9447825696
+            },
+            {
+                "name":"Sankaran V",
+                "phone":"9495394569"
+            }
+        ],
+        "date":"01 March, 2018",
+        "prize":"Only limited seats available."
     }
 }
