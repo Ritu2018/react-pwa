@@ -347,7 +347,7 @@
                 "poster":"https://s3.us-east-2.amazonaws.com/ritu-static-files/cse/Rapid_Miner.jpg",
                 "descr":"<b> The registration amount has been changed</b><br>Do you have the flair to make a computer dance to your tunes?  Do you want to prove to the world that you're worth your salt ? We offer you the ultimate challenge. <br/> Fight your way up the four different rounds and be crowned as the conqueror of the world of zeroes and ones.",
                 "rules":[
-                    "Registration Fee : ₹100",
+                    "Registration Fee : <b>₹100</b>",
                     "Individual Participation",
                     "Decision of event heads will be final"
                 ],
