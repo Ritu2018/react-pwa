@@ -31,14 +31,6 @@ class Sponser extends Component {
                 </div>
                 <div className="card-list">
                     <div className="card">
-                        <img src="https://s3.us-east-2.amazonaws.com/ritu-static-files/sponsor/km.jpg" alt=""/>
-                        <div className="team-profile" >
-                            <h4><b>
-                                KM Technologies
-                            </b></h4>
-                        </div>
-                    </div>
-                    <div className="card">
                         <img src="https://s3.us-east-2.amazonaws.com/ritu-static-files/sponsor/sbi.jpg" alt=""/>
                         <div className="team-profile" >
                             <h4><b>
@@ -58,7 +50,7 @@ class Sponser extends Component {
                         <img src="https://s3.us-east-2.amazonaws.com/ritu-static-files/sponsor/vella.jpg" alt=""/>
                         <div className="team-profile" >
                             <h4><b>
-                                Vellapally Constructions
+                                Backwater Ripples
                             </b></h4>
                         </div>
                     </div>
@@ -66,7 +58,7 @@ class Sponser extends Component {
                         <img src="https://s3.us-east-2.amazonaws.com/ritu-static-files/sponsor/time.jpg" alt=""/>
                         <div className="team-profile" >
                             <h4><b>
-                                T.I.M.E
+                                T.I.M.E Kottayam
                             </b></h4>
                         </div>
                     </div>
@@ -79,10 +71,18 @@ class Sponser extends Component {
                         </div>
                     </div>
                     <div className="card">
+                        <img src="https://s3.us-east-2.amazonaws.com/ritu-static-files/sponsor/km.jpg" alt=""/>
+                        <div className="team-profile" >
+                            <h4><b>
+                                KM Technologies
+                            </b></h4>
+                        </div>
+                    </div>
+                    <div className="card">
                         <img src="https://s3.us-east-2.amazonaws.com/ritu-static-files/sponsor/avalon.jpg" alt=""/>
                         <div className="team-profile" >
                             <h4><b>
-                                Avalon Services
+                                Avalon Systems and Services
                             </b></h4>
                         </div>
                     </div>
